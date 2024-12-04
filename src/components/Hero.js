@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Hero() {
+  const [factIndex, setFactIndex] = useState(0)
+  const facts = [
+    "Did you know that the first polyester resin was made in Turkey in Izmir?",
+    "Did you know that the first composite part in Turkey was manufactured in Izmir ?"
+  ]
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setFactIndex((prevIndex) => (prevIndex + 1) % facts.length)
+    }, 5000) // Change fact every 5 seconds
+
+    return () => clearInterval(timer)
+  }, [facts.length])
+
   return (
     <div className="relative bg-gradient-to-r from-red-500 to-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
@@ -21,11 +35,17 @@ export default function Hero() {
             Register Now
           </Link>
           <Link
-            to="/conference"
+            to="/about"
             className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
           >
             Learn More
           </Link>
+        </div>
+        <div className="mt-10 w-full max-w-4xl mx-auto">
+          <div className="bg-white bg-opacity-90 rounded-lg shadow-md p-3">
+            <h3 className="text-lg font-bold text-gray-900 mb-2">DID YOU KNOW ?</h3>
+            <p className="text-gray-700 text-lg">{facts[factIndex]}</p>
+          </div>
         </div>
       </div>
     </div>

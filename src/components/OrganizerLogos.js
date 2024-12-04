@@ -1,11 +1,9 @@
 import React from 'react'
-import main_logo from '../assets/sympozium_main_logo.webp'
 import logo2 from '../assets/logo2.webp'
 import logo3 from '../assets/logo3.webp'
 
 export default function OrganizerLogos() {
   const logos = [
-    { name: 'Organizer 1', src: main_logo },
     { name: 'Organizer 2', src: logo2 },
     { name: 'Organizer 3', src: logo3 },
   ]
