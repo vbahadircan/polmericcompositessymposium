@@ -23,13 +23,12 @@ const SponsorLogo = ({ name }) => {
 // Main Sponsors component
 export default function Sponsors() {
   const officialOrganizations = [
-    'İzmir Metropolitan Municipality',
     'Aegean Region Chamber of Industry',
     'İzmir Chamber of Commerce',
-    'İzmir Katip Çelebi University',
-    'İzmir Institute of Technology',
+    'IKCU',
+    'IYTE',
     'TMMOB',
-    'Teknopark İzmir',
+    'Teknopark',
     'ESİAD',
     'ENSİA',
     'BUTEKOM',
