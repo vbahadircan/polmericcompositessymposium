@@ -3,15 +3,8 @@ import { Link } from 'react-router-dom';
 
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
-  const logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
-  let logoSrc;
-
-  try {
-    logoSrc = require(`../assets/logos/${logoKey}.webp`); // Dynamically require the logo
-  } catch (error) {
-    console.error(`Logo for ${name} not found at ../assets/logos/${logoKey}.webp.`);
-    return null; // If logo is missing, gracefully return null or a placeholder
-  }
+    let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
+    let logoSrc = `/assets/logos/${logoKey}.webp`; // Construct the path for the logo in the public folder
 
   return (
     <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-24">

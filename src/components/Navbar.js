@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import sypozium_main_logo from '../assets/sympozium_main_logo.webp'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +19,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0">
               <img
                 className="h-24 w-auto"
-                src={sypozium_main_logo}
+                src="/assets/sympozium_main_logo.webp"
                 alt="Symposium Logo"
               />
             </Link>
