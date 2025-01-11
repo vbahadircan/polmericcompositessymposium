@@ -35,10 +35,10 @@ export default function Hero() {
             Register Now
           </Link>
           <Link
-            to="/about"
+            to="/submissions"
             className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
           >
-            Learn More
+            Submit Your Paper
           </Link>
         </div>
         <div className="mt-10 w-full max-w-4xl mx-auto">

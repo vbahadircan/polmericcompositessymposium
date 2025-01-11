@@ -19,7 +19,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0">
               <img
                 className="h-24 w-auto"
-                src="/assets/sympozium_main_logo.webp"
+                src="/sympozium_main_logo.png"
                 alt="Symposium Logo"
               />
             </Link>

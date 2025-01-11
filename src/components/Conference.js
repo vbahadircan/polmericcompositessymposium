@@ -1,4 +1,5 @@
 import React from 'react'
+import SEO from './SEO'
 
 export default function Conference() {
   const previousEvents = [
@@ -11,15 +12,21 @@ export default function Conference() {
   ]
 
   const keyDates = [
-    { event: "Submission of Abstracts", date: "June 17, 2025" },
-    { event: "Announcement of Accepted Papers", date: "July 15, 2025" },
-    { event: "Submission of Full Papers", date: "August 15, 2025" },
-    { event: "Deadline for Sponsorship and Advertisement Applications", date: "September 15, 2025" },
-    { event: "Deadline for Workshop Applications", date: "September 1, 2025" },
+    { event: "Submission of Abstracts", date: "01.05.2025" },
+    { event: "Deadline for Early Registration", date: "31.05.2025" },
+    { event: "Announcement of Accepted Papers", date: "15.06.2025" },
+    { event: "Submission of Full Proceedings", date: "15.08.20252025" },
+    { event: "Deadline for Sponsorship and Advertisement Applications", date: "15.09.2025" },
+    { event: "Deadline for Workshop Applications", date: "01.09.2025" },
   ]
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
+      <SEO 
+        title="Conference Information"
+        description="Learn about the 6th International Polymeric Composites Symposium schedule, themes, and program details. Join industry leaders and researchers in İzmir for cutting-edge discussions on composite materials."
+        keywords="polymeric composites conference, materials science symposium, composite research presentations, İzmir conference 2025"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="px-6 py-8">

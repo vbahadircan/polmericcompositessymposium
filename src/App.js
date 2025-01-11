@@ -14,6 +14,7 @@ import Submissions from './components/Submissions'
 import Register from './components/Register'
 import Sponsors from './components/Sponsors'
 import Contact from './components/Contacts'
+import SEO from './components/SEO'
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
           <Routes>
             <Route path="/" element={
               <>
+                <SEO 
+                  title="Home"
+                  description="Join us at the 6th International Polymeric Composites Symposium and Workshops in İzmir, Turkey. Discover the latest advances in composite materials, network with experts, and explore innovative research."
+                  keywords="polymeric composites, symposium 2025, İzmir, materials science, composite research"
+                />
                 <Hero />
                 <OrganizerLogos />
                 <CountdownTimer />

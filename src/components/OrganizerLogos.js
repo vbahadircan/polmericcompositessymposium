@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function OrganizerLogos() {
   const logos = [
-    { name: 'Organizer 2', src: "/assets/logo2.webp" },
-    { name: 'Organizer 3', src: "/assets/logo3.webp" },
+    { name: 'Organizer 2', src: "/logo2.png" },
+    { name: 'Organizer 3', src: "/logo3.png" },
   ]
 
   return (
@@ -16,7 +16,7 @@ export default function OrganizerLogos() {
               <img
                 src={logo.src}
                 alt={`${logo.name} logo`}
-                className="max-h-36 max-w-[280px] object-contain"
+                className="h-auto w-auto max-h-40 max-w-full object-contain"
               />
             </div>
           ))}

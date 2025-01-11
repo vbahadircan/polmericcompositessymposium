@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
     let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
-    let logoSrc = `/assets/logos/${logoKey}.webp`; // Construct the path for the logo in the public folder
+    let logoSrc = `/${logoKey}.png`; // Construct the path for the logo in the public folder
 
   return (
     <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-24">
