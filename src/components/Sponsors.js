@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
@@ -65,12 +64,13 @@ export default function Sponsors() {
                 <li>Networking opportunities with international participants.</li>
                 <li>Brand visibility throughout the event.</li>
               </ul>
-              <Link 
-                to="/contact" 
-                className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-              >
-                Become a Sponsor
-              </Link>
+              <a
+                  href="/sponsorship-conditions.docx"
+                  className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
+                  download="sponsorship-conditions.docx" // Provides a default filename when downloading
+                >
+                  Download Sponsorship Conditions (.docx)
+                </a>
             </section>
 
             {/* Contact Section */}
@@ -82,10 +82,7 @@ export default function Sponsors() {
                 <li><strong>Phone:</strong> +90 232 421 35 35</li>
                 <li><strong>Fax:</strong> +90 232 464 59 08</li>
                 <li>
-                  <strong>Address:</strong><br />
-                  TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi<br />
-                  1441 Sokak No: 4 Kat: 3 D: 5<br />
-                  Alsancak, İzmir, Turkey
+                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
                 </li>
               </ul>
             </section>

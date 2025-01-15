@@ -16,7 +16,7 @@ const CommitteeSection = ({ title, members }) => (
 
 export default function Committee() {
   const symposiumSecretariat = [
-    { name: "Onur Aşkaroğlu", title: "Tmmob Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers" },
+    { name: "Onur Aşkaroğlu", title: "TMMOB Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers" },
     { name: "Sümeyra Göçemen", title: "Kosse Kompozit Ltd. Şti. / Kosse Composite Marketing" },
     { name: "Hüsnü Onur Ertürk", title: "İzmir Katip Çelebi Üniversitesi / Izmir Katip Çelebi University" }
   ]
@@ -26,10 +26,10 @@ export default function Committee() {
     { name: "İbrahim Köse, Kim.", title: "Kosse Kompozit Ltd. Şti. / Kosse Composite Marketing – Genel Koordinator - General Coordinator" },
     { name: "Metin Tanoğlu, Prof. Dr.", title: "İzmir Yüksek Teknoloji Enstitüsü / İzmir Institute of Technology – Sempozyum Eşbaşkanı – Symposium Co-Chair" },
     { name: "Özgür Seydibeyoğlu, Prof. Dr.", title: "İzmir Kâtip Çelebi Üniversitesi / İzmir Katip Çelebi University – Sempozyum Eşbaşkanı - Symposium Co-Chair" },
-    { name: "Sezen Çıngır, Kim. Müh.", title: "Tmmob Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers – Yürütme Kurulu Üyesi" },
+    { name: "Sezen Çıngır, Kim. Müh.", title: "TMMOB Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers – Yürütme Kurulu Üyesi" },
     { name: "Serhat Karabağ, İnş. Müh.", title: "Komposit Sanayicileri Derneği / Turkish Composites Manufacturers Association – Yürütme Kurulu Üyesi - Member" },
     { name: "Yahya Kara, Dr.", title: "Luxemburg Teknoloji Enstitüsü / Luxembourg Institute of Technology – Yürütme Kurulu Üyesi - Member" },
-    { name: "Hüseyin Dağlar, Kim. Müh.", title: "Tmmob Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers – Yürütme Kurulu Üyesi - Member" }
+    { name: "Hüseyin Dağlar, Kim. Müh.", title: "TMMOB Kimya Mühendisleri Odası / Uctea Chamber of Chemical Engineers – Yürütme Kurulu Üyesi - Member" }
   ]
   
 
@@ -51,12 +51,12 @@ export default function Committee() {
     { name: "Cem Aynalı", title: "Kimya Mühendisleri Odası" },
     { name: "Cem Gürkan", title: "Poliya Polyester Sanayi ve Ticaret Ltd. Şti" },
     { name: "Cihangir Cebeci", title: "Fiberr Fiber Reinforced Resins A.Ş" },
-    { name: "Devrim Özaydın", title: "KordSA" },
+    { name: "Devrim Özaydın", title: "Kordsa Teknik Tekstil A.Ş" },
     { name: "Erkan Ersöz", title: "Ege Üniversitesi" },
     { name: "Erkan Günindi", title: "Olgun Çelik Sanayi ve Ticaret A.Ş." },
     { name: "Goksenin Comlekci", title: "Türkiye Şişe ve Cam Fabrikaları A.Ş." },
     { name: "İbrahim Akyürek", title: "Kimya Mühendisleri Odası" },
-    { name: "Kadir Uçar", title: "Esas" },
+    { name: "Kadir Uçar", title: " Ege Savunma Sanayi Havacılık Ve Uzay Kümelenmesi Derneği" },
     { name: "Levent Arslan", title: "KOSGEB İzmir İl Müdürlüğü" },
     { name: "Levent Aydın, Doç. Dr.", title: "İzmir Katip Çelebi Üniversitesi" },
     { name: "M. Cengiz Altan, Prof. Dr.", title: "University of Oklahoma - Amerika Birleşik Devletleri" },
@@ -64,8 +64,8 @@ export default function Committee() {
     { name: "Mehmet Karahan, Prof. Dr.", title: "Bursa Uludağ Üniversitesi" },
     { name: "Mehmet Sarıkanat, Doç. Dr.", title: "Ege Üniversitesi" },
     { name: "Mertcan Aslıtürk", title: "Polkima Polyester Kimya ve Makina San. ve Tic. A.Ş" },
-    { name: "Mustafa Demircioğlu, Prof. Dr.", title: "" },
-    { name: "Nurseli Uyanık, Prof. Dr.", title: "" },
+    { name: "Mustafa Demircioğlu, Prof. Dr.", title: "Ege Üniversitesi" },
+    { name: "Nurseli Uyanık, Prof. Dr.", title: "İstanbul Teknik Üniversitesi" },
     { name: "Özgür Sönmez", title: "Literatür Kimya Elektrik İnş.Taah.Turz. ve Oto İth.İhr.San.Tic.Ltd.Şti." },
     { name: "Semih Yiğit", title: "Ostim Savunma ve Havacılık Kümelenmesi" },
     { name: "Sevim Özgül, Dr.", title: "Bahçeşehir Üniversitesi" },
@@ -146,11 +146,11 @@ const scientificAdvisoryCommittee = [
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Committees</h1>
-        <CommitteeSection title="Symposium Secretariat" members={symposiumSecretariat} />
-        <CommitteeSection title="Honor Board" members={HonorBoard} />
         <CommitteeSection title="Executive Committee" members={executiveCommittee} />
+        <CommitteeSection title="Symposium Secretariat" members={symposiumSecretariat} />
         <CommitteeSection title="Organizing Committee" members={organizingCommittee} />
         <CommitteeSection title="Scientific Advisory Committee" members={scientificAdvisoryCommittee} />
+        <CommitteeSection title="Honor Board" members={HonorBoard} />
       </div>
     </div>
     </>

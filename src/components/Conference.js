@@ -15,14 +15,14 @@ export default function Conference() {
     { event: "Submission of Abstracts", date: "01.05.2025" },
     { event: "Deadline for Early Registration", date: "31.05.2025" },
     { event: "Announcement of Accepted Papers", date: "15.06.2025" },
-    { event: "Submission of Full Proceedings", date: "15.08.20252025" },
+    { event: "Submission of Full Proceedings", date: "15.08.2025" },
     { event: "Deadline for Sponsorship and Advertisement Applications", date: "15.09.2025" },
     { event: "Deadline for Workshop Applications", date: "01.09.2025" },
   ]
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      <SEO 
+      <SEO
         title="Conference Information"
         description="Learn about the 6th International Polymeric Composites Symposium schedule, themes, and program details. Join industry leaders and researchers in İzmir for cutting-edge discussions on composite materials."
         keywords="polymeric composites conference, materials science symposium, composite research presentations, İzmir conference 2025"
@@ -31,7 +31,7 @@ export default function Conference() {
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="px-6 py-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">6th INTERNATIONAL POLYMERIC COMPOSITES SYMPOSIUM AND WORKSHOPS</h1>
-            
+
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Aim</h2>
               <p className="text-gray-700">
@@ -54,12 +54,26 @@ export default function Conference() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Theme</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Main Theme</h2>
+              <h3 className="text-xl font-medium text-black-600 mb-4">
+                Future in Composite Materials: Sustainable, High-Performance, Digitally-Driven Applications
+              </h3>
               <p className="text-gray-700 mb-4">The symposium's primary theme focuses on:</p>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>The current position of the polymeric composites industry, both nationally and globally.</li>
                 <li>The safe, aesthetic, economical, high-value, and eco-friendly aspects of polymeric composite products.</li>
                 <li>Recommendations for the future and sustainability of the sector.</li>
+              </ul>
+              <p className="text-gray-700 mt-4 mb-1">Topics:</p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Raw materials</li>
+                <li>Semi-Products</li>
+                <li>Processing of Polymeric Composites</li>
+                <li>Polymeric Composites Structures</li>
+                <li>Energy Application of Polymeric Composites</li>
+                <li>Sustainability in Polymeric Composites</li>
+                <li>Polymeric Composites in Defense Industry</li>
+                <li>Regulations and Standards</li>
               </ul>
             </section>
 

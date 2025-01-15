@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import OrganizerLogos from './components/OrganizerLogos'
 import CountdownTimer from './components/CountdownTimer'
-import AimMissionVision from './components/AimMissionVision'
 import Speakers from './components/Speakers'
 import Conference from './components/Conference'
 import Footer from './components/Footer'
@@ -15,6 +14,8 @@ import Register from './components/Register'
 import Sponsors from './components/Sponsors'
 import Contact from './components/Contacts'
 import SEO from './components/SEO'
+import Workshop from './components/Workshop'
+import WelcomeLetter from './components/WelcomeLetter'
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
                 <Hero />
                 <OrganizerLogos />
                 <CountdownTimer />
-                <AimMissionVision />
+                <WelcomeLetter />
                 <Speakers />
               </>
             } />
@@ -44,7 +45,7 @@ function App() {
             <Route path="/registration" element={<Register />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/contact" element={<Contact />} />
-
+            <Route path="/workshop" element={<Workshop />} />
             {/* Add more routes here */}
           </Routes>
         </main>

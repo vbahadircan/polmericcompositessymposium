@@ -57,6 +57,7 @@ export default function Navbar() {
           <div className="hidden md:flex md:items-center md:space-x-4">
             <Link to="/" className={getLinkClass('/')}>Home</Link>
             <Link to="/conference" className={getLinkClass('/conference')}>Conference</Link>
+            <Link to="/workshop" className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">Workshop</Link>
             <Link to="/venue" className={getLinkClass('/venue')}>Venue</Link>
             <Link to="/submissions" className={getLinkClass('/submissions')}>Submissions</Link>
             <Link to="/committees" className={getLinkClass('/committees')}>Committees</Link>
@@ -72,6 +73,7 @@ export default function Navbar() {
         <div className="px-2 pt-2 pb-3 space-y-1">
           <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</Link>
           <Link to="/conference" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Conference</Link>
+          <Link to="/workshop" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Workshop</Link>
           <Link to="/venue" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Venue</Link>
           <Link to="/submissions" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Submissions</Link>
           <Link to="/committees" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Committees</Link>

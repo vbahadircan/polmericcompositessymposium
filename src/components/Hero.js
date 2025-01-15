@@ -40,6 +40,12 @@ export default function Hero() {
           >
             Submit Your Paper
           </Link>
+          <Link
+            to="/conference"
+            className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+          >
+            Learn More
+          </Link>
         </div>
         <div className="mt-10 w-full max-w-4xl mx-auto">
           <div className="bg-white bg-opacity-90 rounded-lg shadow-md p-3">
