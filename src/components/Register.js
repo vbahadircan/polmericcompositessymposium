@@ -4,7 +4,7 @@ import SEO from './SEO'
 export default function Register() {
   return (
     <>
-      <SEO 
+      <SEO
         title="Registration"
         description="Register for the 6th International Polymeric Composites Symposium. Early bird rates available. Join academics, industry professionals, and researchers from around the world."
         keywords="conference registration, symposium registration, early bird registration, polymeric composites event"
@@ -17,7 +17,7 @@ export default function Register() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Symposium Fees</h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li><strong>Regular Participant:</strong> 6000 TL</li>
+                  <li><strong>Regular Participant:</strong> 6000 TL (Turkish Lira)</li>
                   <li><strong>Academic Participant:</strong> 4000TL </li>
                   <li><strong>Graduate / Undergraduate Student:</strong> 1000TL </li>
                   <li><strong>International Participants:</strong> €300 </li>
@@ -25,7 +25,7 @@ export default function Register() {
                   <li><strong>Workshop Participants:</strong> TBD</li>
                 </ul>
                 <p className="mt-4 text-gray-700">
-                  <strong>Note:</strong> The fees include abstract booklet, coffee and tea services, lunches, and social event programs.
+                  <strong>Note:</strong> The fees include abstract booklet, coffee and tea services, lunches.
                 </p>
               </section>
 
@@ -52,7 +52,7 @@ export default function Register() {
                   <li><strong>Email:</strong> <a href="mailto:symposium@polymericcomposites.org" className="text-blue-500 underline">symposium@polymericcomposites.org</a></li>
                   <li><strong>Fax:</strong> +90 232 464 59 08</li>
                   <li>
-                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
+                    <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
                   </li>
                 </ul>
               </section>
