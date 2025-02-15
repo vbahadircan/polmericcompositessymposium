@@ -26,7 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={
               <>
-                <SEO 
+                <SEO
                   title="Home"
                   description="Join us at the 6th International Polymeric Composites Symposium and Workshops in İzmir, Turkey. Discover the latest advances in composite materials, network with experts, and explore innovative research."
                   keywords="polymeric composites, symposium 2025, İzmir, materials science, composite research"
@@ -34,7 +34,7 @@ function App() {
                 <Hero />
                 <OrganizerLogos />
                 <CountdownTimer />
-                <WelcomeLetter />
+
                 <Speakers />
               </>
             } />

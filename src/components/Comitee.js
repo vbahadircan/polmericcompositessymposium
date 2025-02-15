@@ -28,14 +28,14 @@ export default function Committee() {
     { name: "Özgür Seydibeyoğlu, Prof. Dr.", title: " Izmir Katip Çelebi University – Symposium Co-Chair" },
     { name: "Sezen Çıngır, Kim. Müh.", title: "Uctea Chamber of Chemical Engineers – Member" },
     { name: "Serhat Karabağ, İnş. Müh.", title: "Turkish Composites Manufacturers Association – Member" },
-    { name: "Yahya Kara, Dr.", title: "Luxembourg Institute of Technology – Member" },
+    { name: "Yahya Kara, Dr.", title: "Luxembourg Institute of Science and Technology – Member" },
     { name: "Hüseyin Dağlar, Kim. Müh.", title: " Uctea Chamber of Chemical Engineers – Member" }
   ]
 
 
   const organizingCommittee = [
     { name: "Ahmet Ünal, Prof. Dr.", title: "Yildiz Technical University" },
-    { name: "Ali İhsan Otabatmaz", title: "C.E.S İleri Kompozit Ve Savunma Teknoloji San. Ve Tic. A.Ş." },
+    { name: "Ali İhsan Otabatmaz", title: "Serbest Danışman" },
     { name: "Alper Kalaycı", title: "ENSİA Yönetim Kurulu Başkanı" },
     { name: "Alperen Doğru, Dr.", title: "Ege University" },
     { name: "Aslı Ilgaz", title: "Metyx Composites-Telateks A.Ş." },
@@ -100,6 +100,7 @@ export default function Committee() {
     { "name": "Devrim Balköse, Prof. Dr.", "title": "İzmir Institute of Technology" },
     { "name": "Dipa Roy , Dr.", "title": "The University of Edinburgh" },
     { "name": "Elif Alyamaç Seydibeyoğlu, Doç. Dr.", "title": "Ege University" },
+    { "name": "Engin Aktaş, Prof. Dr.", "title": "Izmir Institute of Technology" }, //Prof. Dr. Engin Aktas, Izmir Institute of Technology
     { "name": "Erdem Yücel", "title": "Fibrosan CTP San. ve Tic. A.Ş." },
     { "name": "Ersan Kalafatoğlu, Prof. Dr.", "title": "Marmara University" },
     { "name": "Ferrie Van Hattum , Prof.Dr.", "title": "Saxion University of Applied Sciences" },
@@ -122,6 +123,7 @@ export default function Committee() {
     { "name": "Nikhil Verghese, Dr.", "title": "Corporate Fellow at Sabic" },
     { "name": "Nilay Gizli, Doç. Dr.", "title": "Ege University" },
     { "name": "Özgür Seydibeyoğlu, Prof. Dr.", "title": "İzmir Katip Çelebi University" },
+    { "name": "Rasim İpek, Prof. Dr.", "title": "Ege University" },
     { "name": "Sadık Aslıtürk", "title": "Polkima Polyester Kimya ve Makina San. ve Tic. A.Ş" },
     { "name": "Salim Belouettar, Dr.", "title": "Luxembourg Institute of Science and Technology" },
     { "name": "Selim Küsefoğlu, Prof. Dr.", "title": "Boğaziçi University" },
