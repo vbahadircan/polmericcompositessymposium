@@ -15,7 +15,15 @@ import Sponsors from './components/Sponsors'
 import Contact from './components/Contacts'
 import SEO from './components/SEO'
 import Workshop from './components/Workshop'
-import WelcomeLetter from './components/WelcomeLetter'
+//import WelcomeLetter from './components/WelcomeLetter'
+import AboutIzmir from './components/AboutIzmir';
+import Accommodation from './components/Accommodation';
+import SocialProgram from './components/SocialProgram';
+import KeyDates from './components/KeyDates';
+import Transportation from './components/Transportation';
+
+
+
 
 function App() {
   return (
@@ -34,7 +42,7 @@ function App() {
                 <Hero />
                 <OrganizerLogos />
                 <CountdownTimer />
-
+                <KeyDates />
                 <Speakers />
               </>
             } />
@@ -46,7 +54,10 @@ function App() {
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/workshop" element={<Workshop />} />
-            {/* Add more routes here */}
+            <Route path="/venue/about-izmir" element={<AboutIzmir />} />
+            <Route path="/venue/accommodation" element={<Accommodation />} />
+            <Route path="/venue/social-program" element={<SocialProgram />} />
+            <Route path="/venue/transportation" element={<Transportation />} />
           </Routes>
         </main>
         <Footer />
