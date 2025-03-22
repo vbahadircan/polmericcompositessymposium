@@ -3,12 +3,12 @@ import SEO from './SEO';
 
 export default function Conference() {
   const previousEvents = [
-    { year: 2006, date: "17-19 November", title: "1st National Polymeric Composites Symposium and Exhibition", place: "Tepekule Convention and Exhibition Center, İzmir" },
-    { year: 2008, date: "28-30 November", title: "International Polymeric Composites Symposium-Exhibition and Workshop", place: "Tepekule Convention and Exhibition Center, İzmir" },
-    { year: 2010, date: "26-28 November", title: "2nd Polymeric Composites Symposium, Exhibition and Brokerage Event", place: "Tepekule Convention and Exhibition Center, İzmir" },
-    { year: 2012, date: "9-11 November", title: "3rd International Polymeric Composites Symposium, Exhibition and Workshop", place: "Tepekule Convention and Exhibition Center, İzmir" },
-    { year: 2015, date: "3-5 November", title: "4th International Polymeric Composites Symposium, Exhibition and Brokerage Event", place: "Çeşme Altınyunus Resort Hotel, İzmir" },
-    { year: 2017, date: "2-4 November", title: "5th International Polymeric Composites Symposium and Workshops", place: "Tepekule Convention and Exhibition Center, İzmir" },
+    { year: 2006, date: "17-19 November", title: "1st National Polymeric Composites Symposium and Exhibition", place: "Tepekule Convention and Exhibition Center, Izmir" },
+    { year: 2008, date: "28-30 November", title: "International Polymeric Composites Symposium-Exhibition and Workshop", place: "Tepekule Convention and Exhibition Center, Izmir" },
+    { year: 2010, date: "26-28 November", title: "2nd Polymeric Composites Symposium, Exhibition and Brokerage Event", place: "Tepekule Convention and Exhibition Center, Izmir" },
+    { year: 2012, date: "9-11 November", title: "3rd International Polymeric Composites Symposium, Exhibition and Workshop", place: "Tepekule Convention and Exhibition Center, Izmir" },
+    { year: 2015, date: "3-5 November", title: "4th International Polymeric Composites Symposium, Exhibition and Brokerage Event", place: "Çeşme Altınyunus Resort Hotel, Izmir" },
+    { year: 2017, date: "2-4 November", title: "5th International Polymeric Composites Symposium and Workshops", place: "Tepekule Convention and Exhibition Center, Izmir" },
   ];
 
   const keyDates = [
@@ -24,8 +24,8 @@ export default function Conference() {
     <div className="bg-gray-100 min-h-screen py-12">
       <SEO
         title="Conference Information"
-        description="Learn about the 6th International Polymeric Composites Symposium schedule, themes, and program details. Join industry leaders and researchers in İzmir for cutting-edge discussions on composite materials."
-        keywords="polymeric composites conference, materials science symposium, composite research presentations, İzmir conference 2025"
+        description="Learn about the 6th International Polymeric Composites Symposium schedule, themes, and program details. Join industry leaders and researchers in Izmir for cutting-edge discussions on composite materials."
+        keywords="polymeric composites conference, materials science symposium, composite research presentations, Izmir conference 2025"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -59,7 +59,7 @@ export default function Conference() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Vision</h2>
               <p className="text-gray-700">
-                Polymeric composites, introduced in the 20th century, have gained increasing importance globally and in Turkey. These materials are technological innovations widely used in industries and daily life, shaping the future. The CCE Aegean Branch aims to elevate its scientific and technical platform, established since 2006, to an international level by hosting the 2025 symposium in collaboration with the Turkish Composite Manufacturers Association.
+                Polymeric composites, introduced in the 20th century, have gained increasing importance globally and in Türkiye. These materials are technological innovations widely used in industries and daily life, shaping the future. The CCE Aegean Branch aims to elevate its scientific and technical platform, established since 2006, to an international level by hosting the 2025 symposium in collaboration with the Turkish Composite Manufacturers Association.
               </p>
             </section>
 

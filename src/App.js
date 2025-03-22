@@ -21,6 +21,8 @@ import Accommodation from './components/Accommodation';
 import SocialProgram from './components/SocialProgram';
 import KeyDates from './components/KeyDates';
 import Transportation from './components/Transportation';
+import Program from './components/Program';
+
 
 
 
@@ -36,8 +38,8 @@ function App() {
               <>
                 <SEO
                   title="Home"
-                  description="Join us at the 6th International Polymeric Composites Symposium and Workshops in İzmir, Turkey. Discover the latest advances in composite materials, network with experts, and explore innovative research."
-                  keywords="polymeric composites, symposium 2025, İzmir, materials science, composite research"
+                  description="Join us at the 6th International Polymeric Composites Symposium and Workshops in Izmir, Türkiye. Discover the latest advances in composite materials, network with experts, and explore innovative research."
+                  keywords="polymeric composites, symposium 2025, Izmir, materials science, composite research"
                 />
                 <Hero />
                 <OrganizerLogos />
@@ -54,10 +56,13 @@ function App() {
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/workshop" element={<Workshop />} />
-            <Route path="/venue/about-izmir" element={<AboutIzmir />} />
+            <Route path="/venue/about-Izmir" element={<AboutIzmir />} />
             <Route path="/venue/accommodation" element={<Accommodation />} />
             <Route path="/venue/social-program" element={<SocialProgram />} />
             <Route path="/venue/transportation" element={<Transportation />} />
+            <Route path="/speakers" element={<Speakers />} />
+            <Route path="/program" element={<Program />} />
+
           </Routes>
         </main>
         <Footer />

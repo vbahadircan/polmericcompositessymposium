@@ -7,8 +7,8 @@ export default function Hero() {
   const [showWelcomeLetter, setShowWelcomeLetter] = useState(false);
 
   const facts = [
-    "Did you know that the first polyester resin was made in Turkey in Izmir?",
-    "Did you know that the first composite part in Turkey was manufactured in Izmir?",
+    "Did you know that the first polyester resin was made in Türkiye in Izmir?",
+    "Did you know that the first composite part in Türkiye was manufactured in Izmir?",
   ];
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function Hero() {
           <span className="block">SYMPOSIUM AND WORKSHOPS</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          October 2–4, 2025 • Tepekule Convention and Exhibition Centre, İzmir, Turkey
+          October 2–4, 2025 • Tepekule Convention and Exhibition Centre, Izmir, Türkiye
         </p>
         <div className="mt-10 flex flex-col items-center space-y-4">
           {/* Open Welcome Letter Button */}

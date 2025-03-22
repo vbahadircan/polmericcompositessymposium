@@ -26,7 +26,7 @@ export default function Footer() {
             <p className="text-gray-300">
               TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi,<br />
               1441 Sokak No: 4 Kat: 3 D: 5<br />
-              Alsancak, İzmir, Turkey
+              Alsancak, Izmir, Türkiye
             </p>
           </div>
         </div>

@@ -52,7 +52,7 @@ export default function Register() {
                   <li><strong>Email:</strong> <a href="mailto:symposium@polymericcomposites.org" className="text-blue-500 underline">symposium@polymericcomposites.org</a></li>
                   <li><strong>Fax:</strong> +90 232 464 59 08</li>
                   <li>
-                    <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
+                    <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, Izmir, Türkiye
                   </li>
                 </ul>
               </section>

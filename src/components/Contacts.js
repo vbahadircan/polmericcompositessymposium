@@ -9,7 +9,7 @@ export default function Contact() {
       <SEO
         title="Contact Us"
         description="Get in touch with the organizing committee of the 6th International Polymeric Composites Symposium. Contact information for inquiries about registration, submissions, and general information."
-        keywords="contact symposium organizers, conference contact, polymeric composites symposium contact, İzmir event contact"
+        keywords="contact symposium organizers, conference contact, polymeric composites symposium contact, Izmir event contact"
       />
       <div className="bg-gray-100 min-h-screen py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,7 +59,7 @@ export default function Contact() {
 
               <div className="flex items-start">
                 <div>
-                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
+                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, Izmir, Türkiye
                 </div>
               </div>
 

@@ -89,7 +89,7 @@ export default function Navbar() {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link to="/venue" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Venue</Link>
-                  <Link to="/venue/about-izmir" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">About İzmir</Link>
+                  <Link to="/venue/about-Izmir" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Izmir</Link>
                   <Link to="/venue/accommodation" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Accommodation</Link>
                   <Link to="/venue/social-program" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Social Program</Link>
                   <Link to="/venue/transportation" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Transportation</Link>

@@ -2,8 +2,8 @@ import React from 'react';
 
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
-    let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
-    let logoSrc = `/${logoKey}.png`; // Construct the path for the logo in the public folder
+  let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
+  let logoSrc = `/${logoKey}.png`; // Construct the path for the logo in the public folder
 
   return (
     <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-24">
@@ -16,7 +16,7 @@ const SponsorLogo = ({ name }) => {
 export default function Sponsors() {
   const officialOrganizations = [
     'Aegean Region Chamber of Industry',
-    'İzmir Chamber of Commerce',
+    'Izmir Chamber of Commerce',
     'IKCU',
     'IYTE',
     'TMMOB',
@@ -32,7 +32,7 @@ export default function Sponsors() {
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Sponsors</h1>
-        
+
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="p-6">
             {/* Official Organizations Section */}
@@ -55,7 +55,7 @@ export default function Sponsors() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Become a Sponsor</h2>
               <p className="text-gray-700 mb-4">
-                Join us in supporting the 6th INTERNATIONAL POLYMERIC COMPOSITES SYMPOSIUM AND WORKSHOPS. 
+                Join us in supporting the 6th INTERNATIONAL POLYMERIC COMPOSITES SYMPOSIUM AND WORKSHOPS.
                 Sponsors gain visibility among academic, industrial, and governmental participants from around the globe.
               </p>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Sponsorship Benefits:</h3>
@@ -65,12 +65,12 @@ export default function Sponsors() {
                 <li>Brand visibility throughout the event.</li>
               </ul>
               <a
-                  href="/sponsorship-conditions.docx"
-                  className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-                  download="sponsorship-conditions.docx" // Provides a default filename when downloading
-                >
-                  Download Sponsorship Conditions (.docx)
-                </a>
+                href="/sponsorship-conditions.docx"
+                className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
+                download="sponsorship-conditions.docx" // Provides a default filename when downloading
+              >
+                Download Sponsorship Conditions (.docx)
+              </a>
             </section>
 
             {/* Contact Section */}
@@ -82,7 +82,7 @@ export default function Sponsors() {
                 <li><strong>Phone:</strong> +90 232 421 35 35</li>
                 <li><strong>Fax:</strong> +90 232 464 59 08</li>
                 <li>
-                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, İzmir, Turkey
+                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, Izmir, Türkiye
                 </li>
               </ul>
             </section>
