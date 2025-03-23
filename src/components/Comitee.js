@@ -24,11 +24,11 @@ export default function Committee() {
 
 
   const executiveCommittee = [
-    { name: "İbrahim KÖSE, Chem. Eng", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
+    { name: "İbrahim KÖSE, Chem.", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
     { name: "Metin TANOĞLU, Prof. Dr.", title: "Izmir Institute of Technology - Symposium Co-Chair" },
     { name: "Özgür SEYDİBEYOĞLU, Prof. Dr.", title: "Izmir Katip Çelebi University - Symposium Co-Chair" },
     { name: "Sezen ÇINGIR, Chem. Eng.", title: "Tmmob chamber of Chemical Engineers / Uctea chamber of Chemical Engineers - Member" },
-    { name: "Serhat KARABAĞ, C.E.", title: "Turkish Composites Manufacturers Association - Member" },
+    { name: "Serhat KARABAĞ, Civil Eng.", title: "Turkish Composites Manufacturers Association - Member" },
     { name: "Yahya KARA, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
     { name: "Hüseyin DAĞLAR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
     { name: "Cem AYNALI, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" }
@@ -111,12 +111,10 @@ export default function Committee() {
     { name: "Funda Tıhmınlıoğlu, Prof. Dr.", title: "Izmir Institute of Technology" },
     { name: "Hasan Ömer", title: "Herkim Polymer Chemistry Industry and Trade Inc." },
     { name: "He Haijun, Dr.", title: "College of Textile Science and Engineering, Jiangnan University - China" },
-    { name: "Holger Seidlitz, Prof. Dr.", title: "Brandenburg University of Technology Cottbus - Germany" },
     { name: "Hülya Cebeci, Assoc. Prof.", title: "Istanbul Technical University" },
     { name: "İbrahim Köse", title: "Kosse Composite Marketing" },
     { name: "İsmail Darcan", title: "Boytek Resin Paint and Chemistry Industry Trade Inc." },
     { name: "Jozsef Gabor Kovacs, Assoc. Prof.", title: "The Budapest University of Technology and Economics - Hungary" },
-    { name: "Kristiina Oksman", title: "Luleå University of Technology - Sweden" },
     { name: "M. Cengiz Altan, Prof. Dr.", title: "The University of Oklahoma - United States of America" },
     { name: "Maya John, Dr.", title: "Council for Scientific and Industrial Research (CSIR) - South Africa" },
     { name: "Mehmet Sarıkanat, Assoc. Prof.", title: "Ege University" },

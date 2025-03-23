@@ -5,6 +5,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null);
   const [hoverDropdown, setHoverDropdown] = useState(null);
+  const timeoutRef = useRef(null);
   const location = useLocation();
 
   const getLinkClass = (path) => {
@@ -15,6 +16,18 @@ export default function Navbar() {
 
   const handleMobileDropdownToggle = (menu) => {
     setOpenMobileDropdown(openMobileDropdown === menu ? null : menu);
+  };
+
+  // Hover dropdown enter/leave for desktop
+  const handleDropdownEnter = (menu) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setHoverDropdown(menu);
+  };
+
+  const handleDropdownLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setHoverDropdown(null);
+    }, 200); // 200ms delay prevents fast close
   };
 
   return (
@@ -41,30 +54,38 @@ export default function Navbar() {
             <Link to="/" className={getLinkClass('/')}>Home</Link>
             <Link to="/committees" className={getLinkClass('/committees')}>Committees</Link>
 
-            {/* Desktop Dropdown - Conference */}
+            {/* Dropdown - Conference */}
             <div
               className="relative"
-              onMouseEnter={() => setHoverDropdown('conference')}
-              onMouseLeave={() => setHoverDropdown(null)}
+              onMouseEnter={() => handleDropdownEnter('conference')}
+              onMouseLeave={handleDropdownLeave}
             >
               <Link to="/conference" className={getLinkClass('/conference')}>Conference</Link>
               {hoverDropdown === 'conference' && (
-                <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md border border-gray-200 z-50">
+                <div
+                  className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md border border-gray-200 z-50"
+                  onMouseEnter={() => handleDropdownEnter('conference')}
+                  onMouseLeave={handleDropdownLeave}
+                >
                   <Link to="/speakers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Speakers</Link>
                   <Link to="/program" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</Link>
                 </div>
               )}
             </div>
 
-            {/* Desktop Dropdown - Practical Info */}
+            {/* Dropdown - Practical Info */}
             <div
               className="relative"
-              onMouseEnter={() => setHoverDropdown('practical')}
-              onMouseLeave={() => setHoverDropdown(null)}
+              onMouseEnter={() => handleDropdownEnter('practical')}
+              onMouseLeave={handleDropdownLeave}
             >
               <Link to="/venue" className={getLinkClass('/venue')}>Practical Info</Link>
               {hoverDropdown === 'practical' && (
-                <div className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md border border-gray-200 z-50">
+                <div
+                  className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md border border-gray-200 z-50"
+                  onMouseEnter={() => handleDropdownEnter('practical')}
+                  onMouseLeave={handleDropdownLeave}
+                >
                   <Link to="/venue" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Venue</Link>
                   <Link to="/venue/about-Izmir" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Izmir</Link>
                   <Link to="/venue/accommodation" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Accommodation</Link>
@@ -76,15 +97,19 @@ export default function Navbar() {
 
             <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors</Link>
 
-            {/* Desktop Dropdown - Registration */}
+            {/* Dropdown - Registration */}
             <div
               className="relative"
-              onMouseEnter={() => setHoverDropdown('registration')}
-              onMouseLeave={() => setHoverDropdown(null)}
+              onMouseEnter={() => handleDropdownEnter('registration')}
+              onMouseLeave={handleDropdownLeave}
             >
               <Link to="/registration" className={getLinkClass('/registration')}>Registration</Link>
               {hoverDropdown === 'registration' && (
-                <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md border border-gray-200 z-50">
+                <div
+                  className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md border border-gray-200 z-50"
+                  onMouseEnter={() => handleDropdownEnter('registration')}
+                  onMouseLeave={handleDropdownLeave}
+                >
                   <Link to="/submissions" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Submissions</Link>
                 </div>
               )}
@@ -99,15 +124,13 @@ export default function Navbar() {
           <Link to="/" className={getLinkClass('/')}>Home</Link>
           <Link to="/committees" className={getLinkClass('/committees')}>Committees</Link>
 
-          {/* Conference */}
+          {/* Mobile Dropdown - Conference */}
           <button
             onClick={() => handleMobileDropdownToggle('conference')}
             className="w-full text-left px-4 py-2 text-base text-gray-700 hover:text-red-600 font-medium"
           >
             Conference {openMobileDropdown === 'conference' ? '▲' : '▼'}
           </button>
-
-
           {openMobileDropdown === 'conference' && (
             <div className="ml-4 space-y-1 text-sm">
               <Link to="/speakers" className="block hover:text-red-600">↳ Speakers</Link>
@@ -115,7 +138,7 @@ export default function Navbar() {
             </div>
           )}
 
-          {/* Practical Info */}
+          {/* Mobile Dropdown - Practical Info */}
           <button
             onClick={() => handleMobileDropdownToggle('practical')}
             className="w-full text-left px-4 py-2 text-base text-gray-700 hover:text-red-600 font-medium"
@@ -134,7 +157,7 @@ export default function Navbar() {
 
           <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors</Link>
 
-          {/* Registration */}
+          {/* Mobile Dropdown - Registration */}
           <button
             onClick={() => handleMobileDropdownToggle('registration')}
             className="w-full text-left px-4 py-2 text-base text-gray-700 hover:text-red-600 font-medium"
