@@ -21,8 +21,8 @@ export default function Venue() {
             <div className="p-6">
               <VenueDetails />
               <AboutVenue />
-              <VenueMap />
               <VenueGallery />
+              <VenueMap />
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -9,10 +10,12 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
             <div className="text-gray-300 space-y-2">
-              <p>Email: <a href="mailto:symposium@polymericcomposites.org" className="text-gray-300 hover:text-white underline">symposium@polymericcomposites.org</a></p>              <p>Tel: +90 232 421 35 35</p>
+              <p>Email: <a href="mailto:symposium@polymericcomposites.org" className="text-gray-300 hover:text-white underline">symposium@polymericcomposites.org</a></p>
+              <p>Tel: +90 232 421 35 35</p>
               <p>Fax: +90 232 464 59 08</p>
             </div>
           </div>
+
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -21,6 +24,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Address</h3>
             <p className="text-gray-300">
@@ -30,6 +34,23 @@ export default function Footer() {
             </p>
           </div>
         </div>
+
+        {/* Social Media Links */}
+        <div className="mt-10 flex justify-center space-x-6">
+          <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+            <FaFacebookF />
+          </a>
+          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+            <FaTwitter />
+          </a>
+          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+            <FaInstagram />
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+            <FaLinkedinIn />
+          </a>
+        </div>
+
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400">
             © 2024 6th International Polymeric Composites Symposium and Workshops. All rights reserved.
@@ -39,4 +60,3 @@ export default function Footer() {
     </footer>
   )
 }
-

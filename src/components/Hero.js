@@ -34,11 +34,11 @@ export default function Hero() {
           {/* Open Welcome Letter Button */}
           <button
             onClick={() => setShowWelcomeLetter(true)}
-            className="py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg"
-            style={{ width: 'calc(3 * 10rem + 2 * 1rem + 9rem)' }} // Slightly longer: added 4rem
+            className="w-full max-w-xs sm:max-w-md md:max-w-2xl px-6 py-3 md:py-4 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50 text-center mx-auto"
           >
             Welcome Message from the Chairs
           </button>
+
 
           {/* Horizontal Row of Buttons */}
           <div className="flex justify-center gap-4 mt-4">

@@ -16,22 +16,22 @@ const CommitteeSection = ({ title, members }) => (
 
 export default function Committee() {
   const symposiumSecretariat = [
-    { name: "Onur Aşkaroğlu", title: "Tmmob Chamber of Chemical Engineers / Uctea Chamber of Chemical Engineers" },
+    { name: "Onur Aşkaroğlu", title: "Tmmob chamber of Chemical Engineers / Uctea chamber of Chemical Engineers" },
     { name: "Sümeyra Göçemen", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing" },
-    { name: "Hüsnü Onur Ertürk", title: "Izmir Katip Çelebi Üniversitesi / Izmir Katip Çelebi University" }
+    { name: "Hüsnü Onur Ertürk", title: "Izmir Katip Çelebi University" }
   ];
 
 
 
   const executiveCommittee = [
-    { name: "İbrahim KÖSE, Kim.", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
+    { name: "İbrahim KÖSE, Chem. Eng", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
     { name: "Metin TANOĞLU, Prof. Dr.", title: "Izmir Institute of Technology - Symposium Co-Chair" },
     { name: "Özgür SEYDİBEYOĞLU, Prof. Dr.", title: "Izmir Katip Çelebi University - Symposium Co-Chair" },
-    { name: "Sezen ÇINGIR, Chem. Eng.", title: "Tmmob Chamber of Chemical Engineers / Uctea Chamber of Chemical Engineers - Member" },
-    { name: "Serhat KARABAĞ, Const. Eng.", title: "Turkish Composites Manufacturers Association - Member" },
+    { name: "Sezen ÇINGIR, Chem. Eng.", title: "Tmmob chamber of Chemical Engineers / Uctea chamber of Chemical Engineers - Member" },
+    { name: "Serhat KARABAĞ, C.E.", title: "Turkish Composites Manufacturers Association - Member" },
     { name: "Yahya KARA, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
-    { name: "Hüseyin DAĞLAR, Chem. Eng.", title: "Uctea Chamber of Chemical Engineers - Member" },
-    { name: "Cem AYNALI, Chem. Eng.", title: "Uctea Chamber of Chemical Engineers - Member" }
+    { name: "Hüseyin DAĞLAR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
+    { name: "Cem AYNALI, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" }
   ];
 
 
@@ -56,7 +56,7 @@ export default function Committee() {
     { name: "Cem Gürkan", title: "Poliya Polyester Industry and Trade Ltd. Co." },
     { name: "Cihangir Cebeci", title: "Fiberr Fiber Reinforced Resins Inc." },
     { name: "Devrim Özaydın", title: "Sabancı University" },
-    { name: "Erkan Ersöz", title: "Ege University" },
+    { name: "Erkan Ersöz, Dr.", title: "Ege University" },
     { name: "Erkan Günindi", title: "Olgun Çelik Industry and Trade Inc." },
     { name: "Göksenin Çömlekçi", title: "Türkiye Şişe ve Cam Factories Inc." },
     { name: "İbrahim Akyürek", title: "Chamber of Chemical Engineers" },
@@ -73,17 +73,17 @@ export default function Committee() {
     { name: "Özgür Sönmez", title: "Literatür Chemistry Electrical Construction Contracting Tourism and Automotive Import Export Industry Trade Ltd. Co." },
     { name: "Semih Yiğit", title: "Ostim Defense and Aviation Cluster" },
     { name: "Sevim Özgül, Dr.", title: "Bahçeşehir University" },
-    { name: "Şekib Avdagiç", title: "Istanbul Chamber of Commerce" },
+    { name: "Şekib Avdagiç", title: "Istanbul chamber of Commerce" },
     { name: "Ummuhan Topal", title: "DowAksa Advanced Composite Materials Industry Ltd. Co." },
     { name: "Ülkü Yılmazer, Prof. Dr.", title: "Middle East Technical University" },
-    { name: "Volkan Eskizeybek", title: "18 March University" },
+    { name: "Volkan Eskizeybek, Assoc. Dr.", title: "18 March University" },
     { name: "Yalçın Yılmazkaya", title: "Aviation and Space Clustering Association" },
     { name: "Zeynep Yılmaz Serçinoğlu", title: "Marmara University" }
   ];
 
 
   const HonorBoard = [
-    { name: "Gürel Nişli, Prof. Dr.", title: "Ege University, Uctea Chamber of Chemical Engineers" },
+    { name: "Gürel Nişli, Prof. Dr.", title: "Ege University, Uctea chamber of Chemical Engineers" },
     { name: "İsmail Darcan", title: "Boytek Resin Paint and Chemical Industry Trade Inc." },
     { name: "Hasan Ömer", title: "Herkim Polymer Chemistry Industry and Trade Inc." },
     { name: "Fikret Tacar", title: "Tacar Boat" },
@@ -96,7 +96,7 @@ export default function Committee() {
     { name: "Alperen Doğru, Dr.", title: "Ege University" },
     { name: "Barış Çağlar, Dr.", title: "Delft University of Technology - Netherlands" },
     { name: "Bedriye Üçpınar Durmaz, Dr.", title: "Ege University" },
-    { name: "Burcu Saner Okan, Assoc. Prof.", title: "Sabancı University" },
+    { name: "Burcu Saner Okan, Prof.", title: "Sabancı University" },
     { name: "Cem Gök, Prof. Dr.", title: "Bakırcay University" },
     { name: "Cemal Basaran, Prof. Dr.", title: "University at Buffalo - United States of America" },
     { name: "Cevdet Kaynak, Prof. Dr.", title: "Middle East Technical University" },

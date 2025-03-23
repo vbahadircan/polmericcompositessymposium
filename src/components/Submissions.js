@@ -5,7 +5,7 @@ export default function Submissions() {
   return (
     <>
       {/* SEO Metadata */}
-      <SEO 
+      <SEO
         title="Submit Your Research"
         description="Submit your research papers and abstracts for the 6th International Polymeric Composites Symposium. Guidelines, deadlines, and submission process for presenting at the conference."
         keywords="abstract submission, research papers, polymeric composites research, conference papers, submission guidelines"
@@ -25,7 +25,7 @@ export default function Submissions() {
                     <strong>Languages:</strong> Turkish participants must submit abstracts in both Turkish and English.
                     Foreign participants may submit abstracts in English only.
                   </li>
-                  <li><strong>Abstract Length:</strong> Up to 500 words in each language.</li>
+                  <li><strong>Abstract Length:</strong> Min 500 words in each language.</li>
                   <li><strong>Formatting Requirements:</strong>
                     <ul className="list-disc list-inside ml-4 mt-2">
                       <li>A4 format with 5 cm top/bottom margins and 4 cm side margins.</li>
@@ -68,7 +68,7 @@ export default function Submissions() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Submission Process</h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Submit your abstract document via email to: 
+                  <li>Submit your abstract document via email to:
                     <a href="mailto:symposium@polymericcomposites.org" className="text-blue-500 underline"> symposium@polymericcomposites.org</a> by <strong>1st May 2025</strong>.
                   </li>
                   <li>Ensure that all guidelines and formatting requirements are met before submission.</li>
