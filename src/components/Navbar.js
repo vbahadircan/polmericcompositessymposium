@@ -97,6 +97,9 @@ export default function Navbar() {
 
             <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors</Link>
 
+            <Link to="/workshop" className={getLinkClass('/workshop')}>Workshop</Link>
+
+
             {/* Dropdown - Registration */}
             <div
               className="relative"
@@ -157,6 +160,8 @@ export default function Navbar() {
 
           <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors</Link>
 
+          <Link to="/workshop" className={getLinkClass('/workshop')}>Workshop</Link>
+
           {/* Mobile Dropdown - Registration */}
           <button
             onClick={() => handleMobileDropdownToggle('registration')}
@@ -169,6 +174,8 @@ export default function Navbar() {
               <Link to="/submissions" className="block hover:text-red-600">↳ Submissions</Link>
             </div>
           )}
+
+
         </div>
       )}
     </nav>
