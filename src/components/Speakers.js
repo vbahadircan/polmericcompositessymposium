@@ -23,7 +23,7 @@ const invitedSpeakers = [
     pdf: '/speaker3.pdf'
   },
   {
-    name: 'Prof. Jozsef Gabor KOVACS',
+    name: 'Dr. Jozsef Gabor KOVACS',
     title: 'Budapest University of Technology and Economics\nMTA-BME Lendület Lightweight Polymer Composites Research Group',
     img: 'invited2.jpg',
     pdf: '/speaker4.pdf'

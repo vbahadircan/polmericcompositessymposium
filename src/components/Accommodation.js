@@ -12,19 +12,7 @@ export default function Accommodation() {
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Accommodation</h1>
 
-                {/* Google Map Embed */}
-                <div className="mb-8">
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-4">Nearby Hotels</h2>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29728.44374694756!2d27.16000308217265!3d38.4456790518541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTepekule%20I%C5%9F%20Merkezi%20yak%C4%B1n%C4%B1ndaki%20oteller!5e0!3m2!1str!2str!4v1742028949922!5m2!1str!2str"
-                        width="100%"
-                        height="450"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        title="Accommodation Map"
-                    ></iframe>
-                </div>
+
 
                 {/* Hotel Info */}
                 <div className="bg-white shadow-lg rounded-lg overflow-hidden p-6">
@@ -177,6 +165,20 @@ export default function Accommodation() {
                     >
                         Four Points by Sheraton Hotel Booking Page
                     </a>
+                </div>
+
+                {/* Google Map Embed */}
+                <div className="mb-8">
+                    <h2 className="text-2xl font-semibold text-gray-900 mb-4">Nearby Hotels</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29728.44374694756!2d27.16000308217265!3d38.4456790518541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTepekule%20I%C5%9F%20Merkezi%20yak%C4%B1n%C4%B1ndaki%20oteller!5e0!3m2!1str!2str!4v1742028949922!5m2!1str!2str"
+                        width="100%"
+                        height="450"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        title="Accommodation Map"
+                    ></iframe>
                 </div>
             </div>
         </div>

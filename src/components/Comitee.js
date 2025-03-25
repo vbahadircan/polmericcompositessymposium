@@ -27,7 +27,7 @@ export default function Committee() {
     { name: "İbrahim KÖSE, Chem.", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
     { name: "Metin TANOĞLU, Prof. Dr.", title: "Izmir Institute of Technology - Symposium Co-Chair" },
     { name: "Özgür SEYDİBEYOĞLU, Prof. Dr.", title: "Izmir Katip Çelebi University - Symposium Co-Chair" },
-    { name: "Sezen ÇINGIR, Chem. Eng.", title: "Tmmob chamber of Chemical Engineers / Uctea chamber of Chemical Engineers - Member" },
+    { name: "Sezen ÇINGIR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
     { name: "Serhat KARABAĞ, Civil Eng.", title: "Turkish Composites Manufacturers Association - Member" },
     { name: "Yahya KARA, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
     { name: "Hüseyin DAĞLAR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },

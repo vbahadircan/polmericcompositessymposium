@@ -37,7 +37,7 @@ export default function Sponsors() {
           <div className="p-6">
             {/* Official Organizations Section */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Official Organizations</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Partners</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {officialOrganizations.map((org, index) => (
                   <SponsorLogo key={index} name={org} />
