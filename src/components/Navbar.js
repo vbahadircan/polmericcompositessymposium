@@ -95,7 +95,7 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors</Link>
+            <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors & Partners</Link>
 
             <Link to="/workshop" className={getLinkClass('/workshop')}>Workshop</Link>
 
