@@ -37,16 +37,16 @@ export default function Footer() {
 
         {/* Social Media Links */}
         <div className="mt-10 flex justify-center space-x-6">
-          <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+          <a href="https://www.facebook.com/people/IPC-2025/61569445496574/?mibextid=LQQJ4d&rdid=ik63rMDMU6og6E37&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FAiyoRqWp%2F%3Fmibextid%3DLQQJ4d" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
             <FaFacebookF />
           </a>
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+          <a href="https://x.com/ipc2025?t=drAo_eEZmctRd1wIvZTtNw&s=09" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
             <FaTwitter />
           </a>
-          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+          <a href="https://www.instagram.com/ipc2025/?igsh=MWRldXpodDJiOHRiNg%3D%3D#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
             <FaInstagram />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
+          <a href="https://www.linkedin.com/company/6-international-polymeric-composites-symposium-workshops/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-xl">
             <FaLinkedinIn />
           </a>
         </div>
