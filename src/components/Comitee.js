@@ -38,7 +38,7 @@ export default function Committee() {
 
   const organizingCommittee = [
     { name: "Ahmet Ünal, Prof. Dr.", title: "Yıldız Technical University" },
-    { name: "ALİ BİRTAN ERDOĞAN", title: "ERCO- ECE Paint Chemistry Industry and Trade Inc." },
+    { name: "ALİ Birtan Erdoğan", title: "ERCO- ECE Paint Chemistry Industry and Trade Inc." },
     { name: "Ali İhsan Otabatmaz", title: "Independent Consultant" },
     { name: "Alper Kalaycı", title: "ENSİA (Energy Industrialists & Businessmen Association) - Chairman of the Board" },
     { name: "Alperen Doğru, Dr.", title: "Ege University" },
