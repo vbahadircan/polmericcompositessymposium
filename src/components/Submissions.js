@@ -50,19 +50,25 @@ export default function Submissions() {
                 </ul>
               </section>
 
-              {/* Important Dates Section */}
+              {/* Conference Proceedings Book Announcement Section */}
               <section className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Important Dates</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li><strong>Submission of Abstracts:</strong> May 1, 2025</li>
-                  <li><strong>Deadline for Early Registration:</strong> May 31, 2025</li>
-                  <li><strong>Announcement of Accepted Abstracts:</strong> June 15, 2025</li>
-                  <li><strong>Submission of Full Proceedings</strong> August 15, 2025</li>
-                  <li><strong>Deadline for Sponsorship:</strong> September 15, 2025</li>
-                  <li><strong>Deadline for Advertisement:</strong> September 15, 2025</li>
-                  <li><strong>Deadline for Workshop Applications:</strong> September 1, 2025</li>
-                </ul>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Conference Proceedings Book Announcement</h2>
+                <div className="bg-white shadow-md rounded-xl p-4 border border-gray-200">
+                  <p className="text-gray-700 mb-4">
+                    You can view the official announcement for the Conference Proceedings Book by clicking the button below:
+                  </p>
+                  <a
+                    href="/announcement.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-red-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+                  >
+                    View Proceedings Book Announcement
+                  </a>
+                </div>
               </section>
+
+
 
               {/* Submission Process Section */}
               <section className="mb-8">
