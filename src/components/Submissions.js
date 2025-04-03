@@ -50,23 +50,57 @@ export default function Submissions() {
                 </ul>
               </section>
 
-              {/* Conference Proceedings Book Announcement Section */}
-              <section className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Conference Proceedings Book Announcement</h2>
-                <div className="bg-white shadow-md rounded-xl p-4 border border-gray-200">
-                  <p className="text-gray-700 mb-4">
-                    You can view the official announcement for the Conference Proceedings Book by clicking the button below:
+              {/* Springer Nature Proceedings Section */}
+              <section className="mb-12">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Call for Full Paper Submissions – Springer Proceedings</h2>
+
+                <div className="bg-white border border-gray-200 rounded-xl shadow-md p-6 space-y-4">
+                  <div className="flex items-center space-x-4">
+                    <img src="/springernature.png" alt="Springer Nature Logo" className="w-48 h-auto" />
+                    <p className="text-gray-700">
+                      We are pleased to announce that abstract submissions are now open for the proceedings of the <strong>6th International Polymeric Composites Symposium and Workshops</strong>.
+                      Upon abstract submission and acceptance, authors will have the opportunity to submit full papers for the proceedings book.
+                      <br />
+                      Selected papers, following a peer-review process, will be published <strong>free of charge</strong> in the <a href="https://www.springer.com/series/16157" className="text-blue-600 underline" target="_blank">Springer Proceedings in Materials</a> series.
+                    </p>
+                  </div>
+
+                  <div className="text-gray-700">
+                    <h3 className="text-lg font-semibold mt-4 mb-2">Important Dates</h3>
+                    <ul className="list-disc list-inside ml-4 space-y-1">
+                      <li><strong>Submission of Abstracts:</strong> 01.05.2025</li>
+                      <li><strong>Announcement of Accepted Papers:</strong> 15.06.2025</li>
+                      <li><strong>Submission of Full Proceedings:</strong> 15.08.2025</li>
+                    </ul>
+                  </div>
+
+                  <p className="text-gray-700">
+                    For detailed instructions for authors of conference proceedings, kindly visit:{" "}
+                    <a
+                      href="https://www.springer.com/us/authors-editors/conference-proceedings"
+                      target="_blank"
+                      className="text-blue-600 underline"
+                    >
+                      https://www.springer.com/us/authors-editors/conference-proceedings
+                    </a>
                   </p>
-                  <a
-                    href="/announcement.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-red-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
-                  >
-                    View Proceedings Book Announcement
-                  </a>
+
+                  <p className="text-gray-700">
+                    For inquiries, please contact us at:{" "}
+                    <a href="mailto:info@polymericcomposites.org" className="text-blue-600 underline">info@polymericcomposites.org</a>
+                  </p>
+
+                  <div className="text-sm text-gray-600 bg-gray-50 p-4 rounded-md border border-gray-200">
+                    <strong>Disclaimer:</strong> It is planned to publish the peer-reviewed and selected papers of the conference as proceedings with Springer in their prestigious
+                    “Springer Proceedings in Materials” series. Springer will conduct quality checks on the accepted papers, and only papers that pass these checks will be published.
+                    <br />
+                    Springer Nature does not charge any money for the publication of Non-Open Access content.
+                    <br />
+                    <strong>Note:</strong> Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.
+                  </div>
                 </div>
               </section>
+
 
 
 
