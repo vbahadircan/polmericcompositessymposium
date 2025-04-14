@@ -23,11 +23,18 @@ const invitedSpeakers = [
     pdf: '/speaker3.pdf'
   },
   {
+    name: 'Ümmühan Eker',
+    title: 'Dow Aksa R&D Director',
+    img: 'invited3.jpg',
+    pdf: '/speaker5.pdf'
+  },
+  {
     name: 'Dr. Jozsef Gabor KOVACS',
     title: 'Budapest University of Technology and Economics\nMTA-BME Lendület Lightweight Polymer Composites Research Group',
     img: 'invited2.jpg',
     pdf: '/speaker4.pdf'
   }
+
 ]
 
 export default function Speakers() {
