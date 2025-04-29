@@ -6,8 +6,12 @@ const SponsorLogo = ({ name }) => {
   let logoSrc = `/${logoKey}.png`; // Construct the path for the logo in the public folder
 
   return (
-    <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-24">
-      <img src={logoSrc} alt={`${name} logo`} className="max-h-full max-w-full object-contain" />
+    <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-32 w-full">
+      <img 
+        src={logoSrc} 
+        alt={`${name} logo`} 
+        className="max-h-24 max-w-full object-contain"
+      />
     </div>
   );
 };
