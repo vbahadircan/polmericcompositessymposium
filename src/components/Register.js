@@ -16,14 +16,47 @@ export default function Register() {
             <div className="p-6">
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Symposium Fees</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li><strong>Regular Participant:</strong> 6000 TL (Turkish Lira)</li>
-                  <li><strong>Academic Participant:</strong> 4000TL </li>
-                  <li><strong>Graduate / Undergraduate Student:</strong> 1000TL </li>
-                  <li><strong>International Participants:</strong> €300 </li>
-                  <li><strong>Daily Participation:</strong> 3000TL</li>
-                  <li><strong>Workshop Participants:</strong> TBD</li>
-                </ul>
+                <div className="overflow-x-auto">
+                  <table className="min-w-full bg-white border border-gray-200">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="py-3 px-4 border-b text-left">Category</th>
+                        <th className="py-3 px-4 border-b text-left">Standard</th>
+                        <th className="py-3 px-4 border-b text-left">Early Bird</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Regular Participant</strong></td>
+                        <td className="py-3 px-4 border-b">6000 TL (Turkish Lira)</td>
+                        <td className="py-3 px-4 border-b">4800 TL</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Academic Participant</strong></td>
+                        <td className="py-3 px-4 border-b">4000 TL</td>
+                        <td className="py-3 px-4 border-b">3200 TL</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Graduate / Undergraduate Student</strong></td>
+                        <td className="py-3 px-4 border-b">1000 TL</td>
+                        <td className="py-3 px-4 border-b">800 TL</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>International Participants</strong></td>
+                        <td className="py-3 px-4 border-b">€300</td>
+                        <td className="py-3 px-4 border-b">€240</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Daily Participation</strong></td>
+                        <td className="py-3 px-4 border-b" colSpan="2">3000 TL</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Workshop Participants</strong></td>
+                        <td className="py-3 px-4 border-b" colSpan="2">TBD</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <p className="mt-4 text-gray-700">
                   <strong>Note:</strong> The fees include abstract booklet, coffee and tea services, lunches.
                 </p>
