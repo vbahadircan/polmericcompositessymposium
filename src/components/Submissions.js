@@ -31,7 +31,7 @@ export default function Submissions() {
                     may submit abstracts in English only.
                   </li>
                   <li>
-                    <strong>Abstract Length:</strong> Min 500 words in each
+                    <strong>Abstract Length:</strong> Max 500 words in each
                     language.
                   </li>
                   <li>

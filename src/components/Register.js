@@ -37,9 +37,14 @@ export default function Register() {
                         <td className="py-3 px-4 border-b">3200 TL</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b"><strong>Graduate / Undergraduate Student</strong></td>
+                        <td className="py-3 px-4 border-b"><strong>PhD / Master's degree students<sup>*</sup></strong></td>
+                        <td className="py-3 px-4 border-b">4000 TL</td>
                         <td className="py-3 px-4 border-b">1000 TL</td>
-                        <td className="py-3 px-4 border-b">800 TL</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b"><strong>Graduate / Undergraduate Student<sup>*</sup></strong></td>
+                        <td className="py-3 px-4 border-b">1000 TL</td>
+                        <td className="py-3 px-4 border-b">500 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>International Participants</strong></td>
@@ -58,8 +63,14 @@ export default function Register() {
                   </table>
                 </div>
                 <p className="mt-4 text-gray-700">
-                  <strong>Note:</strong> The fees include abstract booklet, coffee and tea services, lunches.
-                </p>
+  <strong><sup>*</sup></strong> Please be advised that 
+  <a href="/kvkk.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline mx-1">
+    the document
+  </a> 
+  required for the granting of a discount is mandatory.<br />
+  <strong>Note:</strong> The fees include abstract booklet, coffee and tea services, lunches.
+</p>
+
               </section>
 
               <section className="mb-8">
