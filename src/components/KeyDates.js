@@ -3,7 +3,7 @@ import React from 'react';
 const keyDates = [
     { event: "Submission of Abstracts", date: "06.06.2025" },
     { event: "Deadline for Early Registration", date: "01.07.2025" },
-    { event: "Announcement of Accepted Papers", date: "30.06.2025" },
+    { event: "Announcement of Accepted Papers", date: "20.06.2025" },
     { event: "Submission of Full Proceedings", date: "15.08.2025" },
     { event: "Deadline for Sponsorship and Advertisement Applications", date: "15.09.2025" },
     { event: "Deadline for Workshop Applications", date: "01.09.2025" },

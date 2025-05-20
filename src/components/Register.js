@@ -37,12 +37,12 @@ export default function Register() {
                         <td className="py-3 px-4 border-b">3200 TL</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b"><strong>PhD / Master's degree students<sup>*</sup></strong></td>
-                        <td className="py-3 px-4 border-b">4000 TL</td>
+                        <td className="py-3 px-4 border-b"><strong>Unemployed PhD / Master's degree students<sup>*</sup></strong></td>
                         <td className="py-3 px-4 border-b">1000 TL</td>
+                        <td className="py-3 px-4 border-b">800 TL</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b"><strong>Graduate / Undergraduate Student<sup>*</sup></strong></td>
+                        <td className="py-3 px-4 border-b"><strong>Unemployed Graduate / Undergraduate Student<sup>*</sup></strong></td>
                         <td className="py-3 px-4 border-b">1000 TL</td>
                         <td className="py-3 px-4 border-b">500 TL</td>
                       </tr>
