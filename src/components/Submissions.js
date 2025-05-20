@@ -101,7 +101,7 @@ export default function Submissions() {
                     </h3>
                     <ul className="list-disc list-inside ml-4 space-y-1">
                       <li>
-                        <strong>Submission of Abstracts:</strong> 16.05.2025
+                        <strong>Submission of Abstracts:</strong> 06.06.2025
                       </li>
                       <li>
                         <strong>Announcement of Accepted Papers:</strong>{" "}
