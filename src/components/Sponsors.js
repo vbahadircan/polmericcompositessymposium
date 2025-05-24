@@ -1,9 +1,24 @@
 import React from 'react';
 
+// Custom logo mapping for special cases
+const customLogoMapping = {
+  'Fiberr': 'fiberr.png',
+  'Literatür Kimya': 'literatur-kimya.png',
+  'Nanopol': 'nanopol.jpeg',
+  'Boytek': 'boytek.jpeg',
+  'Kosse Composite': 'kosse.jpeg',
+  'Tila': 'tila.png'
+};
+
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
-  let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, ''); // Convert name to match filename
-  let logoSrc = `/${logoKey}.png`; // Construct the path for the logo in the public folder
+  let logoSrc;
+  if (customLogoMapping[name]) {
+    logoSrc = `/${customLogoMapping[name]}`;
+  } else {
+    let logoKey = name.toLowerCase().replace(/ /g, '_').replace(/[^a-z_]/g, '');
+    logoSrc = `/${logoKey}.png`;
+  }
 
   return (
     <div className="bg-gray-100 p-4 rounded-lg flex items-center justify-center h-32 w-full">
@@ -32,6 +47,19 @@ export default function Sponsors() {
     'OSSA',
   ];
 
+  // Sponsor categories with their respective firms
+  const sponsorCategories = {
+    'Platinum Sponsorship': [],
+    'Gold Sponsorship': [],
+    'Silver Sponsorship': ['Fiberr', 'Boytek'],
+    'Abstract Booklet Advertisement Sponsorship': [],
+    'Symposium Bag Sponsorship': ['Kosse Composite'],
+    'Opening Cocktail Sponsorship': ['Tila'],
+    'Notebook and Pen Sponsorship': ['Nanopol'],
+    'Name Badge Sponsorship': ['Literatür Kimya'],
+    'Invited Speaker Sponsorship': [],
+  };
+
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,6 +75,25 @@ export default function Sponsors() {
                   <SponsorLogo key={index} name={org} />
                 ))}
               </div>
+            </section>
+
+            {/* Sponsor Firms Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Sponsor Firms</h2>
+              {Object.entries(sponsorCategories).map(([category, firms]) => (
+                <div key={category} className="mb-8">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{category}</h3>
+                  {firms.length > 0 ? (
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {firms.map((firm, index) => (
+                        <SponsorLogo key={index} name={firm} />
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-gray-600 italic">No sponsors in this category yet.</p>
+                  )}
+                </div>
+              ))}
             </section>
 
             {/* Placeholder for Private Firms */}
