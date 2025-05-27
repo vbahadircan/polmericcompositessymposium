@@ -47,19 +47,6 @@ export default function Sponsors() {
     'OSSA',
   ];
 
-  // Sponsor categories with their respective firms
-  const sponsorCategories = {
-    'Platinum Sponsorship': [],
-    'Gold Sponsorship': [],
-    'Silver Sponsorship': ['Fiberr', 'Boytek'],
-    'Abstract Booklet Advertisement Sponsorship': [],
-    'Symposium Bag Sponsorship': ['Kosse Composite'],
-    'Opening Cocktail Sponsorship': ['Tila'],
-    'Notebook and Pen Sponsorship': ['Nanopol'],
-    'Name Badge Sponsorship': ['Literatür Kimya'],
-    'Invited Speaker Sponsorship': [],
-  };
-
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,31 +62,6 @@ export default function Sponsors() {
                   <SponsorLogo key={index} name={org} />
                 ))}
               </div>
-            </section>
-
-            {/* Sponsor Firms Section */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Sponsor Firms</h2>
-              {Object.entries(sponsorCategories).map(([category, firms]) => (
-                <div key={category} className="mb-8">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{category}</h3>
-                  {firms.length > 0 ? (
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {firms.map((firm, index) => (
-                        <SponsorLogo key={index} name={firm} />
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="text-gray-600 italic">No sponsors in this category yet.</p>
-                  )}
-                </div>
-              ))}
-            </section>
-
-            {/* Placeholder for Private Firms */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Private Firms</h2>
-              <p className="text-gray-700">Details of private sponsors will be updated as they are confirmed.</p>
             </section>
 
             {/* Become a Sponsor Section */}
@@ -118,7 +80,7 @@ export default function Sponsors() {
               <a
                 href="/sponsorship-conditions.docx"
                 className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-                download="sponsorship-conditions.docx" // Provides a default filename when downloading
+                download="sponsorship-conditions.docx"
               >
                 Download Sponsorship Conditions (.docx)
               </a>

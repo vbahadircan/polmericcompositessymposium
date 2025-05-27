@@ -130,7 +130,7 @@ export default function Committee() {
     { name: "Serkan Dehneliler", title: "Turkish Aerospace Industries (TUSAŞ)" },
     { name: "Sevim Özgül, Dr.", title: "Bahcesehir University" },
     { name: "Steve Nutt, Prof. Dr.", title: "University of Southern California - United States of America" },
-    { name: "Tülay Baldemirci, Prof. Dr.", title: "Istanbul University" },
+    { name: "Tülay Bal Demirci, Prof. Dr.", title: "Istanbul University - Cerrahpaşa University" },
     { name: "Ülkü Yılmazer, Prof. Dr.", title: "Middle East Technical University" },
     { name: "Ümit Halis ERDOĞAN, Prof. Dr.", title: "Dokuz Eylul University" },
     { name: "Veli DENİZ, Prof. Dr.", title: "Chamber of Chemical Engineers" },

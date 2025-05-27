@@ -169,7 +169,7 @@ export default function Submissions() {
                       {" "}
                       symposium@polymericcomposites.org
                     </a>{" "}
-                    by <strong>1st May 2025</strong>.
+                    by <strong>6th May 2025</strong>.
                   </li>
                   <li>
                     Ensure that all guidelines and formatting requirements are
