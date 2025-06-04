@@ -56,7 +56,8 @@ export default function Register() {
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>Workshop Participants</strong></td>
-                        <td className="py-3 px-4 border-b" colSpan="2">TBD</td>
+                        <td className="py-3 px-4 border-b">€200</td>
+                        <td className="py-3 px-4 border-b">€160</td>
                       </tr>
                     </tbody>
                   </table>
