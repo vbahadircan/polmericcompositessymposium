@@ -105,7 +105,7 @@ export default function Submissions() {
                       </li>
                       <li>
                         <strong>Announcement of Accepted Papers:</strong>{" "}
-                        20.06.2025
+                        01.07.2025
                       </li>
                       <li>
                         <strong>Submission of Full Proceedings:</strong>{" "}

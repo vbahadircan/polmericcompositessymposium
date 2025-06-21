@@ -7,7 +7,11 @@ const customLogoMapping = {
   'Nanopol': 'nanopol.jpeg',
   'Boytek': 'boytek.jpeg',
   'Kosse Composite': 'kosse.jpeg',
-  'Tila': 'tila.png'
+  'Tila': 'tila.png',
+  'Polütek': 'polutek.png',
+  'Polkima': 'polkima.png',
+  'Polmod': 'polmod.png',
+  'Omnis Kompozit': 'omnis.png'
 };
 
 // Component to display a single sponsor logo
@@ -50,14 +54,15 @@ export default function Sponsors() {
   // Sponsor categories with their respective firms
   const sponsorCategories = {
     'Platinum Sponsorship': [],
-    'Gold Sponsorship': [],
-    'Silver Sponsorship': ['Fiberr', 'Boytek'],
+    'Gold Sponsorship': ['Polkima'],
+    'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek'],
+    'Bronze Sponsorship': ['Omnis Kompozit'],
     'Abstract Booklet Advertisement Sponsorship': [],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
-    'Invited Speaker Sponsorship': [],
+    'Invited Speaker Sponsorship': ['Polmod'],
   };
 
   return (

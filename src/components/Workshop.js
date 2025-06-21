@@ -4,7 +4,23 @@ export default function Workshop() {
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Workshops</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center">Workshops</h1>
+        
+        {/* Subtitle */}
+        <div className="text-center mb-6">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+            FUTURE IN COMPOSITE MATERIALS: SUSTAINABLE, HIGH-PERFORMANCE, DIGITALLY-DRİVEN APPLICATIONS
+          </h2>
+          
+          
+          {/* Description */}
+          <div className="max-w-4xl mx-auto">
+            <p className="text-gray-700 leading-relaxed">
+              The objective of the workshop is to provide participants with fundamental knowledge and hands-on experience in polymer composites and related manufacturing technologies. Through current topics such as 3D scanning, additive manufacturing, structural strengthening, mold repair, infusion, and RTM processes, the workshop aims to enhance the technical competence of participants. In this context, the workshops also aim to strengthen academia-industry collaboration, support knowledge transfer, and facilitate participants' adaptation to sectoral innovations.
+            </p>
+          </div>
+        </div>
+
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="p-6">
             {/* Download Link */}

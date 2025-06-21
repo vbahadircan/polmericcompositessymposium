@@ -30,7 +30,6 @@ export default function Committee() {
     { name: "Sezen ÇINGIR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
     { name: "Serhat KARABAĞ, Civil Eng.", title: "Turkish Composites Manufacturers Association - Member" },
     { name: "Yahya KARA, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
-    { name: "Hüseyin DAĞLAR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
     { name: "Cem AYNALI, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" }
   ];
 
@@ -50,7 +49,7 @@ export default function Committee() {
     { name: "Bahattin Şendoğan", title: "Metyx Composites - Telateks Inc." },
     { name: "Beril Darcan", title: "Boytek Resin Paint and Chemistry Industry Trade Inc." },
     { name: "Beyhan Erdoğan", title: "Dyo Paint Factories Industry and Trade Inc." },
-    { name: "Bilge Bıçakçıoğlu", title: "Fibrosan CTP Industry and Trade Inc." },
+    { name: "Banu Bilge", title: "Fibrosan CTP Industry and Trade Inc." },
     { name: "Burak Darcan", title: "Tila Composite Representation Domestic and Foreign Trade Ltd. Co." },
     { name: "Cem Aynalı", title: "Chamber of Chemical Engineers" },
     { name: "Cem Gürkan", title: "Poliya Polyester Industry and Trade Ltd. Co." },
@@ -77,7 +76,7 @@ export default function Committee() {
     { name: "Ummuhan Topal", title: "DowAksa Advanced Composite Materials Industry Ltd. Co." },
     { name: "Ülkü Yılmazer, Prof. Dr.", title: "Middle East Technical University" },
     { name: "Volkan Eskizeybek, Assoc. Dr.", title: "18 March University" },
-    { name: "Yalçın Yılmazkaya", title: "Aviation and Space Clustering Association" },
+    { name: "Yalçın Yılmazkaya", title: "ACA Aerospace  Cluster Association" },
     { name: "Zeynep Yılmaz Serçinoğlu", title: "Marmara University" }
   ];
 
