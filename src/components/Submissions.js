@@ -100,9 +100,10 @@ export default function Submissions() {
                       Important Dates
                     </h3>
                     <ul className="list-disc list-inside ml-4 space-y-1">
-                      <li>
-                        <strong>Submission of Abstracts:</strong> 06.06.2025
-                      </li>
+                    <li>
+  <strong>Submission of Abstracts:</strong> Closed on 06.06.2025
+</li>
+
                       <li>
                         <strong>Announcement of Accepted Papers:</strong>{" "}
                         01.07.2025

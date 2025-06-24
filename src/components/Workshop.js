@@ -38,6 +38,14 @@ export default function Workshop() {
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">PRACTICAL WORKSHOP SCHEDULE</h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">2 OCTOBER 2025 THURSDAY</h3>
+
+              <div className="mb-8 text-left">
+  <p className="text-lg text-gray-800 font-semibold">
+    Single-day participation fee for the workshop: <span className="text-red-600 font-bold">100€</span>
+  </p>
+</div>
+
+
               
               <div className="mb-6">
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">COORDINATORS</h4>
@@ -89,6 +97,8 @@ export default function Workshop() {
                 </div>
               </div>
             </div>
+
+            
 
             {/* Day 2 */}
             <div>
@@ -170,6 +180,13 @@ export default function Workshop() {
                     </div>
                   </div>
                 </div>
+
+                {/* Participation Information */}
+            <div className="mt-8 text-left">
+              <p className="text-gray-800 leading-relaxed text-base">
+                Participation in the workshop is limited to <strong>75 participants</strong>. The final application deadline is <strong>August 30, 2025</strong>, while the early registration deadline is <strong>July 30, 2025</strong>. The participation fee is <strong>€200</strong>, with a <strong>20% discount</strong> available for early registrants. Applications will be accepted on a <strong>first-come, first-served</strong> basis.
+              </p>
+            </div>
               </div>
             </div>
           </div>
