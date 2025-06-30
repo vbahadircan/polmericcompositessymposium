@@ -140,8 +140,8 @@ export default function Submissions() {
                   <div className="text-sm text-gray-600 bg-gray-50 p-4 rounded-md border border-gray-200">
                     <strong>Disclaimer:</strong> It is planned to publish the
                     peer-reviewed and selected papers of the conference as
-                    proceedings with Springer in their prestigious “Springer
-                    Proceedings in Materials” series. Springer will conduct
+                    proceedings with Springer in their prestigious "Springer
+                    Proceedings in Materials" series. Springer will conduct
                     quality checks on the accepted papers, and only papers that
                     pass these checks will be published.
                     <br />
@@ -151,6 +151,17 @@ export default function Submissions() {
                     <strong>Note:</strong> Abstracts/extended abstracts and
                     short papers (less than 4 pages) are not considered for
                     publication.
+                  </div>
+
+                  {/* Download Full Text Submission Template Button */}
+                  <div className="mt-4 text-center">
+                    <a
+                      href="/abs.docx"
+                      className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
+                      download="abs.docx"
+                    >
+                      Download Full Text Submission Template
+                    </a>
                   </div>
                 </div>
               </section>
@@ -170,7 +181,7 @@ export default function Submissions() {
                       {" "}
                       symposium@polymericcomposites.org
                     </a>{" "}
-                    by <strong>6th May 2025</strong>.
+                    by <strong>6th June 2025</strong>.
                   </li>
                   <li>
                     Ensure that all guidelines and formatting requirements are
