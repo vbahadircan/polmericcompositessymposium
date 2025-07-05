@@ -20,7 +20,7 @@ export default function Hero() {
   }, [facts.length]);
 
   return (
-    <div className="relative bg-gradient-to-r from-red-500 to-blue-600">
+    <div className="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/izmirhero.jpg)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
           <span className="block">6th INTERNATIONAL</span>
