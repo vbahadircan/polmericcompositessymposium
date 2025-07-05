@@ -11,7 +11,14 @@ const customLogoMapping = {
   'Polütek': 'polutek.png',
   'Polkima': 'polkima.png',
   'Polmod': 'polmod.png',
-  'Omnis Kompozit': 'omnis.png'
+  'Omnis Kompozit': 'omnis.png',
+  'HUKD': 'hukd.png',
+  'TMMOB Makina': 'tmmobmakina.png',
+  'LabMedya': 'labmedya.png',
+  'ChemLife': 'chemlife.png',
+  'Akpa': 'akpa.png',
+  'Turkuaz Polyester': 'turkuaz.png',
+  'Polmar': 'polmar.png'
 };
 
 // Component to display a single sponsor logo
@@ -47,15 +54,16 @@ export default function Sponsors() {
     'ESİAD',
     'ENSİA',
     'BUTEKOM',
-    'ESAS',
+    'HUKD',
+    'TMMOB Makina',
     'OSSA',
   ];
 
   // Sponsor categories with their respective firms
   const sponsorCategories = {
     'Platinum Sponsorship': [],
-    'Gold Sponsorship': ['Polkima'],
-    'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek'],
+    'Gold Sponsorship': ['Polkima', 'Polmar'],
+    'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
     'Bronze Sponsorship': ['Omnis Kompozit'],
     'Abstract Booklet Advertisement Sponsorship': [],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
@@ -63,6 +71,7 @@ export default function Sponsors() {
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
     'Invited Speaker Sponsorship': ['Polmod'],
+    'Social Media Sponsorship': ['LabMedya', 'ChemLife'],
   };
 
   return (
