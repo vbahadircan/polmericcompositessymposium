@@ -7,6 +7,7 @@ const plenarySpeakers = [
       "School of Civil, Aerospace and Design Engineering, University of Bristol\nBristol Composites Institute",
     img: "plenary2.JPG",
     pdf: "/speaker2.pdf",
+    abstract: "/wisnom.pdf",
   },
   {
     name: "Prof. Marino Quaresimin",
@@ -14,6 +15,7 @@ const plenarySpeakers = [
       "Department of Management and Engineering at the University of Padova",
     img: "plenary1.jpg",
     pdf: "/speaker1.pdf",
+    abstract: "/marino.pdf",
   },
 ];
 
@@ -36,6 +38,7 @@ const invitedSpeakers = [
       "Budapest University of Technology and Economics\nMTA-BME Lendület Lightweight Polymer Composites Research Group",
     img: "invited2.jpg",
     pdf: "/speaker4.pdf",
+    abstract: "/kovacs.pdf",
   },
   {
     name: "Dr. Mete Bakır",
@@ -68,14 +71,26 @@ export default function Speakers() {
                 {speaker.name}
               </h3>
               <p className="text-gray-600">{speaker.title}</p>
-              <a
-                href={speaker.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-              >
-                View Bio
-              </a>
+              <div className="mt-4 flex gap-2">
+                <a
+                  href={speaker.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                >
+                  View Bio
+                </a>
+                {speaker.abstract && (
+                  <a
+                    href={speaker.abstract}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
+                  >
+                    Read Abstract
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
@@ -99,14 +114,26 @@ export default function Speakers() {
                 {speaker.name}
               </h3>
               <p className="text-gray-600">{speaker.title}</p>
-              <a
-                href={speaker.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-              >
-                View Bio
-              </a>
+              <div className="mt-4 flex gap-2">
+                <a
+                  href={speaker.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                >
+                  View Bio
+                </a>
+                {speaker.abstract && (
+                  <a
+                    href={speaker.abstract}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
+                  >
+                    Read Abstract
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

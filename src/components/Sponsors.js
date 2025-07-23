@@ -18,7 +18,8 @@ const customLogoMapping = {
   'ChemLife': 'chemlife.png',
   'Akpa': 'akpa.png',
   'Turkuaz Polyester': 'turkuaz.png',
-  'Polmar': 'polmar.png'
+  'Polmar': 'polmar.png',
+  'Pultech Frp': 'pultech.png'
 };
 
 // Component to display a single sponsor logo
@@ -65,7 +66,7 @@ export default function Sponsors() {
     'Gold Sponsorship': ['Polkima', 'Polmar'],
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
     'Bronze Sponsorship': ['Omnis Kompozit'],
-    'Abstract Booklet Advertisement Sponsorship': [],
+    'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
