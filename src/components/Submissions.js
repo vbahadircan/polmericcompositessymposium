@@ -1,7 +1,96 @@
-import React from "react";
+import React, { useState } from "react";
 import SEO from "./SEO";
 
 export default function Submissions() {
+  const [language, setLanguage] = useState('en');
+
+  const content = {
+    en: {
+      title: "Submissions Information",
+      submissionGuidelines: "Submission Guidelines",
+      languages: "Languages:",
+      languagesDesc: "Turkish participants must submit abstracts in both Turkish and English. Foreign participants may submit abstracts in English only.",
+      abstractLength: "Abstract Length:",
+      abstractLengthDesc: "Max 500 words in each language.",
+      formattingRequirements: "Formatting Requirements:",
+      a4Format: "A4 format with 5 cm top/bottom margins and 4 cm side margins.",
+      font: "Use \"Times New Roman\" font, size 12, double line spacing.",
+      titleFormat: "Title should be bold, centered, and written in both languages.",
+      blankLine: "Leave one blank line between the title and author information.",
+      springerTitle: "Call for Full Paper Submissions – Springer Proceedings",
+      springerDesc: "We are pleased to announce that abstract submissions are now open for the proceedings of the",
+      symposiumName: "6th International Polymeric Composites Symposium and Workshops",
+      springerDesc2: ". Upon abstract submission and acceptance, authors will have the opportunity to submit full papers for the proceedings book.",
+      selectedPapers: "Selected papers, following a peer-review process, will be published",
+      freeOfCharge: "free of charge",
+      springerLink: "Springer Proceedings in Materials",
+      importantDates: "Important Dates",
+      submissionClosed: "Submission of Abstracts: Closed on 06.06.2025",
+      announcementDate: "Announcement of Accepted Papers:",
+      fullProceedings: "Submission of Full Proceedings:",
+      detailedInstructions: "For detailed instructions for authors of conference proceedings, kindly visit:",
+      inquiries: "For inquiries, please contact us at:",
+      disclaimer: "Disclaimer:",
+      disclaimerText: "It is planned to publish the peer-reviewed and selected papers of the conference as proceedings with Springer in their prestigious \"Springer Proceedings in Materials\" series. Springer will conduct quality checks on the accepted papers, and only papers that pass these checks will be published.",
+      noCharge: "Springer Nature does not charge any money for the publication of Non-Open Access content.",
+      note: "Note:",
+      noteText: "Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.",
+      downloadTemplate: "Download Full Text Submission Template",
+      submissionProcess: "Submission Process",
+      submitEmail: "Submit your abstract document via email to:",
+      deadline: "by",
+      ensureGuidelines: "Ensure that all guidelines and formatting requirements are met before submission.",
+      additionalNotes: "Additional Notes",
+      graphicalAbstracts: "Graphical abstracts are optional but recommended.",
+      presentations: "Accepted presentations must prepare slides in English or Turkish.",
+      translation: "Simultaneous translation will be provided during symposium sessions.",
+      downloadAbstract: "Download Abstract Template (.docx)",
+      downloadPoster: "Download Poster Template (.pdf)"
+    },
+    tr: {
+      title: "Başvuru Bilgileri",
+      submissionGuidelines: "Başvuru Kuralları",
+      languages: "Diller:",
+      languagesDesc: "Türk katılımcılar özetlerini hem Türkçe hem İngilizce olarak sunmalıdır. Yabancı katılımcılar özetlerini sadece İngilizce olarak sunabilir.",
+      abstractLength: "Özet Uzunluğu:",
+      abstractLengthDesc: "Her dilde maksimum 500 kelime.",
+      formattingRequirements: "Formatlama Gereksinimleri:",
+      a4Format: "A4 formatında, üst/alt kenar boşlukları 5 cm, yan kenar boşlukları 4 cm.",
+      font: "\"Times New Roman\" yazı tipi, 12 punto, çift satır aralığı kullanın.",
+      titleFormat: "Başlık kalın, ortalanmış ve her iki dilde yazılmalıdır.",
+      blankLine: "Başlık ile yazar bilgileri arasında bir boş satır bırakın.",
+      springerTitle: "Tam Metin Bildiri Başvuruları – Springer Bildiriler Kitabı",
+      springerDesc: "6. Uluslararası Polimerik Kompozitler Sempozyumu ve Çalıştayları bildiriler kitabı için özet başvurularının açıldığını duyurmaktan memnuniyet duyarız.",
+      symposiumName: "6. Uluslararası Polimerik Kompozitler Sempozyumu ve Çalıştayları",
+      springerDesc2: ". Özet başvurusu ve kabulü sonrasında, yazarlar bildiriler kitabı için tam metin bildiri sunma fırsatına sahip olacaklardır.",
+      selectedPapers: "Hakem değerlendirmesi sonrasında seçilen bildiriler,",
+      freeOfCharge: "ücretsiz olarak",
+      springerLink: "Springer Materials Bildiriler",
+      importantDates: "Önemli Tarihler",
+      submissionClosed: "Özet Başvuruları: 06.06.2025 tarihinde kapanmıştır",
+      announcementDate: "Kabul Edilen Bildirilerin Duyurulması:",
+      fullProceedings: "Tam Metin Bildirilerin Sunulması:",
+      detailedInstructions: "Konferans bildirileri için yazarların detaylı talimatları için lütfen ziyaret edin:",
+      inquiries: "Sorularınız için lütfen bizimle iletişime geçin:",
+      disclaimer: "Sorumluluk Reddi:",
+      disclaimerText: "Konferansın hakem değerlendirmesi yapılmış ve seçilmiş bildirilerinin Springer'ın prestijli \"Springer Materials Bildiriler\" serisinde bildiriler kitabı olarak yayınlanması planlanmaktadır. Springer kabul edilen bildiriler üzerinde kalite kontrolleri yapacak ve sadece bu kontrolleri geçen bildiriler yayınlanacaktır.",
+      noCharge: "Springer Nature, Açık Erişim olmayan içeriklerin yayınlanması için herhangi bir ücret talep etmemektedir.",
+      note: "Not:",
+      noteText: "Özetler/genişletilmiş özetler ve kısa bildiriler (4 sayfadan az) yayın için değerlendirilmemektedir.",
+      downloadTemplate: "Tam Metin Başvuru Şablonunu İndir",
+      submissionProcess: "Başvuru Süreci",
+      submitEmail: "Özet belgenizi e-posta ile gönderin:",
+      deadline: "tarihine kadar",
+      ensureGuidelines: "Başvuru öncesinde tüm kuralların ve formatlama gereksinimlerinin karşılandığından emin olun.",
+      additionalNotes: "Ek Notlar",
+      graphicalAbstracts: "Grafik özetler isteğe bağlıdır ancak önerilir.",
+      presentations: "Kabul edilen sunumlar İngilizce veya Türkçe slaytlar hazırlamalıdır.",
+      translation: "Sempozyum oturumları sırasında eş zamanlı çeviri sağlanacaktır.",
+      downloadAbstract: "Özet Şablonunu İndir (.docx)",
+      downloadPoster: "Poster Şablonunu İndir (.pdf)"
+    }
+  };
+
   return (
     <>
       {/* SEO Metadata */}
@@ -13,8 +102,34 @@ export default function Submissions() {
 
       <div className="bg-gray-100 min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Language Toggle */}
+          <div className="flex justify-end mb-6">
+            <div className="bg-white rounded-lg shadow-md p-2 flex space-x-2">
+              <button
+                onClick={() => setLanguage('en')}
+                className={`px-4 py-2 rounded-md font-medium transition-colors ${
+                  language === 'en' 
+                    ? 'bg-red-600 text-white' 
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                English
+              </button>
+              <button
+                onClick={() => setLanguage('tr')}
+                className={`px-4 py-2 rounded-md font-medium transition-colors ${
+                  language === 'tr' 
+                    ? 'bg-red-600 text-white' 
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                Türkçe
+              </button>
+            </div>
+          </div>
+
           <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-            Submissions Information
+            {content[language].title}
           </h1>
 
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -22,36 +137,29 @@ export default function Submissions() {
               {/* Submission Guidelines Section */}
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  Submission Guidelines
+                  {content[language].submissionGuidelines}
                 </h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>
-                    <strong>Languages:</strong> Turkish participants must submit
-                    abstracts in both Turkish and English. Foreign participants
-                    may submit abstracts in English only.
+                    <strong>{content[language].languages}</strong> {content[language].languagesDesc}
                   </li>
                   <li>
-                    <strong>Abstract Length:</strong> Max 500 words in each
-                    language.
+                    <strong>{content[language].abstractLength}</strong> {content[language].abstractLengthDesc}
                   </li>
                   <li>
-                    <strong>Formatting Requirements:</strong>
+                    <strong>{content[language].formattingRequirements}</strong>
                     <ul className="list-disc list-inside ml-4 mt-2">
                       <li>
-                        A4 format with 5 cm top/bottom margins and 4 cm side
-                        margins.
+                        {content[language].a4Format}
                       </li>
                       <li>
-                        Use "Times New Roman" font, size 12, double line
-                        spacing.
+                        {content[language].font}
                       </li>
                       <li>
-                        Title should be bold, centered, and written in both
-                        languages.
+                        {content[language].titleFormat}
                       </li>
                       <li>
-                        Leave one blank line between the title and author
-                        information.
+                        {content[language].blankLine}
                       </li>
                     </ul>
                   </li>
@@ -61,7 +169,7 @@ export default function Submissions() {
               {/* Springer Nature Proceedings Section */}
               <section className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  Call for Full Paper Submissions – Springer Proceedings
+                  {content[language].springerTitle}
                 </h2>
 
                 <div className="bg-white border border-gray-200 rounded-xl shadow-md p-6 space-y-4">
@@ -72,52 +180,47 @@ export default function Submissions() {
                       className="w-48 h-auto"
                     />
                     <p className="text-gray-700">
-                      We are pleased to announce that abstract submissions are
-                      now open for the proceedings of the{" "}
+                      {content[language].springerDesc}{" "}
                       <strong>
-                        6th International Polymeric Composites Symposium and
-                        Workshops
+                        {content[language].symposiumName}
                       </strong>
-                      . Upon abstract submission and acceptance, authors will
-                      have the opportunity to submit full papers for the
-                      proceedings book.
+                      {content[language].springerDesc2}
                       <br />
-                      Selected papers, following a peer-review process, will be
-                      published <strong>free of charge</strong> in the{" "}
+                      {content[language].selectedPapers}{" "}
+                      <strong>{content[language].freeOfCharge}</strong>{" "}
+                      {content[language].springerLink === "Springer Proceedings in Materials" ? "in the " : ""}
                       <a
                         href="https://www.springer.com/series/16157"
                         className="text-blue-600 underline"
                         target="_blank"
                       >
-                        Springer Proceedings in Materials
+                        {content[language].springerLink}
                       </a>{" "}
-                      series.
+                      {content[language].springerLink === "Springer Proceedings in Materials" ? "series." : "serisinde yayınlanacaktır."}
                     </p>
                   </div>
 
                   <div className="text-gray-700">
                     <h3 className="text-lg font-semibold mt-4 mb-2">
-                      Important Dates
+                      {content[language].importantDates}
                     </h3>
                     <ul className="list-disc list-inside ml-4 space-y-1">
-                    <li>
-  <strong>Submission of Abstracts:</strong> Closed on 06.06.2025
-</li>
-
                       <li>
-                        <strong>Announcement of Accepted Papers:</strong>{" "}
+                        <strong>{content[language].submissionClosed}</strong>
+                      </li>
+                      <li>
+                        <strong>{content[language].announcementDate}</strong>{" "}
                         01.07.2025
                       </li>
                       <li>
-                        <strong>Submission of Full Proceedings:</strong>{" "}
+                        <strong>{content[language].fullProceedings}</strong>{" "}
                         15.08.2025
                       </li>
                     </ul>
                   </div>
 
                   <p className="text-gray-700">
-                    For detailed instructions for authors of conference
-                    proceedings, kindly visit:{" "}
+                    {content[language].detailedInstructions}{" "}
                     <a
                       href="https://www.springer.com/us/authors-editors/conference-proceedings"
                       target="_blank"
@@ -128,7 +231,7 @@ export default function Submissions() {
                   </p>
 
                   <p className="text-gray-700">
-                    For inquiries, please contact us at:{" "}
+                    {content[language].inquiries}{" "}
                     <a
                       href="mailto:info@polymericcomposites.org"
                       className="text-blue-600 underline"
@@ -138,19 +241,11 @@ export default function Submissions() {
                   </p>
 
                   <div className="text-sm text-gray-600 bg-gray-50 p-4 rounded-md border border-gray-200">
-                    <strong>Disclaimer:</strong> It is planned to publish the
-                    peer-reviewed and selected papers of the conference as
-                    proceedings with Springer in their prestigious "Springer
-                    Proceedings in Materials" series. Springer will conduct
-                    quality checks on the accepted papers, and only papers that
-                    pass these checks will be published.
+                    <strong>{content[language].disclaimer}</strong> {content[language].disclaimerText}
                     <br />
-                    Springer Nature does not charge any money for the
-                    publication of Non-Open Access content.
+                    {content[language].noCharge}
                     <br />
-                    <strong>Note:</strong> Abstracts/extended abstracts and
-                    short papers (less than 4 pages) are not considered for
-                    publication.
+                    <strong>{content[language].note}</strong> {content[language].noteText}
                   </div>
 
                   {/* Download Full Text Submission Template Button */}
@@ -160,7 +255,7 @@ export default function Submissions() {
                       className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
                       download="abs.docx"
                     >
-                      Download Full Text Submission Template
+                      {content[language].downloadTemplate}
                     </a>
                   </div>
                 </div>
@@ -169,11 +264,11 @@ export default function Submissions() {
               {/* Submission Process Section */}
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  Submission Process
+                  {content[language].submissionProcess}
                 </h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>
-                    Submit your abstract document via email to:
+                    {content[language].submitEmail}
                     <a
                       href="mailto:symposium@polymericcomposites.org"
                       className="text-blue-500 underline"
@@ -181,11 +276,10 @@ export default function Submissions() {
                       {" "}
                       symposium@polymericcomposites.org
                     </a>{" "}
-                    by <strong>6th June 2025</strong>.
+                    {content[language].deadline} <strong>6th June 2025</strong>.
                   </li>
                   <li>
-                    Ensure that all guidelines and formatting requirements are
-                    met before submission.
+                    {content[language].ensureGuidelines}
                   </li>
                 </ul>
               </section>
@@ -193,17 +287,15 @@ export default function Submissions() {
               {/* Additional Notes Section */}
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  Additional Notes
+                  {content[language].additionalNotes}
                 </h2>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Graphical abstracts are optional but recommended.</li>
+                  <li>{content[language].graphicalAbstracts}</li>
                   <li>
-                    Accepted presentations must prepare slides in English or
-                    Turkish.
+                    {content[language].presentations}
                   </li>
                   <li>
-                    Simultaneous translation will be provided during symposium
-                    sessions.
+                    {content[language].translation}
                   </li>
                 </ul>
               </section>
@@ -216,14 +308,14 @@ export default function Submissions() {
                     className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
                     download="abstract-template.docx"
                   >
-                    Download Abstract Template (.docx)
+                    {content[language].downloadAbstract}
                   </a>
                   <a
                     href="/poster_template.pdf"
                     className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
                     download="poster_template.pdf"
                   >
-                    Download Poster Template (.pdf)
+                    {content[language].downloadPoster}
                   </a>
                 </div>
               </div>
