@@ -21,7 +21,16 @@ export default function Conference() {
   ];
 
   return (
-    <div className="bg-gray-100 min-h-screen py-12">
+    <div 
+      className="min-h-screen py-12"
+      style={{
+        backgroundImage: 'url(/polymeric_bg_image.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       <SEO
         title="Conference Information"
         description="Learn about the 6th International Polymeric Composites Symposium schedule, themes, and program details. Join industry leaders and researchers in Izmir for cutting-edge discussions on composite materials."

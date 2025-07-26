@@ -15,7 +15,16 @@ export default function Venue() {
         description="The symposium will be held at Tepekule Convention Centre in Izmir, Türkiye. Find detailed information about the venue, accommodation options, and local attractions."
         keywords="Tepekule Convention Centre, Izmir venue, conference location, symposium venue, accommodation"
       />
-      <div className="bg-gray-100 min-h-screen py-12">
+      <div 
+        className="min-h-screen py-12"
+        style={{
+          backgroundImage: 'url(/polymeric_bg_image.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-6">

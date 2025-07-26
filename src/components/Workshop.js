@@ -58,10 +58,10 @@ export default function Workshop() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">2 OCTOBER 2025 THURSDAY - 2 EKİM 2025 PERŞEMBE</h3>
 
               <div className="mb-8 text-left">
-                <p className="text-lg text-gray-800 font-semibold">
-                  Single-day participation fee for the workshop: <span className="text-red-600 font-bold">100€</span>
-                </p>
-              </div>
+  <p className="text-lg text-gray-800 font-semibold">
+    Single-day participation fee for the workshop: <span className="text-red-600 font-bold">100€</span>
+  </p>
+</div>
               
               <div className="mb-6">
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">COORDINATORS / KOORDİNATÖRLER</h4>
@@ -199,13 +199,13 @@ export default function Workshop() {
 
                 {/* Participation Information */}
                 <div className="mt-8 text-left space-y-4">
-                  <p className="text-gray-800 leading-relaxed text-base">
-                    Participation in the workshop is limited to <strong>75 participants</strong>. The final application deadline is <strong>August 30, 2025</strong>, while the early registration deadline is <strong>July 30, 2025</strong>. The participation fee is <strong>€200</strong>, with a <strong>20% discount</strong> available for early registrants. Applications will be accepted on a <strong>first-come, first-served</strong> basis.
-                  </p>
+              <p className="text-gray-800 leading-relaxed text-base">
+                Participation in the workshop is limited to <strong>75 participants</strong>. The final application deadline is <strong>August 30, 2025</strong>, while the early registration deadline is <strong>July 30, 2025</strong>. The participation fee is <strong>€200</strong>, with a <strong>20% discount</strong> available for early registrants. Applications will be accepted on a <strong>first-come, first-served</strong> basis.
+              </p>
                   <p className="text-gray-800 leading-relaxed text-base">
                     Çalıştaya katılım kontenjanı <strong>75 kişi</strong> ile sınırlıdır. Son başvuru tarihi <strong>30 Ağustos 2025</strong>, erken kayıt için ise <strong>30 Temmuz 2025</strong>'tir. Katılım ücreti <strong>200 €</strong> olup, erken kayıt yapan katılımcılara <strong>%20 indirim</strong> uygulanacaktır. Katılımcı seçiminde <strong>başvuru sırası</strong> esas alınacaktır.
                   </p>
-                </div>
+            </div>
               </div>
             </div>
           </div>

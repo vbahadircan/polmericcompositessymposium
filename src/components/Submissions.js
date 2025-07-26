@@ -45,7 +45,16 @@ export default function Submissions() {
       presentations: "Accepted presentations must prepare slides in English or Turkish.",
       translation: "Simultaneous translation will be provided during symposium sessions.",
       downloadAbstract: "Download Abstract Template (.docx)",
-      downloadPoster: "Download Poster Template (.pdf)"
+      downloadPoster: "Download Poster Template (.pdf)",
+      posterAwards: "Poster Awards",
+      dearParticipant: "Dear Participant,",
+      posterAwardsDesc: "Within the scope of the 6th International Symposium and Workshops on Polymeric Composites (IPC 2025) to be held on October 2–4, 2025, the top three poster presentations will be awarded at IPC 2025. The following prizes will be presented to the three best poster presentations based on the Symposium Scientific Committee evaluation;",
+      firstPrize: "First Prize – 12,000 TL",
+      secondPrize: "Second Prize – 8,000 TL",
+      thirdPrize: "Third Prize – 4,000 TL",
+      posterRequirements: "The poster presentation must be prepared in accordance with the official poster template and submitted to the Symposium Secretariat no later than September 15, 2025.",
+      announcementInfo: "The poster awards will be announced during a ceremony to be held on the third day of the symposium (October 4, 2025), prior to the sectoral evaluation panel.",
+      thankYou: "We sincerely thank you for your participation and contributions and wish all participants the best of success."
     },
     tr: {
       title: "Başvuru Bilgileri",
@@ -87,7 +96,16 @@ export default function Submissions() {
       presentations: "Kabul edilen sunumlar İngilizce veya Türkçe slaytlar hazırlamalıdır.",
       translation: "Sempozyum oturumları sırasında eş zamanlı çeviri sağlanacaktır.",
       downloadAbstract: "Özet Şablonunu İndir (.docx)",
-      downloadPoster: "Poster Şablonunu İndir (.pdf)"
+      downloadPoster: "Poster Şablonunu İndir (.pdf)",
+      posterAwards: "Poster Ödülleri",
+      dearParticipant: "Değerli Katılımcı,",
+      posterAwardsDesc: "2-4 Ekim 2025 tarihlerinde düzenlenecek olan 6. Uluslararası Polimerik Kompozitler Sempozyumu ve Çalıştayları (IPC 2025) kapsamında, en iyi üç poster sunumu IPC 2025'te ödüllendirilecektir. Sempozyum Bilimsel Kurulu değerlendirmesi sonucunda en iyi üç poster sunumuna aşağıdaki ödüller verilecektir;",
+      firstPrize: "Birinci Ödül – 12.000 TL",
+      secondPrize: "İkinci Ödül – 8.000 TL",
+      thirdPrize: "Üçüncü Ödül – 4.000 TL",
+      posterRequirements: "Poster sunumu resmi poster şablonuna uygun olarak hazırlanmalı ve 15 Eylül 2025 tarihine kadar Sempozyum Sekreterliği'ne sunulmalıdır.",
+      announcementInfo: "Poster ödülleri, sempozyumun üçüncü gününde (4 Ekim 2025) sektörel değerlendirme panelinden önce düzenlenecek törende açıklanacaktır.",
+      thankYou: "Katılımınız ve katkılarınız için içtenlikle teşekkür eder, tüm katılımcılara başarılar dileriz."
     }
   };
 
@@ -319,6 +337,35 @@ export default function Submissions() {
                   </a>
                 </div>
               </div>
+
+              {/* Poster Awards Section */}
+              <section className="mt-12 mb-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+                  {content[language].posterAwards}
+                </h2>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-4">
+                  <p className="text-gray-700 font-semibold">
+                    {content[language].dearParticipant}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {content[language].posterAwardsDesc}
+                  </p>
+                  <div className="bg-white rounded-lg p-4 space-y-2">
+                    <p className="text-gray-800 font-semibold">{content[language].firstPrize}</p>
+                    <p className="text-gray-800 font-semibold">{content[language].secondPrize}</p>
+                    <p className="text-gray-800 font-semibold">{content[language].thirdPrize}</p>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed">
+                    {content[language].posterRequirements}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {content[language].announcementInfo}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed font-semibold">
+                    {content[language].thankYou}
+                  </p>
+                </div>
+              </section>
             </div>
           </div>
         </div>

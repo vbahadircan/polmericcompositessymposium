@@ -1046,16 +1046,6 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
-                <div className="mb-4">
-                    <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
-                        <span className="text-xl font-extrabold">17:15-18:15 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
-                    </div>
-                </div>
-                <div className="mb-12">
-                    <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
-                        <span className="text-xl font-extrabold">18:15-18:45 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
-                    </div>
-                </div>
                 {/* Akdeniz Hall / 12B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
@@ -1103,6 +1093,16 @@ export default function Program() {
                             </tr>
                         </tbody>
                     </table>
+                    <div className="mb-4">
+                        <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
+                            <span className="text-xl font-extrabold">17:15-18:15 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
+                        </div>
+                    </div>
+                    <div className="mb-12">
+                        <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
+                            <span className="text-xl font-extrabold">18:15-18:45 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
+                        </div>
+                    </div>
                 </div>
                 {/* Poster Session Abstracts Table */}
                 <div className="mb-12">

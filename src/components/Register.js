@@ -166,12 +166,12 @@ export default function Register() {
                 </div>
                 <p className="mt-4 text-gray-700">
                   <strong><sup>*</sup></strong> {content[language].documentRequired}{" "}
-                  <a href="/kvkk.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline mx-1">
+  <a href="/kvkk.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline mx-1">
                     {content[language].theDocument}
                   </a>{" "}
                   {content[language].requiredForDiscount}<br />
                   <strong>{content[language].note}</strong> {content[language].feesInclude}
-                </p>
+</p>
               </section>
 
               <section className="mb-8">
