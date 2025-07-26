@@ -19,7 +19,8 @@ const customLogoMapping = {
   'Akpa': 'akpa.png',
   'Turkuaz Polyester': 'turkuaz.png',
   'Polmar': 'polmar.png',
-  'Pultech Frp': 'pultech.png'
+  'Pultech Frp': 'pultech.png',
+  'Yapı Kataloğu': 'yapi_katalogu.png'
 };
 
 // Component to display a single sponsor logo
@@ -65,14 +66,14 @@ export default function Sponsors() {
     'Platinum Sponsorship': [],
     'Gold Sponsorship': ['Polkima', 'Polmar'],
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
-    'Bronze Sponsorship': ['Omnis Kompozit'],
+    'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
     'Invited Speaker Sponsorship': ['Polmod'],
-    'Social Media Sponsorship': ['LabMedya', 'ChemLife'],
+    'Social Media Sponsorship': ['LabMedya', 'ChemLife', 'Yapı Kataloğu'],
   };
 
   return (

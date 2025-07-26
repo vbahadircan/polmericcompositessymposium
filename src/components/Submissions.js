@@ -208,15 +208,24 @@ export default function Submissions() {
                 </ul>
               </section>
 
-              {/* Download Abstract Template */}
-              <div className="mt-8 text-center">
-                <a
-                  href="/abstract-template.docx"
-                  className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-                  download="abstract-template.docx"
-                >
-                  Download Abstract Template (.docx)
-                </a>
+              {/* Download Templates */}
+              <div className="mt-8 text-center space-y-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a
+                    href="/abstract-template.docx"
+                    className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
+                    download="abstract-template.docx"
+                  >
+                    Download Abstract Template (.docx)
+                  </a>
+                  <a
+                    href="/poster_template.pdf"
+                    className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+                    download="poster_template.pdf"
+                  >
+                    Download Poster Template (.pdf)
+                  </a>
+                </div>
               </div>
             </div>
           </div>

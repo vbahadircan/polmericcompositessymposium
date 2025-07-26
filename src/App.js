@@ -22,6 +22,7 @@ import SocialProgram from './components/SocialProgram';
 import KeyDates from './components/KeyDates';
 import Transportation from './components/Transportation';
 import Program from './components/Program';
+import HomeSponsors from './components/HomeSponsors';
 
 
 
@@ -46,6 +47,7 @@ function App() {
                 <CountdownTimer />
                 <KeyDates />
                 <Speakers />
+                <HomeSponsors />
               </>
             } />
             <Route path="/conference" element={<Conference />} />

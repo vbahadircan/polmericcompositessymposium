@@ -25,6 +25,7 @@ const invitedSpeakers = [
     title: "Luxembourg Institute of Science & Technology - LIST",
     img: "invited1.jpg",
     pdf: "/speaker3.pdf",
+    abstract: "/salim.pdf",
   },
   {
     name: "Ümmühan Eker",
