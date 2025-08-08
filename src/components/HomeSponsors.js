@@ -23,6 +23,28 @@ const customLogoMapping = {
   'Yapı Kataloğu': 'yapi_katalogu.png'
 };
 
+// Website mapping for sponsors
+const sponsorWebsites = {
+  'Polkima': 'https://polkima.com.tr/',
+  'Polmar': 'https://polmar.com.tr/',
+  'Fiberr': 'https://fiberr.com.tr/',
+  'Boytek': 'https://boytek.com.tr/',
+  'Polütek': 'https://polutek.com.tr/',
+  'Akpa': 'https://www.akpakimya.com/',
+  'Turkuaz Polyester': 'https://www.turkuazpolyester.com.tr/',
+  'Omnis Kompozit': 'https://omniskompozit.com/',
+  'Duratek': 'https://www.duratek.com.tr/',
+  'Pultech Frp': 'https://www.pultechfrp.com/TR/AnaSayfa/',
+  'Kosse Composite': 'http://www.kossecomposite.com/',
+  'Tila': 'https://www.tila.co/',
+  'Nanopol': 'https://www.nanopolkimya.com/',
+  'Literatür Kimya': 'https://www.literaturkimya.com/',
+  'Polmod': 'http://www.polmod.com.tr/tr/Default.aspx',
+  'LabMedya': 'https://www.labmedya.com/',
+  'ChemLife': 'https://chemlife.com.tr/',
+  'Yapı Kataloğu': 'https://www.yapikatalogu.com/'
+};
+
 // Component to display a single sponsor logo
 const SponsorLogo = ({ name }) => {
   let logoSrc;
@@ -33,13 +55,30 @@ const SponsorLogo = ({ name }) => {
     logoSrc = `/${logoKey}.png`;
   }
 
+  const website = sponsorWebsites[name];
+
   return (
-    <div className="bg-white p-4 rounded-lg flex items-center justify-center h-24 w-full shadow-sm border border-gray-100">
-      <img 
-        src={logoSrc} 
-        alt={`${name} logo`} 
-        className="max-h-16 max-w-full object-contain"
-      />
+    <div className="bg-white p-4 rounded-lg flex items-center justify-center h-24 w-full shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200">
+      {website ? (
+        <a 
+          href={website} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="w-full h-full flex items-center justify-center"
+        >
+          <img 
+            src={logoSrc} 
+            alt={`${name} logo`} 
+            className="max-h-16 max-w-full object-contain cursor-pointer"
+          />
+        </a>
+      ) : (
+        <img 
+          src={logoSrc} 
+          alt={`${name} logo`} 
+          className="max-h-16 max-w-full object-contain"
+        />
+      )}
     </div>
   );
 };

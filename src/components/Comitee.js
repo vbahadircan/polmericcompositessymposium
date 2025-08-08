@@ -24,20 +24,20 @@ export default function Committee() {
 
 
   const executiveCommittee = [
-    { name: "İbrahim KÖSE, Chem.", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
-    { name: "Metin TANOĞLU, Prof. Dr.", title: "Izmir Institute of Technology - Symposium Co-Chair" },
-    { name: "Özgür SEYDİBEYOĞLU, Prof. Dr.", title: "Izmir Katip Çelebi University - Symposium Co-Chair" },
-    { name: "Sezen ÇINGIR, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
-    { name: "Serhat KARABAĞ, Civil Eng.", title: "Turkish Composites Manufacturers Association - Member" },
-    { name: "Yahya KARA, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
-    { name: "Cem AYNALI, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" }
+    { name: "İbrahim Köse, Chem.", title: "Kosse Composite Ltd. Inc. / Kosse Composite Marketing – General Coordinator" },
+    { name: "Metin Tanoğlu, Prof. Dr.", title: "Izmir Institute of Technology - Symposium Co-Chair" },
+    { name: "Özgür Seydibeyoğlu, Prof. Dr.", title: "Izmir Katip Çelebi University - Symposium Co-Chair" },
+    { name: "Sezen Çıngır, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" },
+    { name: "Serhat Karabağ, Civil Eng.", title: "Turkish Composites Manufacturers Association - Member" },
+    { name: "Yahya Kara, Dr.", title: "Luxembourg Institute of Science and Technology - Member" },
+    { name: "Cem Aynalı, Chem. Eng.", title: "Uctea chamber of Chemical Engineers - Member" }
   ];
 
 
 
   const organizingCommittee = [
     { name: "Ahmet Ünal, Prof. Dr.", title: "Yıldız Technical University" },
-    { name: "ALİ Birtan Erdoğan", title: "ERCO- ECE Paint Chemistry Industry and Trade Inc." },
+    { name: "Ali Birtan Erdoğan", title: "ERCO- ECE Paint Chemistry Industry and Trade Inc." },
     { name: "Ali İhsan Otabatmaz", title: "Independent Consultant" },
     { name: "Alper Kalaycı", title: "ENSİA (Energy Industrialists & Businessmen Association) - Chairman of the Board" },
     { name: "Alperen Doğru, Dr.", title: "Ege University" },
@@ -131,8 +131,8 @@ export default function Committee() {
     { name: "Steve Nutt, Prof. Dr.", title: "University of Southern California - United States of America" },
     { name: "Tülay Bal Demirci, Prof. Dr.", title: "Istanbul University - Cerrahpaşa University" },
     { name: "Ülkü Yılmazer, Prof. Dr.", title: "Middle East Technical University" },
-    { name: "Ümit Halis ERDOĞAN, Prof. Dr.", title: "Dokuz Eylul University" },
-    { name: "Veli DENİZ, Prof. Dr.", title: "Chamber of Chemical Engineers" },
+    { name: "Ümit Halis Erdoğan, Prof. Dr.", title: "Dokuz Eylul University" },
+    { name: "Veli Deniz, Prof. Dr.", title: "Chamber of Chemical Engineers" },
     { name: "Volkan Acar, Dr.", title: "Ataturk University" },
     { name: "Yusuf Menceloğlu, Prof. Dr.", title: "Sabancı University" },
     { name: "Engin Aktaş, Prof. Dr.", title: "Izmir Institute of Technology" },
