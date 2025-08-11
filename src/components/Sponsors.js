@@ -20,7 +20,9 @@ const customLogoMapping = {
   'Turkuaz Polyester': 'turkuaz.png',
   'Polmar': 'polmar.png',
   'Pultech Frp': 'pultech.png',
-  'Yapı Kataloğu': 'yapi_katalogu.png'
+  'Yapı Kataloğu': 'yapi_katalogu.png',
+  'Yücel Group': 'yucel_group.png',
+  'Senko': 'senko.png'
 };
 
 // Website mapping for sponsors
@@ -105,7 +107,7 @@ export default function Sponsors() {
     'Platinum Sponsorship': [],
     'Gold Sponsorship': ['Polkima', 'Polmar'],
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
-    'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek'],
+    'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Opening Cocktail Sponsorship': ['Tila'],
