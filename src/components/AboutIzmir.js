@@ -2,7 +2,16 @@ import React from 'react';
 
 export default function AboutIzmir() {
     return (
-        <div className="bg-gray-100 min-h-screen py-12">
+        <div 
+            className="min-h-screen py-12"
+            style={{
+                backgroundImage: 'url(/polymeric_bg_image.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundAttachment: 'fixed'
+            }}
+        >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">About Izmir</h1>
 

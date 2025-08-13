@@ -86,7 +86,16 @@ export default function Register() {
         description="Register for the 6th International Polymeric Composites Symposium. Early bird rates available. Join academics, industry professionals, and researchers from around the world."
         keywords="conference registration, symposium registration, early bird registration, polymeric composites event"
       />
-      <div className="bg-gray-100 min-h-screen py-12">
+      <div 
+        className="min-h-screen py-12"
+        style={{
+          backgroundImage: 'url(/polymeric_bg_image.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Language Toggle */}
           <div className="flex justify-end mb-6">

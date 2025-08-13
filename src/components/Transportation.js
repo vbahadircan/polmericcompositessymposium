@@ -3,7 +3,16 @@ import SEO from './SEO';
 
 export default function Transportation() {
     return (
-        <div className="bg-gray-100 min-h-screen py-12">
+        <div 
+            className="min-h-screen py-12"
+            style={{
+                backgroundImage: 'url(/polymeric_bg_image.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundAttachment: 'fixed'
+            }}
+        >
             <SEO
                 title="Transportation Information"
                 description="Find transportation details for reaching the Tepekule Exhibition and Business Center in Izmir."

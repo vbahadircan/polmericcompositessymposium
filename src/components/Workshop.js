@@ -2,45 +2,54 @@ import React from 'react'
 
 export default function Workshop() {
   return (
-    <div className="bg-gray-100 min-h-screen py-12">
+    <div 
+      className="min-h-screen py-12"
+      style={{
+        backgroundImage: 'url(/polymeric_bg_image.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center">Workshops</h1>
         
-        {/* Subtitle */}
-        <div className="text-center mb-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            FUTURE IN COMPOSITE MATERIALS: SUSTAINABLE, HIGH-<br/>
-            PERFORMANCE, DIGITALLY-DRİVEN APPLICATIONS
-          </h2>
-          <h3 className="text-xl font-semibold text-gray-700 mb-4">
-            KOMPOZİT MALZEMELERDE GELECEK: SÜRDÜRÜLEBİLİR,<br/>
-            YÜKSEK PERFORMANSLI<br/>
-            VE DİJİTAL ODAKLI UYGULAMALAR
-          </h3>
-          
-          {/* Description */}
-          <div className="max-w-4xl mx-auto space-y-4">
-            <p className="text-gray-700 leading-relaxed">
-              The objective of the workshop is to provide participants with fundamental knowledge and
-              hands-on experience in polymer composites and related manufacturing technologies. Through
-              current topics such as 3D scanning, additive manufacturing, structural strengthening, mold repair,
-              infusion, and RTM processes, the workshop aims to enhance the technical competence of
-              participants. In this context, the workshops also aim to strengthen academia-industry collaboration,
-              support knowledge transfer, and facilitate participants' adaptation to sectoral innovations.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Çalıştayın amacı; katılımcılara polimer kompozitler ve ilgili üretim teknolojileri konusunda
-              temel bilgi ve uygulama deneyimi kazandırmayı amaçlamaktadır. 3D tarama, eklemeli imalat,
-              yapısal güçlendirme, kalıp onarımı, infüzyon ve RTM yöntemleri gibi güncel konular üzerinden
-              katılımcıların teknik donanımı artırılması hedeflenmektedir. Bu kapsamda çalıştaylar, akademi-
-              sanayi iş birliğini güçlendirmeyi, bilgi transferini desteklemeyi ve katılımcıların sektörel yeniliklere
-              adapte olmasını amaçlamaktadır.
-            </p>
-          </div>
-        </div>
-
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="p-6">
+            {/* Workshop Title and Description */}
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                FUTURE IN COMPOSITE MATERIALS: SUSTAINABLE, HIGH-<br/>
+                PERFORMANCE, DIGITALLY-DRİVEN APPLICATIONS
+              </h2>
+              <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                KOMPOZİT MALZEMELERDE GELECEK: SÜRDÜRÜLEBİLİR,<br/>
+                YÜKSEK PERFORMANSLI<br/>
+                VE DİJİTAL ODAKLI UYGULAMALAR
+              </h3>
+              
+              {/* Description */}
+              <div className="max-w-4xl mx-auto space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  The objective of the workshop is to provide participants with fundamental knowledge and
+                  hands-on experience in polymer composites and related manufacturing technologies. Through
+                  current topics such as 3D scanning, additive manufacturing, structural strengthening, mold repair,
+                  infusion, and RTM processes, the workshop aims to enhance the technical competence of
+                  participants. In this context, the workshops also aim to strengthen academia-industry collaboration,
+                  support knowledge transfer, and facilitate participants' adaptation to sectoral innovations.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Çalıştayın amacı; katılımcılara polimer kompozitler ve ilgili üretim teknolojileri konusunda
+                  temel bilgi ve uygulama deneyimi kazandırmayı amaçlamaktadır. 3D tarama, eklemeli imalat,
+                  yapısal güçlendirme, kalıp onarımı, infüzyon ve RTM yöntemleri gibi güncel konular üzerinden
+                  katılımcıların teknik donanımı artırılması hedeflenmektedir. Bu kapsamda çalıştaylar, akademi-
+                  sanayi iş birliğini güçlendirmeyi, bilgi transferini desteklemeyi ve katılımcıların sektörel yeniliklere
+                  adapte olmasını amaçlamaktadır.
+                </p>
+              </div>
+            </div>
+
             {/* Download Link */}
             <div className="mb-8 text-center">
               <a

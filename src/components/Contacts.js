@@ -11,7 +11,16 @@ export default function Contact() {
         description="Get in touch with the organizing committee of the 6th International Polymeric Composites Symposium. Contact information for inquiries about registration, submissions, and general information."
         keywords="contact symposium organizers, conference contact, polymeric composites symposium contact, Izmir event contact"
       />
-      <div className="bg-gray-100 min-h-screen py-12">
+      <div 
+        className="min-h-screen py-12"
+        style={{
+          backgroundImage: 'url(/polymeric_bg_image.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="p-6">

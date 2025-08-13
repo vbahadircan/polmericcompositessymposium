@@ -45,7 +45,7 @@ export default function Submissions() {
       presentations: "Accepted presentations must prepare slides in English or Turkish.",
       translation: "Simultaneous translation will be provided during symposium sessions.",
       downloadAbstract: "Download Abstract Template (.docx)",
-      downloadPoster: "Download Poster Template (.pdf)",
+      downloadPoster: "Download Poster Template (.pptx)",
       posterAwards: "Poster Awards",
       dearParticipant: "Dear Participant,",
       posterAwardsDesc: "Within the scope of the 6th International Symposium and Workshops on Polymeric Composites (IPC 2025) to be held on October 2–4, 2025, the top three poster presentations will be awarded at IPC 2025. The following prizes will be presented to the three best poster presentations based on the Symposium Scientific Committee evaluation;",
@@ -96,7 +96,7 @@ export default function Submissions() {
       presentations: "Kabul edilen sunumlar İngilizce veya Türkçe slaytlar hazırlamalıdır.",
       translation: "Sempozyum oturumları sırasında eş zamanlı çeviri sağlanacaktır.",
       downloadAbstract: "Özet Şablonunu İndir (.docx)",
-      downloadPoster: "Poster Şablonunu İndir (.pdf)",
+      downloadPoster: "Poster Şablonunu İndir (.pptx)",
       posterAwards: "Poster Ödülleri",
       dearParticipant: "Değerli Katılımcı,",
       posterAwardsDesc: "2-4 Ekim 2025 tarihlerinde düzenlenecek olan 6. Uluslararası Polimerik Kompozitler Sempozyumu ve Çalıştayları (IPC 2025) kapsamında, en iyi üç poster sunumu IPC 2025'te ödüllendirilecektir. Sempozyum Bilimsel Kurulu değerlendirmesi sonucunda en iyi üç poster sunumuna aşağıdaki ödüller verilecektir;",
@@ -118,7 +118,16 @@ export default function Submissions() {
         keywords="abstract submission, research papers, polymeric composites research, conference papers, submission guidelines"
       />
 
-      <div className="bg-gray-100 min-h-screen py-12">
+      <div 
+        className="min-h-screen py-12"
+        style={{
+          backgroundImage: 'url(/polymeric_bg_image.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Language Toggle */}
           <div className="flex justify-end mb-6">
@@ -329,9 +338,9 @@ export default function Submissions() {
                     {content[language].downloadAbstract}
                   </a>
                   <a
-                    href="/poster_template.pdf"
+                    href="/poster_template_pptx.pptx"
                     className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
-                    download="poster_template.pdf"
+                    download="poster_template_pptx.pptx"
                   >
                     {content[language].downloadPoster}
                   </a>

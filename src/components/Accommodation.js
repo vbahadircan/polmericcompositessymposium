@@ -3,7 +3,16 @@ import SEO from './SEO';
 
 export default function Accommodation() {
     return (
-        <div className="bg-gray-100 min-h-screen py-12">
+        <div 
+            className="min-h-screen py-12"
+            style={{
+                backgroundImage: 'url(/polymeric_bg_image.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundAttachment: 'fixed'
+            }}
+        >
             <SEO
                 title="Accommodation Information"
                 description="Find hotel accommodation details near the symposium venue."

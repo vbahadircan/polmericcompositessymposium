@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 6th International Polymeric Composites Symposium and Workshops. All rights reserved.
+            © 2025 6th International Polymeric Composites Symposium and Workshops. All rights reserved.
           </p>
         </div>
       </div>
