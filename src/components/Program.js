@@ -185,6 +185,12 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
+                {/* Coffee Break after 2B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">15:20-15:35 &nbsp; COFFEE BREAK / ÇAY-KAHVE ARASI</span>
+                    </div>
+                </div>
                 {/* Anadolu Hall / 3A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
@@ -270,6 +276,12 @@ export default function Program() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                {/* Coffee Break after 3B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">17:05-17:20 &nbsp; COFFEE BREAK / ÇAY-KAHVE ARASI</span>
+                    </div>
                 </div>
                 {/* Anadolu Hall / 4A Session Table */}
                 <div className="mb-12">
@@ -443,6 +455,14 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
+                {/* Coffee Break after 5B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">11:00-11:10 &nbsp; COFFEE BREAK / ÇAY-KAHVE ARASI</span>
+                        <br />
+                        <span className="text-lg font-bold text-gray-700">ANADOLU HALL / ANADOLU SALONU</span>
+                    </div>
+                </div>
                 {/* Anadolu Hall / 6A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
@@ -528,6 +548,12 @@ export default function Program() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                {/* Lunch Break after 6B Session */}
+                <div className="mb-8">
+                    <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-yellow-800">12:30-13:30 &nbsp; LUNCH / YEMEK ARASI</span>
+                    </div>
                 </div>
                 {/* Anadolu Hall / 7A Session Table */}
                 <div className="mb-12">
@@ -624,6 +650,12 @@ export default function Program() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                {/* Coffee Break after 7B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">15:35-15:50 &nbsp; COFFEE BREAK / ÇAY-KAHVE ARASI</span>
+                    </div>
                 </div>
                 {/* Anadolu Hall / 8A Session Table */}
                 <div className="mb-4">
@@ -821,6 +853,12 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
+                {/* Coffee Break after 9B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">10:50-11:05 &nbsp; COFFEE BREAK / ÇAY-KAHVE ARASI</span>
+                    </div>
+                </div>
                 {/* Anadolu Hall / 10A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
@@ -906,6 +944,12 @@ export default function Program() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                {/* Lunch Break after 10B Session */}
+                <div className="mb-8">
+                    <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-yellow-800">12:25-13:30 &nbsp; LUNCH / YEMEK ARASI</span>
+                    </div>
                 </div>
                 {/* Anadolu Hall / 11A Session Table */}
                 <div className="mb-4">
@@ -1003,6 +1047,14 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
+                {/* Coffee Break and Posters Session after 11B Session */}
+                <div className="mb-8">
+                    <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-gray-800">15:20-15:35 &nbsp; COFFEE BREAK, POSTERS SESSION</span>
+                        <br />
+                        <span className="text-lg font-bold text-gray-700">ÇAY-KAHVE ARASI, POSTER GEZİMİ</span>
+                    </div>
+                </div>
                 {/* Anadolu Hall / 12A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
@@ -1043,8 +1095,24 @@ export default function Program() {
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">16:35-16:55</td>
                                 <td className="px-4 py-2 align-top">Effect of Heating Rate During Curing on the Properties of Composite Materials</td>
                             </tr>
+                            <tr className="border-t">
+                                <td className="px-4 py-2 font-semibold align-top">Selin Ceren Yamak<br/><span className="font-normal">Borsan R&D Center</span></td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:55-17:15</td>
+                                <td className="px-4 py-2 align-top">Sustainable Innovation in Solar Energy Infrastructure: Development of Boron-Infused Aluminum Solar Cables</td>
+                            </tr>
                         </tbody>
                     </table>
+                </div>
+                {/* Sectoral Evaluation Panel and Closing */}
+                <div className="mb-8">
+                    <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-yellow-800">17:15-18:15 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
+                    </div>
+                </div>
+                <div className="mb-8">
+                    <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-yellow-800">18:15-18:45 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
+                    </div>
                 </div>
                 {/* Akdeniz Hall / 12B Session Table */}
                 <div className="mb-12">
@@ -1086,23 +1154,8 @@ export default function Program() {
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">16:35-16:55</td>
                                 <td className="px-4 py-2 align-top">Application and Characterisation of Chitosan-Gelatin Based Thyme Oil Microspheres with Antibacterial Effect on Titanium Plate</td>
                             </tr>
-                            <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Sibel Kızılay<br/><span className="font-normal">Marmara University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:55-17:15</td>
-                                <td className="px-4 py-2 align-top">Synthesis of Biobased Oligomers from Hemp Oil for Sustainable Production of Textile Waste-Derived Accessories via MSLA 3D Printing</td>
-                            </tr>
                         </tbody>
                     </table>
-                    <div className="mb-4">
-                        <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
-                            <span className="text-xl font-extrabold">17:15-18:15 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
-                        </div>
-                    </div>
-                    <div className="mb-12">
-                        <div className="bg-yellow-100 rounded-b-lg px-6 py-4 text-center">
-                            <span className="text-xl font-extrabold">18:15-18:45 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
-                        </div>
-                    </div>
                 </div>
                 {/* Poster Session Abstracts Table */}
                 <div className="mb-12">
@@ -1155,10 +1208,7 @@ export default function Program() {
                                 <td className="px-4 py-2 font-semibold align-top">Madi Syrymov<br/><span className="font-normal">Istanbul Arel University</span></td>
                                 <td className="px-4 py-2 align-top">pH-Responsive Bioactive Nanomembrane Wound Dressing: A Chitosan–Aloe Vera–HA Based Colorimetric Indicator for Infection Detection</td>
                             </tr>
-                            <tr className="border-t-2 border-brown-400">
-                                <td className="px-4 py-2 font-semibold align-top">Bedriye Üçpınar<br/><span className="font-normal">Ege University</span></td>
-                                <td className="px-4 py-2 align-top">Dual-Responsive PBS–Based Hybrid Films: Integrating Ethylene Scavenging and pH-Indication for Intelligent Food Packaging</td>
-                            </tr>
+
                             <tr className="border-t-2 border-brown-400">
                                 <td className="px-4 py-2 font-semibold align-top">Ceren Cikay<br/><span className="font-normal">Ege University</span></td>
                                 <td className="px-4 py-2 align-top">Development and in vitro Characterization of a Plant-Based Nanomaterial–Containing Composite Polymer for Periodontal Tissue</td>

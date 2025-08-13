@@ -129,7 +129,7 @@ export default function Workshop() {
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">SUBJECT/KONU: Mold Repair and Maintenance / Kalıpların Tamiri ve Korunması</h4>
+                                    <h4 className="text-lg font-semibold text-gray-800 mb-2">SUBJECT/KONU: Mold Repair and Maintenance / Kalıpların Tamiri ve Korunması</h4>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold">09:00-09:20</p>
@@ -168,6 +168,7 @@ export default function Workshop() {
                       <p className="mt-2">Koordinatör – Özgür SÖNMEZ (Literatur Kimya Elek. Ins. Taah. Turz. Ve Oto Ith. Ihr. San. Tic. Ltd. Şti.)</p>
                       <p>Özlem URAL (Literatur Kimya Elek. Ins. Taah. Turz. Ve Oto Ith. Ihr. San. Tic. Ltd. Şti.)</p>
                     </div>
+                    
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold">15:05-16:35</p>
                       <p>Silicone Bagging Process / Silikon Kalıp ile Reçine Transferi</p>
