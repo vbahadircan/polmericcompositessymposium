@@ -241,7 +241,7 @@ export default function Submissions() {
                       </li>
                       <li>
                         <strong>{content[language].fullProceedings}</strong>{" "}
-                        15.08.2025
+                        01.09.2025
                       </li>
                     </ul>
                   </div>
@@ -260,10 +260,10 @@ export default function Submissions() {
                   <p className="text-gray-700">
                     {content[language].inquiries}{" "}
                     <a
-                      href="mailto:info@polymericcomposites.org"
+                      href="mailto:symposium@polymericcomposites.org"
                       className="text-blue-600 underline"
                     >
-                      info@polymericcomposites.org
+                      symposium@polymericcomposites.org
                     </a>
                   </p>
 

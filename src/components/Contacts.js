@@ -36,9 +36,9 @@ export default function Contact() {
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@polymericcomposites.org"
+                        <a href="mailto:symposium@polymericcomposites.org"
                           className="text-blue-600 hover:text-blue-800 underline">
-                          info@polymericcomposites.org
+                          symposium@polymericcomposites.org
                         </a>
                       </li>
                     </ul>
