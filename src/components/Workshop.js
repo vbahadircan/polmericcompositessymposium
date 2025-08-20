@@ -187,7 +187,7 @@ export default function Workshop() {
                     
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold">16:05-16:35</p>
-                      <p>Critical Damages in RES Turbine Blades and Their Consequences / RES Türbin Kanatlarında Kritik Hasarlar ve Yarattığı Sonuçlar</p>
+                      <p>Critical Failures and Their Consequences on Wind Power Plants / Rüzgar Enerji Santrallerinde Kritik Hasarlar ve Yarattığı Sonuçlar</p>
                       <p className="mt-2">Nur KARAŞAHİN - (Nova Power Enerji)</p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">

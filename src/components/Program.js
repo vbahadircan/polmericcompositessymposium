@@ -369,6 +369,9 @@ export default function Program() {
                         </tbody>
                     </table>
                 </div>
+                <div className="mb-8 mt-12">
+                    <h2 className="text-xl md:text-2xl font-bold text-center text-red-700 bg-yellow-50 py-2 rounded">3 October 2025 Friday / 3 Ekim 2025 Cuma</h2>
+                </div>
                 {/* Anadolu Hall / 5A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
@@ -743,7 +746,7 @@ export default function Program() {
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Elif Avcu Altiparmak<br/><span className="font-normal">Istanbul University</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">16:30-16:50</td>
-                                <td className="px-4 py-2 align-top">Polythiophene-Based Composites on Supercapacitor Performance as Energy Storage Materials</td>
+                                <td className="px-4 py-2 align-top">Effect of Nitro-Substituted Thiosemicarbazone-Doped Polythiophene-Based Composites on Supercapacitor Performance as Energy Storage Materials</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Hüsnü Onur Ertürk<br/><span className="font-normal">Izmir Katip Çelebi University</span></td>
@@ -763,9 +766,16 @@ export default function Program() {
                         <span className="text-xl font-extrabold">17:30-18:30 &nbsp; POSTER OTURUMU / POSTER SESSION</span>
                     </div>
                 </div>
+                
+                {/* Gala Dinner */}
+                <div className="mb-8">
+                    <div className="bg-red-100 rounded-lg px-6 py-4 text-center">
+                        <span className="text-xl font-extrabold text-red-800">20:00-23:00 &nbsp; GALA YEMEĞİ / GALA DINNER</span>
+                    </div>
+                </div>
                 {/* --- 3 October 2025 Friday / 3 Ekim 2025 Cuma --- */}
                 <div className="mb-8 mt-12">
-                    <h2 className="text-xl md:text-2xl font-bold text-center text-red-700 bg-yellow-50 py-2 rounded">3 October 2025 Friday / 3 Ekim 2025 Cuma</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-center text-red-700 bg-yellow-50 py-2 rounded">4 October 2025 Saturday / 4 Ekim 2025 Cumartesi</h2>
                 </div>
                 {/* Anadolu Hall / 9A Session Table */}
                 <div className="mb-4">
@@ -1153,6 +1163,11 @@ export default function Program() {
                                 <td className="px-4 py-2 font-semibold align-top">Göksel Kepenek<br/><span className="font-normal">Pamukkale University</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">16:35-16:55</td>
                                 <td className="px-4 py-2 align-top">Application and Characterisation of Chitosan-Gelatin Based Thyme Oil Microspheres with Antibacterial Effect on Titanium Plate</td>
+                            </tr>
+                            <tr className="border-t">
+                                <td className="px-4 py-2 font-semibold align-top">Sibel Tüzün<br/><span className="font-normal"></span></td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:55-17:15</td>
+                                <td className="px-4 py-2 align-top"></td>
                             </tr>
                         </tbody>
                     </table>
