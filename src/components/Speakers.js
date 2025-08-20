@@ -32,6 +32,7 @@ const invitedSpeakers = [
     title: "Dow Aksa R&D Director",
     img: "invited3.jpg",
     pdf: "/speaker5.pdf",
+    abstract: "/ummuhan_konusma.pdf",
   },
   {
     name: "Dr. Jozsef Gabor KOVACS",
@@ -46,6 +47,7 @@ const invitedSpeakers = [
     title: "Head of Materials Engineering at Turkish Aerospace",
     img: "invited4.jpeg",
     pdf: "/speaker6.pdf",
+    abstract: "/mete_bakir_konusma.pdf",
   },
 ];
 

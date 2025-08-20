@@ -141,10 +141,6 @@ export default function Workshop() {
                                     <h4 className="text-lg font-semibold text-gray-800 mb-2">SUBJECT/KONU: Mold Repair and Maintenance / Kalıpların Tamiri ve Korunması</h4>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="font-semibold">09:00-09:20</p>
-                      <p>Opening / Açılış - Hasan ÖMER (Herkim Polimer Kimya San. Tic. Ltd. Şti.)</p>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold">09:20-10:50</p>
                       <p>Mold Repair and Maintenance / Kalıpların Tamiri ve Korunması</p>
                       <p className="mt-2">Koordinatör - Hasan ÖMER (Herkim Polimer Kimya San. Tic. Ltd. Şti.)</p>
@@ -178,13 +174,21 @@ export default function Workshop() {
                       <p>Özlem URAL (Literatur Kimya Elek. Ins. Taah. Turz. Ve Oto Ith. Ihr. San. Tic. Ltd. Şti.)</p>
                     </div>
                     
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">SUBJECT/KONU: Technology of Polymeric Composite Materials Production / Polimerik Kompozit Malzemelerden Üretim Teknolojisi</h4>
+                    
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="font-semibold">15:05-16:35</p>
+                      <p className="font-semibold">15:05-16:05</p>
                       <p>Silicone Bagging Process / Silikon Kalıp ile Reçine Transferi</p>
                       <p className="mt-2">Koordinatör – Burak DARCAN (Tila Composite Representation Domestic and Foreign Trade. Ltd. Şti.)</p>
                       <p>İbrahim KÖSE (Kosse Kompozit Pazarlama ve Mühendislik Ltd. Şti.)</p>
                       <p>Prof.Dr. Abdullah Tuğrul SEYHAN (Eskişehir Teknik Üniversitesi)</p>
                       <p>Murat KAYA (Northstar A.Ş.)</p>
+                    </div>
+                    
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <p className="font-semibold">16:05-16:35</p>
+                      <p>Critical Damages in RES Turbine Blades and Their Consequences / RES Türbin Kanatlarında Kritik Hasarlar ve Yarattığı Sonuçlar</p>
+                      <p className="mt-2">Nur KARAŞAHİN - (Nova Power Enerji)</p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold">16:35-16:50</p>

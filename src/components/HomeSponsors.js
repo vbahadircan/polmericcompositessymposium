@@ -20,7 +20,8 @@ const customLogoMapping = {
   'Turkuaz Polyester': 'turkuaz.png',
   'Polmar': 'polmar.png',
   'Pultech Frp': 'pultech.png',
-  'Yapı Kataloğu': 'yapi_katalogu.png'
+  'Yapı Kataloğu': 'yapi_katalogu.png',
+  'Poliya': 'poliya.png'
 };
 
 // Website mapping for sponsors
@@ -42,7 +43,8 @@ const sponsorWebsites = {
   'Polmod': 'http://www.polmod.com.tr/tr/Default.aspx',
   'LabMedya': 'https://www.labmedya.com/',
   'ChemLife': 'https://chemlife.com.tr/',
-  'Yapı Kataloğu': 'https://www.yapikatalogu.com/'
+  'Yapı Kataloğu': 'https://www.yapikatalogu.com/',
+  'Poliya': 'https://poliya.com.tr/'
 };
 
 // Component to display a single sponsor logo
@@ -118,7 +120,8 @@ export default function HomeSponsors() {
     'Polmod',
     'LabMedya',
     'ChemLife',
-    'Yapı Kataloğu'
+    'Yapı Kataloğu',
+    'Poliya'
   ];
 
   return (
