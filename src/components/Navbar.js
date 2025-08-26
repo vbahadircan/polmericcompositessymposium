@@ -99,6 +99,7 @@ export default function Navbar() {
 
             <Link to="/workshop" className={getLinkClass('/workshop')}>Workshop</Link>
 
+            <Link to="/exhibition" className={getLinkClass('/exhibition')}>Exhibition</Link>
 
             {/* Dropdown - Registration */}
             <div
@@ -161,6 +162,8 @@ export default function Navbar() {
           <Link to="/sponsors" className={getLinkClass('/sponsors')}>Sponsors & Partners</Link>
 
           <Link to="/workshop" className={getLinkClass('/workshop')}>Workshop</Link>
+
+          <Link to="/exhibition" className={getLinkClass('/exhibition')}>Exhibition</Link>
 
           {/* Mobile Dropdown - Registration */}
           <button

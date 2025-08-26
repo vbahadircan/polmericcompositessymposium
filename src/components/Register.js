@@ -133,42 +133,36 @@ export default function Register() {
                       <tr className="bg-gray-100">
                         <th className="py-3 px-4 border-b text-left">{content[language].category}</th>
                         <th className="py-3 px-4 border-b text-left">{content[language].standard}</th>
-                        <th className="py-3 px-4 border-b text-left">{content[language].earlyBird}</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].regularParticipant}</strong></td>
                         <td className="py-3 px-4 border-b">6000 {content[language].turkishLira}</td>
-                        <td className="py-3 px-4 border-b">4800 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].academicParticipant}</strong></td>
                         <td className="py-3 px-4 border-b">4000 TL</td>
-                        <td className="py-3 px-4 border-b">3200 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].unemployedPhD}<sup>*</sup></strong></td>
                         <td className="py-3 px-4 border-b">1000 TL</td>
-                        <td className="py-3 px-4 border-b">800 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].unemployedStudent}<sup>*</sup></strong></td>
-                        <td className="py-3 px-4 border-b" colSpan="2">500 TL</td>
+                        <td className="py-3 px-4 border-b">500 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].internationalParticipants}</strong></td>
                         <td className="py-3 px-4 border-b">€300</td>
-                        <td className="py-3 px-4 border-b">€240</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].dailyParticipation}</strong></td>
-                        <td className="py-3 px-4 border-b" colSpan="2">3000 TL</td>
+                        <td className="py-3 px-4 border-b">3000 TL</td>
                       </tr>
                       <tr>
                         <td className="py-3 px-4 border-b"><strong>{content[language].workshopParticipants}</strong></td>
                         <td className="py-3 px-4 border-b">€200</td>
-                        <td className="py-3 px-4 border-b">€160</td>
                       </tr>
                     </tbody>
                   </table>

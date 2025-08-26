@@ -21,7 +21,9 @@ const customLogoMapping = {
   'Polmar': 'polmar.png',
   'Pultech Frp': 'pultech.png',
   'Yapı Kataloğu': 'yapi_katalogu.png',
-  'Poliya': 'poliya.png'
+  'Poliya': 'poliya.png',
+  'Ege Üniversitesi': 'ege.png',
+  'Tezkom Kompozit': 'tezkom.png'
 };
 
 // Website mapping for sponsors
@@ -92,13 +94,12 @@ export default function HomeSponsors() {
     'IKCU',
     'IYTE',
     'TMMOB',
-    'Teknopark',
+    'Ege Üniversitesi',
     'ESİAD',
     'ENSİA',
     'BUTEKOM',
     'HUKD',
     'TMMOB Makina',
-    'OSSA',
   ];
 
   // All sponsor firms from all categories
@@ -121,7 +122,8 @@ export default function HomeSponsors() {
     'LabMedya',
     'ChemLife',
     'Yapı Kataloğu',
-    'Poliya'
+    'Poliya',
+    'Tezkom Kompozit'
   ];
 
   return (

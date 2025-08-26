@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Custom logo mapping for special cases
+// Custom logo mapping for special cases (same as Sponsors.js)
 const customLogoMapping = {
   'Fiberr': 'fiberr.png',
   'Literatür Kimya': 'literatur-kimya.png',
@@ -29,7 +29,7 @@ const customLogoMapping = {
   'Kompozit Sanayicileri Derneği': 'cw.jpeg'
 };
 
-// Website mapping for sponsors
+// Website mapping for sponsors (same as Sponsors.js)
 const sponsorWebsites = {
   'Polkima': 'https://polkima.com.tr/',
   'Polmar': 'https://polmar.com.tr/',
@@ -52,8 +52,8 @@ const sponsorWebsites = {
   'Poliya': 'https://poliya.com.tr/'
 };
 
-// Component to display a single sponsor logo
-const SponsorLogo = ({ name }) => {
+// Component to display a single participant logo
+const ParticipantLogo = ({ name }) => {
   let logoSrc;
   if (customLogoMapping[name]) {
     logoSrc = `/${customLogoMapping[name]}`;
@@ -90,8 +90,8 @@ const SponsorLogo = ({ name }) => {
   );
 };
 
-// Main Sponsors component
-export default function Sponsors() {
+// Main Exhibition component
+export default function Exhibition() {
   const officialOrganizations = [
     'Aegean Region Chamber of Industry',
     'Izmir Chamber of Commerce',
@@ -106,19 +106,19 @@ export default function Sponsors() {
     'TMMOB Makina',
   ];
 
-  // Sponsor categories with their respective firms
+  // Sponsor categories with their respective firms (same as Sponsors.js)
   const sponsorCategories = {
     'Platinum Sponsorship': [],
-    'Gold Sponsorship': ['Polkima', 'Polmar', 'Poliya'],
+    'Gold Sponsorship': ['Polkima', 'Polmar'],
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
-    'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
+    'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Senko'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
     'Invited Speaker Sponsorship': ['Polmod'],
-    'Social Media Sponsorship': ['LabMedya', 'ChemLife', 'Yapı Kataloğu', 'Kompozit Sanayicileri Derneği'],
+    'Social Media Sponsorship': [],
   };
 
   return (
@@ -133,74 +133,50 @@ export default function Sponsors() {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Sponsors</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Exhibition</h1>
 
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="p-6">
-            {/* Official Organizations Section */}
+            {/* Exhibition Information Section */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Partners</h2>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {officialOrganizations.map((org, index) => (
-                  <SponsorLogo key={index} name={org} />
-                ))}
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Exhibition Information</h2>
+              <div className="prose max-w-none">
+                <p className="text-gray-700 mb-4">
+                  The 6th INTERNATIONAL POLYMERIC COMPOSITES SYMPOSIUM AND WORKSHOPS will feature a comprehensive exhibition 
+                  showcasing the latest innovations, technologies, and products in the polymeric composites industry.
+                </p>
+                <p className="text-gray-700 mb-4">
+                  Exhibition participants will have the opportunity to:
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
+                  <li>Showcase their latest products and technologies to an international audience</li>
+                  <li>Network with academic researchers, industry professionals, and government representatives</li>
+                  <li>Demonstrate innovative solutions and applications in polymeric composites</li>
+                  <li>Establish valuable business connections and partnerships</li>
+                  <li>Gain visibility among symposium participants from around the globe</li>
+                </ul>
+                <p className="text-gray-700 mb-4">
+                  The exhibition will be held alongside the symposium, providing maximum exposure and interaction opportunities 
+                  for all participants.
+                </p>
               </div>
             </section>
 
-            {/* Sponsor Firms Section */}
+            {/* Exhibition Participants Section */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Sponsor Firms</h2>
-              {Object.entries(sponsorCategories).map(([category, firms]) => (
-                <div key={category} className="mb-8">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{category}</h3>
-                  {firms.length > 0 ? (
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {firms.map((firm, index) => (
-                        <SponsorLogo key={index} name={firm} />
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="text-gray-600 italic">No sponsors in this category yet.</p>
-                  )}
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Exhibition Participants</h2>
+              
+              {/* Sponsor Firms Section */}
+              <div className="mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {Object.values(sponsorCategories).flat().filter(firm => firm).map((firm, index) => (
+                    <ParticipantLogo key={index} name={firm} />
+                  ))}
                 </div>
-              ))}
+              </div>
             </section>
 
-            {/* Become a Sponsor Section */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Become a Sponsor</h2>
-              <p className="text-gray-700 mb-4">
-                Join us in supporting the 6th INTERNATIONAL POLYMERIC COMPOSITES SYMPOSIUM AND WORKSHOPS.
-                Sponsors gain visibility among academic, industrial, and governmental participants from around the globe.
-              </p>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Sponsorship Benefits:</h3>
-              <ul className="list-disc list-inside text-gray-700 mb-6">
-                <li>Recognition in symposium materials and website.</li>
-                <li>Networking opportunities with international participants.</li>
-                <li>Brand visibility throughout the event.</li>
-              </ul>
-              <a
-                href="/sponsorship-conditions.docx"
-                className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-                download="sponsorship-conditions.docx"
-              >
-                Download Sponsorship Conditions (.docx)
-              </a>
-            </section>
 
-            {/* Contact Section */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact for Sponsorship</h2>
-              <p className="text-gray-700 mb-4">To become a sponsor, please contact us:</p>
-              <ul className="text-gray-700 space-y-2">
-                <li><strong>Email:</strong> symposium@polymericcomposites.org</li>
-                <li><strong>Phone:</strong> +90 232 421 35 35</li>
-                <li><strong>Fax:</strong> +90 232 464 59 08</li>
-                <li>
-                  <strong>Address:</strong> TMMOB Kimya Mühendisleri Odası Ege Bölge Şubesi, 1441 Sokak No: 4 Kat: 3 D: 5, Alsancak, Izmir, Türkiye
-                </li>
-              </ul>
-            </section>
           </div>
         </div>
       </div>

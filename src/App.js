@@ -15,6 +15,7 @@ import Sponsors from './components/Sponsors'
 import Contact from './components/Contacts'
 import SEO from './components/SEO'
 import Workshop from './components/Workshop'
+import Exhibition from './components/Exhibition'
 //import WelcomeLetter from './components/WelcomeLetter'
 import AboutIzmir from './components/AboutIzmir';
 import Accommodation from './components/Accommodation';
@@ -58,6 +59,7 @@ function App() {
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/workshop" element={<Workshop />} />
+            <Route path="/exhibition" element={<Exhibition />} />
             <Route path="/venue/about-Izmir" element={<AboutIzmir />} />
             <Route path="/venue/accommodation" element={<Accommodation />} />
             <Route path="/venue/social-program" element={<SocialProgram />} />

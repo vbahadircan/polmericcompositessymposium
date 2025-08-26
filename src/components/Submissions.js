@@ -53,6 +53,8 @@ export default function Submissions() {
       secondPrize: "Second Prize – 8,000 TL",
       thirdPrize: "Third Prize – 4,000 TL",
       posterRequirements: "The poster presentation must be prepared in accordance with the official poster template and submitted to the Symposium Secretariat no later than September 15, 2025.",
+      posterDimensions: "Poster Dimensions:",
+      posterDimensionsDesc: "Posters must be prepared in portrait orientation with dimensions 70 cm width x 100 cm height.",
       announcementInfo: "The poster awards will be announced during a ceremony to be held on the third day of the symposium (October 4, 2025), prior to the sectoral evaluation panel.",
       thankYou: "We sincerely thank you for your participation and contributions and wish all participants the best of success."
     },
@@ -104,6 +106,8 @@ export default function Submissions() {
       secondPrize: "İkinci Ödül – 8.000 TL",
       thirdPrize: "Üçüncü Ödül – 4.000 TL",
       posterRequirements: "Poster sunumu resmi poster şablonuna uygun olarak hazırlanmalı ve 15 Eylül 2025 tarihine kadar Sempozyum Sekreterliği'ne sunulmalıdır.",
+      posterDimensions: "Poster Boyutları:",
+      posterDimensionsDesc: "Posterler dikey yönde, 70 cm genişlik x 100 cm yükseklik boyutlarında hazırlanmalıdır.",
       announcementInfo: "Poster ödülleri, sempozyumun üçüncü gününde (4 Ekim 2025) sektörel değerlendirme panelinden önce düzenlenecek törende açıklanacaktır.",
       thankYou: "Katılımınız ve katkılarınız için içtenlikle teşekkür eder, tüm katılımcılara başarılar dileriz."
     }
@@ -367,6 +371,14 @@ export default function Submissions() {
                   <p className="text-gray-700 leading-relaxed">
                     {content[language].posterRequirements}
                   </p>
+                  <div className="bg-white rounded-lg p-4 mt-3">
+                    <p className="text-gray-800 font-semibold mb-2">
+                      {content[language].posterDimensions}
+                    </p>
+                    <p className="text-gray-700">
+                      {content[language].posterDimensionsDesc}
+                    </p>
+                  </div>
                   <p className="text-gray-700 leading-relaxed">
                     {content[language].announcementInfo}
                   </p>

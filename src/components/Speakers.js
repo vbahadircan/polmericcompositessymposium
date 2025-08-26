@@ -29,7 +29,7 @@ const invitedSpeakers = [
   },
   {
     name: "Ümmühan Eker",
-    title: "Dow Aksa R&D Director",
+    title: "Aksa Carbon R&D Director",
     img: "invited3.jpg",
     pdf: "/speaker5.pdf",
     abstract: "/ummuhan_konusma.pdf",
