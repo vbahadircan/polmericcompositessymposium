@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Custom logo mapping for special cases
 const customLogoMapping = {
@@ -88,6 +88,45 @@ const SponsorLogo = ({ name }) => {
 };
 
 export default function HomeSponsors() {
+  const [language, setLanguage] = useState('en');
+
+  const content = {
+    en: {
+      title: "Our Sponsors & Partners",
+      partners: "Partners",
+      sponsorFirms: "Sponsor Firms",
+      platinum: "Platinum Sponsorship",
+      gold: "Gold Sponsorship",
+      silver: "Silver Sponsorship",
+      bronze: "Bronze Sponsorship",
+      abstractBooklet: "Abstract Booklet Advertisement Sponsorship",
+      symposiumBag: "Symposium Bag Sponsorship",
+      openingCocktail: "Opening Cocktail Sponsorship",
+      notebookPen: "Notebook and Pen Sponsorship",
+      nameBadge: "Name Badge Sponsorship",
+      invitedSpeaker: "Invited Speaker Sponsorship",
+      socialMedia: "Social Media Sponsorship"
+    },
+    tr: {
+      title: "Sponsorlarımız ve Ortaklarımız",
+      partners: "Ortaklar",
+      sponsorFirms: "Sponsor Firmalar",
+      platinum: "Platin Sponsorluk",
+      gold: "Altın Sponsorluk",
+      silver: "Gümüş Sponsorluk",
+      bronze: "Bronz Sponsorluk",
+      abstractBooklet: "Özet Kitapçık Reklam Sponsorluğu",
+      symposiumBag: "Sempozyum Çantası Sponsorluğu",
+      openingCocktail: "Açılış Kokteyli Sponsorluğu",
+      notebookPen: "Defter ve Kalem Sponsorluğu",
+      nameBadge: "İsim Kartı Sponsorluğu",
+      invitedSpeaker: "Davetli Konuşmacı Sponsorluğu",
+      socialMedia: "Sosyal Medya Sponsorluğu"
+    }
+  };
+
+  const currentContent = content[language];
+
   const officialOrganizations = [
     'Aegean Region Chamber of Industry',
     'Izmir Chamber of Commerce',
@@ -102,64 +141,63 @@ export default function HomeSponsors() {
     'TMMOB Makina',
   ];
 
-  // All sponsor firms from all categories
-  const allSponsors = [
-    'Polkima',
-    'Polmar',
-    'Fiberr',
-    'Boytek',
-    'Polütek',
-    'Akpa',
-    'Turkuaz Polyester',
-    'Omnis Kompozit',
-    'Duratek',
-    'Pultech Frp',
-    'Kosse Composite',
-    'Tila',
-    'Nanopol',
-    'Literatür Kimya',
-    'Polmod',
-    'LabMedya',
-    'ChemLife',
-    'Yapı Kataloğu',
-    'Poliya',
-    'Tezkom Kompozit'
-  ];
+  // Sponsor categories with their respective firms
+  const sponsorCategories = {
+    [currentContent.platinum]: [],
+    [currentContent.gold]: ['Polkima', 'Polmar', 'Poliya'],
+    [currentContent.silver]: ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
+    [currentContent.bronze]: ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
+    [currentContent.abstractBooklet]: ['Pultech Frp'],
+    [currentContent.symposiumBag]: ['Kosse Composite'],
+    [currentContent.openingCocktail]: ['Tila'],
+    [currentContent.notebookPen]: ['Nanopol'],
+    [currentContent.nameBadge]: ['Literatür Kimya'],
+    [currentContent.invitedSpeaker]: ['Polmod'],
+    [currentContent.socialMedia]: ['LabMedya', 'ChemLife', 'Yapı Kataloğu'],
+  };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Language Toggle Button */}
+        <div className="flex justify-end mb-6">
+          <button
+            onClick={() => setLanguage(language === 'en' ? 'tr' : 'en')}
+            className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition-all duration-200"
+          >
+            {language === 'en' ? 'TR' : 'EN'}
+          </button>
+        </div>
+
+        <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">{currentContent.title}</h2>
+
         {/* Partners Section */}
         <div className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Partners</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">{currentContent.partners}</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {officialOrganizations.map((org, index) => (
               <SponsorLogo key={index} name={org} />
             ))}
           </div>
         </div>
 
-        {/* Sponsors Section */}
+        {/* Sponsor Firms Section */}
         <div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Sponsors</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-            {allSponsors.map((sponsor, index) => (
-              <SponsorLogo key={index} name={sponsor} />
-            ))}
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">
-            Interested in becoming a sponsor? Join us in supporting this prestigious event.
-          </p>
-          <a
-            href="/sponsors"
-            className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-          >
-            Learn More About Sponsorship
-          </a>
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">{currentContent.sponsorFirms}</h3>
+          {Object.entries(sponsorCategories).map(([category, firms]) => (
+            <div key={category} className="mb-8">
+              <h4 className="text-xl font-medium text-gray-800 mb-4 text-center">{category}</h4>
+              {firms.length > 0 ? (
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                  {firms.map((firm, index) => (
+                    <SponsorLogo key={index} name={firm} />
+                  ))}
+                </div>
+              ) : (
+                <p className="text-gray-600 italic text-center">No sponsors in this category yet.</p>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>
