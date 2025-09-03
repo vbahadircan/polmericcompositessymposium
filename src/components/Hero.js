@@ -15,7 +15,7 @@ export default function Hero() {
       dateLocation: "October 2–4, 2025 • Tepekule Convention and Exhibition Centre, Izmir, Türkiye",
       welcomeMessage: "Welcome Message from the Chairs",
       registerNow: "Register Now",
-      submitAbstract: "Submit Your Abstract",
+      downloadProgram: "Download Program",
       learnMore: "Learn More",
       didYouKnow: "DID YOU KNOW ?",
       facts: [
@@ -30,7 +30,7 @@ export default function Hero() {
       dateLocation: "2-4 Ekim 2025 • Tepekule Kongre ve Sergi Merkezi, İzmir, Türkiye",
       welcomeMessage: "Başkanlardan Hoş Geldiniz Mesajı",
       registerNow: "Şimdi Kayıt Ol",
-      submitAbstract: "Özetinizi Gönderin",
+      downloadProgram: "Programı İndir",
       learnMore: "Daha Fazla Bilgi",
       didYouKnow: "BİLİYOR MUYDUNUZ ?",
       facts: [
@@ -88,12 +88,17 @@ export default function Hero() {
             >
               {currentContent.registerNow}
             </Link>
-            <Link
-              to="/submissions"
+            <button
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/programyeni.pdf';
+                link.download = 'programyeni.pdf';
+                link.click();
+              }}
               className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
             >
-              {currentContent.submitAbstract}
-            </Link>
+              {currentContent.downloadProgram}
+            </button>
             <Link
               to="/conference"
               className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"

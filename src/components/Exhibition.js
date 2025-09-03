@@ -26,7 +26,12 @@ const customLogoMapping = {
   'Poliya': 'poliya.png',
   'Ege Üniversitesi': 'ege.png',
   'Tezkom Kompozit': 'tezkom.png',
-  'Kompozit Sanayicileri Derneği': 'cw.jpeg'
+  'Kompozit Sanayicileri Derneği': 'cw.jpeg',
+  'Innovaplast': 'innovaplast.png',
+  'Olguncelik': 'olguncelik.png',
+  'Spinteks': 'spinteks.png',
+  'Inoveta': 'inoveta.png',
+  'Frplinecomposite': 'frplinecomposite.png'
 };
 
 // Website mapping for sponsors (same as Sponsors.js)
@@ -49,7 +54,15 @@ const sponsorWebsites = {
   'LabMedya': 'https://www.labmedya.com/',
   'ChemLife': 'https://chemlife.com.tr/',
   'Yapı Kataloğu': 'https://www.yapikatalogu.com/',
-  'Poliya': 'https://poliya.com.tr/'
+  'Poliya': 'https://poliya.com.tr/',
+  'Yücel Group': 'https://www.yucelgroup.com/',
+  'Kompozit Sanayicileri Derneği': 'https://www.compositesworld.com/',
+  'Tezkom Kompozit': 'https://www.tezkom.com.tr/',
+  'Senko': 'https://www.senkoltd.com/',
+  'Inoveta': 'https://www.inovetakompozit.com/',
+  'Innovaplast': 'https://www.innovaplast.com.tr/',
+  'Olguncelik': 'https://tekafos.com.tr/',
+  'Spinteks': 'https://spinteks.com/'
 };
 
 // Component to display a single participant logo
@@ -121,6 +134,15 @@ export default function Exhibition() {
     'Social Media Sponsorship': [],
   };
 
+  // Additional exhibitors (not part of sponsorship categories)
+  const additionalExhibitors = [
+    'Innovaplast',
+    'Olguncelik',
+    'Spinteks',
+    'Inoveta',
+    'Frplinecomposite'
+  ];
+
   return (
     <div 
       className="min-h-screen py-12"
@@ -146,7 +168,7 @@ export default function Exhibition() {
                   showcasing the latest innovations, technologies, and products in the polymeric composites industry.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  Exhibition participants will have the opportunity to:
+                  Exhibitors will have the opportunity to:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
                   <li>Showcase their latest products and technologies to an international audience</li>
@@ -162,15 +184,20 @@ export default function Exhibition() {
               </div>
             </section>
 
-            {/* Exhibition Participants Section */}
+            {/* Exhibitors Section */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Exhibition Participants</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Exhibitors</h2>
               
-              {/* Sponsor Firms Section */}
+              {/* All Exhibitors Grid */}
               <div className="mb-8">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {/* Sponsor Firms */}
                   {Object.values(sponsorCategories).flat().filter(firm => firm).map((firm, index) => (
-                    <ParticipantLogo key={index} name={firm} />
+                    <ParticipantLogo key={`sponsor-${index}`} name={firm} />
+                  ))}
+                  {/* Additional Exhibitors */}
+                  {additionalExhibitors.map((exhibitor, index) => (
+                    <ParticipantLogo key={`exhibitor-${index}`} name={exhibitor} />
                   ))}
                 </div>
               </div>
