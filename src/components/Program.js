@@ -352,13 +352,8 @@ export default function Program() {
                                 <td className="px-4 py-2 align-top">Development of Conductive Polymer Blend Nanocomposites with Optimized CNT Content</td>
                             </tr>
                             <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Yekta Arya Ölçer<br/><span className="font-normal">Izmir Institute of Technology</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">18:00-18:20</td>
-                                <td className="px-4 py-2 align-top">Polyaspartic Ester-TiO₂ Nanocomposites for Coating Applications</td>
-                            </tr>
-                            <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Melisa Atay<br/><span className="font-normal">Dokuz Eylul University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">18:20-18:40</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">18:00-18:20</td>
                                 <td className="px-4 py-2 align-top">Energy Harvesting Applications for Nanomaterial Based Triboelectric Nanogenerators</td>
                             </tr>
                         </tbody>
@@ -991,10 +986,6 @@ export default function Program() {
                                     <span className="text-lg font-bold text-brown-700">INVITED TALK</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">13:30-14:00</td>
-                                <td className="px-4 py-2 align-top bg-yellow-200 font-semibold">Advanced Carbon Fiber Composites Solutions to Aviation and Energy Sectors</td>
-                            </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Neslişah İmamoğlu Karabaş<br/><span className="font-normal">Izmir University of Economics</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">14:00-14:20</td>
@@ -1295,6 +1286,10 @@ export default function Program() {
                             <tr className="border-t-2 border-brown-400">
                                 <td className="px-4 py-2 font-semibold align-top">Aybüke Polat<br/><span className="font-normal">Ege University</span></td>
                                 <td className="px-4 py-2 align-top">Effects of Cobalt-Free Accelerators on the Curing Process and Mechanical Properties of Glass Fiber Reinforced Polyester Composites</td>
+                            </tr>
+                            <tr className="border-t-2 border-brown-400">
+                                <td className="px-4 py-2 font-semibold align-top">Neslişah İmamoğlu Karabaş<br/><span className="font-normal">Izmir University of Economics</span></td>
+                                <td className="px-4 py-2 align-top">Additive Manufacturing with Sustainable Materials: Effect of Tea Waste Additive on Epoxy Composites</td>
                             </tr>
                         </tbody>
                     </table>

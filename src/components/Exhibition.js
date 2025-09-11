@@ -139,7 +139,8 @@ export default function Exhibition() {
     'Olguncelik',
     'Spinteks',
     'Inoveta',
-    'Frplinecomposite'
+    'Frplinecomposite',
+    'Yücel Group'
   ];
 
   return (

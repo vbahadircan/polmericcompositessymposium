@@ -23,7 +23,11 @@ const customLogoMapping = {
   'Yapı Kataloğu': 'yapi_katalogu.png',
   'Poliya': 'poliya.png',
   'Ege Üniversitesi': 'ege.png',
-  'Tezkom Kompozit': 'tezkom.png'
+  'Tezkom Kompozit': 'tezkom.png',
+  'Yücel Group': 'yucel_group.png',
+  'Senko': 'senko.png',
+  'Composites Turkey': 'compositesturkey.jpeg',
+  'Kompozit Dünyası': 'kompozitdunyasi.jpeg'
 };
 
 // Website mapping for sponsors
@@ -46,7 +50,12 @@ const sponsorWebsites = {
   'LabMedya': 'https://www.labmedya.com/',
   'ChemLife': 'https://chemlife.com.tr/',
   'Yapı Kataloğu': 'https://www.yapikatalogu.com/',
-  'Poliya': 'https://poliya.com.tr/'
+  'Poliya': 'https://poliya.com.tr/',
+  'Yücel Group': 'https://www.yucelgroup.com/',
+  'Tezkom Kompozit': 'https://www.tezkom.com.tr/',
+  'Senko': 'https://www.senkoltd.com/',
+  'Composites Turkey': 'https://kompozit.org.tr/tr/dergi/',
+  'Kompozit Dünyası': 'https://kompozitdunyasi.com/'
 };
 
 // Component to display a single sponsor logo
@@ -149,11 +158,10 @@ export default function HomeSponsors() {
     [currentContent.bronze]: ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
     [currentContent.abstractBooklet]: ['Pultech Frp'],
     [currentContent.symposiumBag]: ['Kosse Composite'],
-    [currentContent.openingCocktail]: ['Tila'],
     [currentContent.notebookPen]: ['Nanopol'],
     [currentContent.nameBadge]: ['Literatür Kimya'],
-    [currentContent.invitedSpeaker]: ['Polmod'],
-    [currentContent.socialMedia]: ['LabMedya', 'ChemLife', 'Yapı Kataloğu'],
+    [currentContent.invitedSpeaker]: ['Polmod', 'Tila'],
+    [currentContent.socialMedia]: ['LabMedya', 'ChemLife', 'Yapı Kataloğu', 'Composites Turkey', 'Kompozit Dünyası'],
   };
 
   return (
@@ -186,7 +194,7 @@ export default function HomeSponsors() {
           <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">{currentContent.sponsorFirms}</h3>
           {Object.entries(sponsorCategories).map(([category, firms]) => (
             <div key={category} className="mb-8">
-              <h4 className="text-xl font-medium text-gray-800 mb-4 text-center">{category}</h4>
+              <h4 className="text-xl font-medium text-gray-800 mb-4 text-left">{category}</h4>
               {firms.length > 0 ? (
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                   {firms.map((firm, index) => (
@@ -194,7 +202,7 @@ export default function HomeSponsors() {
                   ))}
                 </div>
               ) : (
-                <p className="text-gray-600 italic text-center">No sponsors in this category yet.</p>
+                <p className="text-gray-600 italic text-left">No sponsors in this category yet.</p>
               )}
             </div>
           ))}
