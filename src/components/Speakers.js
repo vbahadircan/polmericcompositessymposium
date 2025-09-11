@@ -28,13 +28,6 @@ const invitedSpeakers = [
     abstract: "/salim.pdf",
   },
   {
-    name: "Ümmühan Eker",
-    title: "Aksa Carbon R&D Director",
-    img: "invited3.jpg",
-    pdf: "/speaker5.pdf",
-    abstract: "/ummuhan_konusma.pdf",
-  },
-  {
     name: "Dr. Jozsef Gabor KOVACS",
     title:
       "Budapest University of Technology and Economics\nMTA-BME Lendület Lightweight Polymer Composites Research Group",
@@ -106,7 +99,11 @@ export default function Speakers() {
           {invitedSpeakers.map((speaker, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center bg-gray-50 p-6 rounded-lg shadow-md"
+              className={`flex flex-col items-center text-center bg-gray-50 p-6 rounded-lg shadow-md ${
+                idx === invitedSpeakers.length - 1 && invitedSpeakers.length % 2 !== 0 
+                  ? 'md:col-span-2 md:flex md:items-center md:justify-center' 
+                  : ''
+              }`}
             >
               <img
                 src={speaker.img}

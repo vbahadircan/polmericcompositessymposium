@@ -992,7 +992,6 @@ export default function Program() {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="px-4 py-2 font-semibold align-top">Ümmühan Eker<br/><span className="font-normal">DowAksa Advanced Composite Materials Industry Ltd. Co.</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">13:30-14:00</td>
                                 <td className="px-4 py-2 align-top bg-yellow-200 font-semibold">Advanced Carbon Fiber Composites Solutions to Aviation and Energy Sectors</td>
                             </tr>

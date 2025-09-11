@@ -127,10 +127,9 @@ export default function Exhibition() {
     'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Senko'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
-    'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
-    'Invited Speaker Sponsorship': ['Polmod'],
+    'Invited Speaker Sponsorship': ['Polmod', 'Tila'],
     'Social Media Sponsorship': [],
   };
 

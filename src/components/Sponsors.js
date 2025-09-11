@@ -26,7 +26,8 @@ const customLogoMapping = {
   'Poliya': 'poliya.png',
   'Ege Üniversitesi': 'ege.png',
   'Tezkom Kompozit': 'tezkom.png',
-  'Kompozit Sanayicileri Derneği': 'cw.jpeg'
+  'Composites Turkey': 'compositesturkey.jpeg',
+  'Kompozit Dünyası': 'kompozitdunyasi.jpeg'
 };
 
 // Website mapping for sponsors
@@ -49,7 +50,12 @@ const sponsorWebsites = {
   'LabMedya': 'https://www.labmedya.com/',
   'ChemLife': 'https://chemlife.com.tr/',
   'Yapı Kataloğu': 'https://www.yapikatalogu.com/',
-  'Poliya': 'https://poliya.com.tr/'
+  'Poliya': 'https://poliya.com.tr/',
+  'Yücel Group': 'https://www.yucelgroup.com/',
+  'Tezkom Kompozit': 'https://www.tezkom.com.tr/',
+  'Senko': 'https://www.senkoltd.com/',
+  'Composites Turkey': 'https://kompozit.org.tr/tr/dergi/',
+  'Kompozit Dünyası': 'https://kompozitdunyasi.com/'
 };
 
 // Component to display a single sponsor logo
@@ -114,11 +120,10 @@ export default function Sponsors() {
     'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
-    'Opening Cocktail Sponsorship': ['Tila'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
-    'Invited Speaker Sponsorship': ['Polmod'],
-    'Social Media Sponsorship': ['LabMedya', 'ChemLife', 'Yapı Kataloğu', 'Kompozit Sanayicileri Derneği'],
+    'Invited Speaker Sponsorship': ['Polmod', 'Tila'],
+    'Social Media Sponsorship': ['LabMedya', 'ChemLife', 'Yapı Kataloğu', 'Composites Turkey', 'Kompozit Dünyası'],
   };
 
   return (
@@ -180,11 +185,11 @@ export default function Sponsors() {
                 <li>Brand visibility throughout the event.</li>
               </ul>
               <a
-                href="/sponsorship-conditions.docx"
+                href="/sponsorluk_kosullari.pdf"
                 className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
-                download="sponsorship-conditions.docx"
+                download="sponsorluk_kosullari.pdf"
               >
-                Download Sponsorship Conditions (.docx)
+                Download Sponsorship Conditions (PDF)
               </a>
             </section>
 

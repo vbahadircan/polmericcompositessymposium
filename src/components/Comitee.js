@@ -41,7 +41,7 @@ export default function Committee() {
     { name: "Ali İhsan Otabatmaz", title: "Independent Consultant" },
     { name: "Alper Kalaycı", title: "ENSİA (Energy Industrialists & Businessmen Association) - Chairman of the Board" },
     { name: "Alperen Doğru, Dr.", title: "Ege University" },
-    { name: "Aref Cevahir, Dr.", title: "Beşler Textile Industry and Trade Inc." },
+    { name: "Aref Cevahir, Dr.", title: "Izmir Institute of Technology" },
     { name: "Aslı Ilgaz", title: "Metyx Composites - Telateks Inc." },
     { name: "Ayhan Ezdeşir", title: "Petkim Petrochemical Holding Inc." },
     { name: "Aylin Ziylan, Prof. Dr.", title: "Dokuz Eylül University" },
