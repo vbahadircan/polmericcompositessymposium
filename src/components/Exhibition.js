@@ -1,4 +1,5 @@
 import React from 'react';
+// import FlipBook from './FlipBook';
 
 // Custom logo mapping for special cases (same as Sponsors.js)
 const customLogoMapping = {
@@ -105,19 +106,20 @@ const ParticipantLogo = ({ name }) => {
 
 // Main Exhibition component
 export default function Exhibition() {
-  const officialOrganizations = [
-    'Aegean Region Chamber of Industry',
-    'Izmir Chamber of Commerce',
-    'IKCU',
-    'IYTE',
-    'TMMOB',
-    'Ege Üniversitesi',
-    'ESİAD',
-    'ENSİA',
-    'BUTEKOM',
-    'HUKD',
-    'TMMOB Makina',
-  ];
+  // Official organizations (available for future use)
+  // const officialOrganizations = [
+  //   'Aegean Region Chamber of Industry',
+  //   'Izmir Chamber of Commerce',
+  //   'IKCU',
+  //   'IYTE',
+  //   'TMMOB',
+  //   'Ege Üniversitesi',
+  //   'ESİAD',
+  //   'ENSİA',
+  //   'BUTEKOM',
+  //   'HUKD',
+  //   'TMMOB Makina',
+  // ];
 
   // Sponsor categories with their respective firms (same as Sponsors.js)
   const sponsorCategories = {
@@ -203,6 +205,19 @@ export default function Exhibition() {
               </div>
             </section>
 
+            {/* 
+              FlipBook Integration - Available for future use
+              To enable: 
+              1. Uncomment the import: import FlipBook from './FlipBook';
+              2. Uncomment the FlipBook section below
+              
+              Features:
+              - Interactive Demo Book with 6 pages
+              - PDF download link to demoebook.pdf
+              - Drag-to-flip functionality
+              - Navigation buttons and page counter
+              - Responsive design
+            */}
 
           </div>
         </div>
