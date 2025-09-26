@@ -24,7 +24,10 @@ export default function Program() {
                 {/* Anadolu Hall / 1A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Mustafa DEMİRCİOĞLU</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -92,7 +95,10 @@ export default function Program() {
                 {/* Anadolu Hall / 2A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: M. Cengiz ALTAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -145,7 +151,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 2B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Burcu Saner OKAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -194,7 +203,10 @@ export default function Program() {
                 {/* Anadolu Hall / 3A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Burcu Saner OKAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -242,7 +254,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 3B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Burcu Saner OKAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -286,7 +301,10 @@ export default function Program() {
                 {/* Anadolu Hall / 4A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Aref CEVAHİR</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -329,7 +347,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 4B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Mustafa ASLAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -370,7 +391,10 @@ export default function Program() {
                 {/* Anadolu Hall / 5A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Elif ALYAMAÇ SEYDİBEYOĞLU</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -418,7 +442,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 5B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Nuri ERSOY</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -464,7 +491,10 @@ export default function Program() {
                 {/* Anadolu Hall / 6A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Mehmet SARIKANAT</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -507,7 +537,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 6B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Veli DENİZ</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -556,7 +589,10 @@ export default function Program() {
                 {/* Anadolu Hall / 7A Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Jozsef Gabor KOVACS</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -609,7 +645,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 7B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Ümit Halis ERDOĞAN</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -658,7 +697,10 @@ export default function Program() {
                 {/* Anadolu Hall / 8A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Özlem URAL</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -711,7 +753,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 8B Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Göksenin ÇÖMLEKÇİ</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -775,7 +820,10 @@ export default function Program() {
                 {/* Anadolu Hall / 9A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Engin AKTAŞ</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -818,7 +866,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 9B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Cem GÖK</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -867,7 +918,10 @@ export default function Program() {
                 {/* Anadolu Hall / 10A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Yahya KARA</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -910,7 +964,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 10B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Volkan ACAR</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -959,7 +1016,10 @@ export default function Program() {
                 {/* Anadolu Hall / 11A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Sadık ASLITÜRK</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -1007,7 +1067,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 11B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Gülnur BAŞER</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -1058,7 +1121,10 @@ export default function Program() {
                 {/* Anadolu Hall / 12A Session Table */}
                 <div className="mb-4">
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Alperen DOĞRU</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -1117,7 +1183,10 @@ export default function Program() {
                 {/* Akdeniz Hall / 12B Session Table */}
                 <div className="mb-12">
                     <div className="flex items-center justify-between bg-gradient-to-r from-blue-100 to-blue-200 rounded-t-lg px-6 py-4">
-                        <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                        <div>
+                            <h3 className="text-2xl md:text-3xl font-extrabold text-blue-600">AKDENİZ HALL / AKDENİZ SALONU</h3>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Figen AYNALI</p>
+                        </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
                                 <span className="text-2xl">🕒</span>
@@ -1135,28 +1204,23 @@ export default function Program() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="px-4 py-2 font-semibold align-top">Ferkan Toprak<br/><span className="font-normal">Pamukkale University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:25-15:45</td>
-                                <td className="px-4 py-2 align-top">Development of Polylactic Acid Composites Reinforced with Bio-Waste for Sound Insulation Applications: The Potential of Olive Pits and Textile Fibers</td>
-                            </tr>
-                            <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Mustafa Eren Taşkınğul<br/><span className="font-normal">Bursa Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:45-16:05</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:25-15:45</td>
                                 <td className="px-4 py-2 align-top">Development of Silver-Doped PLA Composites via Stereolithography (SLA) Method</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Mervenur Gülmarul<br/><span className="font-normal">Bursa Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:05-16:25</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:45-16:05</td>
                                 <td className="px-4 py-2 align-top">Sustainable Functionalized PYA Hydrogel Composites via UV Curing</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Göksel Kepenek<br/><span className="font-normal">Pamukkale University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:25-16:45</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:05-16:25</td>
                                 <td className="px-4 py-2 align-top">Application and Characterisation of Chitosan-Gelatin Based Thyme Oil Microspheres with Antibacterial Effect on Titanium Plate</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Erol Türker<br/><span className="font-normal">Turkish Chemistry Technology Center</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:45-17:05</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:25-16:45</td>
                                 <td className="px-4 py-2 align-top">A Strategic Step for International Competitiveness in the Plastics, Rubber and Composites Industries</td>
                             </tr>
                         </tbody>
