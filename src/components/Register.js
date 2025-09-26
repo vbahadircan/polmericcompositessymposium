@@ -164,6 +164,11 @@ export default function Register() {
                         <td className="py-3 px-4 border-b"><strong>{content[language].workshopParticipants}</strong></td>
                         <td className="py-3 px-4 border-b">€200</td>
                       </tr>
+                      <tr>
+                        <td colSpan="2" className="py-3 px-4 border-b text-center bg-blue-50">
+                          <strong className="text-blue-800">Admission to the exhibition area is free and open to all visitors</strong>
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>

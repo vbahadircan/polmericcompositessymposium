@@ -32,7 +32,8 @@ const customLogoMapping = {
   'Olguncelik': 'olguncelik.png',
   'Spinteks': 'spinteks.png',
   'Inoveta': 'inoveta.png',
-  'Frplinecomposite': 'frplinecomposite.png'
+  'Frplinecomposite': 'frplinecomposite.png',
+  'JEC': 'jec.svg'
 };
 
 // Website mapping for sponsors (same as Sponsors.js)
@@ -63,7 +64,8 @@ const sponsorWebsites = {
   'Inoveta': 'https://www.inovetakompozit.com/',
   'Innovaplast': 'https://www.innovaplast.com.tr/',
   'Olguncelik': 'https://tekafos.com.tr/',
-  'Spinteks': 'https://spinteks.com/'
+  'Spinteks': 'https://spinteks.com/',
+  'JEC': 'https://www.jec-world.events/'
 };
 
 // Component to display a single participant logo
@@ -142,7 +144,8 @@ export default function Exhibition() {
     'Spinteks',
     'Inoveta',
     'Frplinecomposite',
-    'Yücel Group'
+    'Yücel Group',
+    'JEC'
   ];
 
   return (

@@ -56,28 +56,33 @@ export default function Program() {
                                 <td className="px-4 py-2 font-semibold">PLAQUE PRESENTATION TO SPONSORS / KATKI VEREN KURULUŞLARA PLAKET SUNUMU</td>
                                 <td className="px-4 py-2"></td>
                             </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-red-800 font-bold">10:50-11:00</td>
-                                <td className="px-4 py-2 font-semibold">COFFEE BREAK / ÇAY-KAHVE ARASI</td>
-                                <td className="px-4 py-2"></td>
-                            </tr>
                             <tr className="bg-yellow-200">
-                                <td className="px-4 py-2 text-red-800 font-bold">11:00-11:45</td>
+                                <td className="px-4 py-2 text-red-800 font-bold">10:50-11:35</td>
                                 <td className="px-4 py-2 font-semibold">Plenary Lecture - Michael Wisnom<br/><span className="font-normal">University of Bristol</span></td>
                                 <td className="px-4 py-2 font-semibold">Simulating Composites Manufacturing Processes</td>
                             </tr>
                             <tr>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">11:45-12:05</td>
+                                <td className="px-4 py-2 text-red-800 font-bold">11:35-11:50</td>
+                                <td className="px-4 py-2 font-semibold">OPENING OF THE EXHIBITION AREA / SERGI ALANI AÇILIŞI</td>
+                                <td className="px-4 py-2"></td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-red-800 font-bold">11:50-12:00</td>
+                                <td className="px-4 py-2 font-semibold">COFFEE BREAK / ÇAY-KAHVE ARASI</td>
+                                <td className="px-4 py-2"></td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">12:00-12:20</td>
                                 <td className="px-4 py-2 font-semibold align-top">Emirhan Çetin<br/><span className="font-normal">Oyak Renault Otomobil Fabrikaları A.Ş</span></td>
                                 <td className="px-4 py-2 align-top">Investigation of Foaming Processes in Rigid Polymer Composites for Lightweighting and Carbon Footprint Reduction in Automotive Applications</td>
                             </tr>
                             <tr>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">12:05-12:25</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">12:20-12:40</td>
                                 <td className="px-4 py-2 font-semibold align-top">Burcu Saner Okan<br/><span className="font-normal">Sabancı University</span></td>
                                 <td className="px-4 py-2 align-top">Driving Sustainability Through Advanced Waste Upcycling: Lightweight Thermoplastic Manufacturing Reinforced with Green Graphene</td>
                             </tr>
                             <tr>
-                                <td className="px-4 py-2 text-red-800 font-bold">12:20-13:30</td>
+                                <td className="px-4 py-2 text-red-800 font-bold">12:40-13:30</td>
                                 <td className="px-4 py-2 font-semibold">LUNCH / YEMEK ARASI</td>
                                 <td className="px-4 py-2"></td>
                             </tr>
@@ -622,7 +627,7 @@ export default function Program() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="px-4 py-2 font-semibold align-top">Merve Esranur Yalçın<br/><span className="font-normal">Karadeniz Technical University</span></td>
+                                <td className="px-4 py-2 font-semibold align-top">Mustafa Aslan<br/><span className="font-normal">Karadeniz Technical University</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">14:15-14:35</td>
                                 <td className="px-4 py-2 align-top">Production of Hybrid Thermoplastic Composites Reinforced with Hemp and Basalt/Carbon Fabrics for Automotive Interior Trim Panels and Determination of Energy Absorbtion Behavior</td>
                             </tr>
@@ -724,7 +729,7 @@ export default function Program() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="px-4 py-2 font-semibold align-top">Nilsu Atama<br/><span className="font-normal">Izmir Katip Çelebi University</span></td>
+                                <td className="px-4 py-2 font-semibold align-top">Nilsu Ataman<br/><span className="font-normal">Izmir Katip Çelebi University</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">15:50-16:10</td>
                                 <td className="px-4 py-2 align-top">Life Cycle-Based Carbon Footprint Analysis of Fiber and Matrix Selection in Polymer Matrix Composite Materials</td>
                             </tr>
@@ -789,18 +794,13 @@ export default function Program() {
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 font-semibold align-top">Alperen Doğru<br/><span className="font-normal">Ege University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:10-09:30</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:30-09:50</td>
                                 <td className="px-4 py-2 align-top">Effect of Environmental Aging on Mechanical and Thermal Properties of Carbon Fiber and Glass Fiber Reinforced HDPE Matrix Composite</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Ayberk Sözen<br/><span className="font-normal">Dokuz Eylul University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:30-09:50</td>
-                                <td className="px-4 py-2 align-top">Thermoplastic Materials for Marine Applications : PA Composites</td>
-                            </tr>
-                            <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Mahmut Uğur<br/><span className="font-normal">Fiberr Fiber Reinforced Resins As</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">09:50-10:10</td>
-                                <td className="px-4 py-2 align-top">Development of Fragment-Resistant Wall Against Explosion Effects Using Composite Technology by Recycling Plastic Waste</td>
+                                <td className="px-4 py-2 align-top">Thermoplastic Materials for Marine Applications : PA Composites</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Kaveh Shahidi<br/><span className="font-normal">Boğaziçi University</span></td>
@@ -837,18 +837,13 @@ export default function Program() {
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 font-semibold align-top">Nur Sultan Yoldaş<br/><span className="font-normal">Gazi University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:10-09:30</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:30-09:50</td>
                                 <td className="px-4 py-2 align-top">Preparation and Characterization of Boron Carbide Filled Electrorheological Thermoplastic Polyurethane</td>
                             </tr>
                             <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Ahmet Gül<br/><span className="font-normal">Küçüker Textile Industry and Trade Inc.</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">09:30-09:50</td>
-                                <td className="px-4 py-2 align-top">Nano-Green Textiles: Development of Flame-Retardant Textile Surfaces with PLA-Based Biocomposites for Enhanced Fire Safety</td>
-                            </tr>
-                            <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Ezgi Sönmez<br/><span className="font-normal">Pamukkale University</span></td>
+                                <td className="px-4 py-2 font-semibold align-top">Mahmut Uğur<br/><span className="font-normal">Fiberr Fiber Reinforced Resins As</span></td>
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">09:50-10:10</td>
-                                <td className="px-4 py-2 align-top">Sandwich Composite Structures from Natural Fiber-Based Textile Waste: Production Process and Acoustic Performance Analysis</td>
+                                <td className="px-4 py-2 align-top">Development of Fragment-Resistant Wall Against Explosion Effects Using Composite Technology by Recycling Plastic Waste</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Ayça Aydın – Ayşe Kurt<br/><span className="font-normal">Polyteks Textile Company – BUTEKOM Bursa Technology Coordination and R&D Center</span></td>
@@ -982,28 +977,28 @@ export default function Program() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="px-4 py-2 font-bold text-center text-brown-700" colSpan={3}>
-                                    <span className="text-lg font-bold text-brown-700">INVITED TALK</span>
-                                </td>
+                                <td className="px-4 py-2 font-semibold align-top">Seçil Babaoğlu<br/><span className="font-normal">DowAksa Advanced Composite Materials Industry Ltd. Co.</span></td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">13:30-13:50</td>
+                                <td className="px-4 py-2 align-top">Advanced Carbon Fiber Composites Solutions to Aviation and Energy Sectors</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Neslişah İmamoğlu Karabaş<br/><span className="font-normal">Izmir University of Economics</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:00-14:20</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">13:50-14:10</td>
                                 <td className="px-4 py-2 align-top">Estimation of Cure Kinetics Parameters in Carbon/Epoxy Prepregs Incorporating Functionalized Single-Wall Carbon Nanotubes Using DSC Data</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Sümeyra Göçemen<br/><span className="font-normal">Kosse Composite Marketing</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:20-14:40</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:10-14:30</td>
                                 <td className="px-4 py-2 align-top">The Effect of Different Fillers on the Performance of Decorative Composite Panels</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Emre Alamur<br/><span className="font-normal">Izmir Institute of Technology</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:40-15:00</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:30-14:50</td>
                                 <td className="px-4 py-2 align-top">Development of Thermal Insulation Materials</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Merve Kalaycı<br/><span className="font-normal">Beşer Balata</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:00-15:20</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:50-15:10</td>
                                 <td className="px-4 py-2 align-top">Investigation of the Impact of Ceramic Fiber Addition on the Friction Performance of Brake Pad Compositions</td>
                             </tr>
                         </tbody>
@@ -1030,23 +1025,23 @@ export default function Program() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="px-4 py-2 font-semibold align-top">Misra Cavdar<br/><span className="font-normal">Ege University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:00-14:20</td>
+                                <td className="px-4 py-2 font-semibold align-top">Mısra Cavdar<br/><span className="font-normal">Ege University</span></td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">13:30-13:50</td>
                                 <td className="px-4 py-2 align-top">Nanoparticle-Infused Electrospun Fibrous Scaffold Production for Spinal Cord Injury</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Umut Dogu Seckin<br/><span className="font-normal">Ege University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:20-14:40</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">13:50-14:10</td>
                                 <td className="px-4 py-2 align-top">Development and Characterization of Photo Cross-Linkable Resin Based Injectable Endodontic Composite Dental Filling Material Containing ZnO and BaSO₄</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Hayat Mohamed<br/><span className="font-normal">Istanbul Arel University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:40-15:00</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:10-14:30</td>
                                 <td className="px-4 py-2 align-top">Production and Characterization of Allium sativum (Garlic)-Loaded Nanoparticles and Nanofibers, and Investigation of Their Antibacterial Effects on Hospital Acquired Bacteria</td>
                             </tr>
                             <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Zeynep Özge Öztaban<br/><span className="font-normal">Istanbul Arel University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:00-15:20</td>
+                                <td className="px-4 py-2 font-semibold align-top">Zeynep Özge Öztaban-Sevil Şenocak<br/><span className="font-normal">Istanbul Arel University</span></td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">14:30-14:50</td>
                                 <td className="px-4 py-2 align-top">Loading and Characterization of Colchicum Micranthum Extract on 3D Printed Scaffolds and Investigation of Anticancer Effects on Breast Cancer Cells</td>
                             </tr>
                         </tbody>
@@ -1055,7 +1050,7 @@ export default function Program() {
                 {/* Coffee Break and Posters Session after 11B Session */}
                 <div className="mb-8">
                     <div className="bg-gray-100 rounded-lg px-6 py-4 text-center">
-                        <span className="text-xl font-extrabold text-gray-800">15:20-15:35 &nbsp; COFFEE BREAK, POSTERS SESSION</span>
+                        <span className="text-xl font-extrabold text-gray-800">15:10-15:25 &nbsp; COFFEE BREAK, POSTERS SESSION</span>
                         <br />
                         <span className="text-lg font-bold text-gray-700">ÇAY-KAHVE ARASI, POSTER GEZİMİ</span>
                     </div>
@@ -1082,27 +1077,27 @@ export default function Program() {
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 font-semibold align-top">Melisa Yeke<br/><span className="font-normal">Metyx Composites Telateks A.Ş.</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:35-15:55</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:25-15:45</td>
                                 <td className="px-4 py-2 align-top">Recycling of PET Foam and Glass Fiber Waste for High-Performance Core Applications</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Rüçhan Yıldız<br/><span className="font-normal">Pamukkale University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:55-16:15</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:45-16:05</td>
                                 <td className="px-4 py-2 align-top">Production and Characterization of Epoxy Matrix Composites Reinforced with Waste Glass Particles of Different Particle Sizes</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Selin Dursun<br/><span className="font-normal">BUTEKOM Bursa Technology Coordination and R&D Center</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:15-16:35</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:05-16:25</td>
                                 <td className="px-4 py-2 align-top">Production and Characterization of Thermoplastic Composites by Hot Press Method Using Recycled Glass Fiber / Polypropylene Tapes</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Ferhat Gül<br/><span className="font-normal">Gazi University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:35-16:55</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:25-16:45</td>
                                 <td className="px-4 py-2 align-top">Effect of Heating Rate During Curing on the Properties of Composite Materials</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Dilara Yüksel<br/><span className="font-normal">Borsan R&D Center</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:55-17:15</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:45-17:05</td>
                                 <td className="px-4 py-2 align-top">Sustainable Innovation in Solar Energy Infrastructure: Development of Boron-Infused Aluminum Solar Cables</td>
                             </tr>
                         </tbody>
@@ -1111,12 +1106,12 @@ export default function Program() {
                 {/* Sectoral Evaluation Panel and Closing */}
                 <div className="mb-8">
                     <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
-                        <span className="text-xl font-extrabold text-yellow-800">17:15-18:15 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
+                        <span className="text-xl font-extrabold text-yellow-800">17:05-18:05 &nbsp; SECTORAL EVALUATION PANEL<br/>SEKTÖREL DEĞERLENDİRME PANELİ</span>
                     </div>
                 </div>
                 <div className="mb-8">
                     <div className="bg-yellow-100 rounded-lg px-6 py-4 text-center">
-                        <span className="text-xl font-extrabold text-yellow-800">18:15-18:45 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
+                        <span className="text-xl font-extrabold text-yellow-800">18:05-18:30 &nbsp; POSTER EVALUATION AND CLOSING<br/>POSTER DEĞERLENDİRME VE KAPANIŞ</span>
                     </div>
                 </div>
                 {/* Akdeniz Hall / 12B Session Table */}
@@ -1141,27 +1136,27 @@ export default function Program() {
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 font-semibold align-top">Ferkan Toprak<br/><span className="font-normal">Pamukkale University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:35-15:55</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:25-15:45</td>
                                 <td className="px-4 py-2 align-top">Development of Polylactic Acid Composites Reinforced with Bio-Waste for Sound Insulation Applications: The Potential of Olive Pits and Textile Fibers</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Mustafa Eren Taşkınğul<br/><span className="font-normal">Bursa Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:55-16:15</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">15:45-16:05</td>
                                 <td className="px-4 py-2 align-top">Development of Silver-Doped PLA Composites via Stereolithography (SLA) Method</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Mervenur Gülmarul<br/><span className="font-normal">Bursa Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:15-16:35</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:05-16:25</td>
                                 <td className="px-4 py-2 align-top">Sustainable Functionalized PYA Hydrogel Composites via UV Curing</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Göksel Kepenek<br/><span className="font-normal">Pamukkale University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:35-16:55</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:25-16:45</td>
                                 <td className="px-4 py-2 align-top">Application and Characterisation of Chitosan-Gelatin Based Thyme Oil Microspheres with Antibacterial Effect on Titanium Plate</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Erol Türker<br/><span className="font-normal">Turkish Chemistry Technology Center</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:55-17:15</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:45-17:05</td>
                                 <td className="px-4 py-2 align-top">A Strategic Step for International Competitiveness in the Plastics, Rubber and Composites Industries</td>
                             </tr>
                         </tbody>
@@ -1288,7 +1283,7 @@ export default function Program() {
                                 <td className="px-4 py-2 align-top">Effects of Cobalt-Free Accelerators on the Curing Process and Mechanical Properties of Glass Fiber Reinforced Polyester Composites</td>
                             </tr>
                             <tr className="border-t-2 border-brown-400">
-                                <td className="px-4 py-2 font-semibold align-top">Neslişah İmamoğlu Karabaş<br/><span className="font-normal">Izmir University of Economics</span></td>
+                                <td className="px-4 py-2 font-semibold align-top">Şevval AYHAN<br/><span className="font-normal">Izmir Katip Celebi University</span></td>
                                 <td className="px-4 py-2 align-top">Additive Manufacturing with Sustainable Materials: Effect of Tea Waste Additive on Epoxy Composites</td>
                             </tr>
                         </tbody>
