@@ -15,6 +15,17 @@ export default function Program() {
                         <p className="text-xl md:text-2xl text-gray-800 mb-6 mt-2">
                             2 October 2025 Thursday / 2 Ekim 2025 Perşembe
                         </p>
+                        <button
+                            onClick={() => {
+                                const link = document.createElement('a');
+                                link.href = '/programyeni.pdf';
+                                link.download = 'programyeni.pdf';
+                                link.click();
+                            }}
+                            className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10 transition duration-300"
+                        >
+                            Download Program / Programı İndir
+                        </button>
                     </div>
                 </div>
                 {/* --- 2 October 2025 Thursday / 2 Ekim 2025 Perşembe --- */}
@@ -205,7 +216,7 @@ export default function Program() {
                     <div className="flex items-center justify-between bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-t-lg px-6 py-4">
                         <div>
                             <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">ANADOLU HALL / ANADOLU SALONU</h3>
-                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Burcu Saner OKAN</p>
+                            <p className="text-sm font-semibold text-gray-700 mt-1">Session Chair / Oturum Başkanı: Funda TIHMINLIOĞLU</p>
                         </div>
                         <div className="text-right">
                             <div className="flex items-center space-x-2">
@@ -783,19 +794,15 @@ export default function Program() {
                                 <td className="px-4 py-2 text-red-800 font-bold align-top">16:10-16:30</td>
                                 <td className="px-4 py-2 align-top">Sustainable Packaging Materials: Fabrication and Analysis of Luffa Cylindrica–Polyvinylpyrrolidone (PVP) Bio-Composites</td>
                             </tr>
-                            <tr className="border-t">
-                                <td className="px-4 py-2 font-semibold align-top">Elif Avcu Altiparmak<br/><span className="font-normal">Istanbul University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:30-16:50</td>
-                                <td className="px-4 py-2 align-top">Effect of Nitro-Substituted Thiosemicarbazone-Doped Polythiophene-Based Composites on Supercapacitor Performance as Energy Storage Materials</td>
-                            </tr>
+                            
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Mete Kayıhan<br/><span className="font-normal">Istanbul Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:50-17:10</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:30-16:50</td>
                                 <td className="px-4 py-2 align-top">Fatigue Damage Analysis of Glass Fiber Reinforced Elium Thermoplastic Composite Materials</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-4 py-2 font-semibold align-top">Burçak Ay<br/><span className="font-normal">Yıldız Technical University</span></td>
-                                <td className="px-4 py-2 text-red-800 font-bold align-top">17:10-17:30</td>
+                                <td className="px-4 py-2 text-red-800 font-bold align-top">16:50-17:10</td>
                                 <td className="px-4 py-2 align-top">Optimization of Process Parameters in Chitosan Nanoparticles Produced for Hydrophobic Coatings Reducing Bacterial Adhesion</td>
                             </tr>
                         </tbody>

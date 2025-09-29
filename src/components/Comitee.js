@@ -77,7 +77,7 @@ export default function Committee() {
     { name: "Ülkü Yılmazer, Prof. Dr.", title: "Middle East Technical University" },
     { name: "Volkan Eskizeybek, Assoc. Dr.", title: "18 March University" },
     { name: "Yalçın Yılmazkaya", title: "ACA Aerospace  Cluster Association" },
-    { name: "Zeynep Yılmaz Serçinoğlu", title: "Marmara University" }
+    { name: "Zeynep Yılmaz Serçinoğlu, PhD", title: "Marmara University" }
   ];
 
 
