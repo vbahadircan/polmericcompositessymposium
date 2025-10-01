@@ -45,7 +45,7 @@ function VenueDetails() {
     <section className="mb-8">
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Venue</h2>
       <p className="text-gray-700 mb-2"><strong>Tepekule Convention and Exhibition Centre</strong> </p>
-      <p className="text-gray-700 mb-2"><strong>Address:</strong> Alsancak, 1441. Sk. No:4 D:5, 35220 Konak/Izmir, Türkiye</p>
+      <p className="text-gray-700 mb-2"><strong>Address:</strong> Adalet, Anadolu Cd. No:40 K:M2, 35110 Bayraklı/İzmir</p>
       <p className="text-gray-700 mb-2"><strong>Dates:</strong> October 2–4, 2025</p>
     </section>
   )

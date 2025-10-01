@@ -27,7 +27,8 @@ const customLogoMapping = {
   'Ege Üniversitesi': 'ege.png',
   'Tezkom Kompozit': 'tezkom.png',
   'Composites Turkey': 'compositesturkey.jpeg',
-  'Kompozit Dünyası': 'kompozitdunyasi.jpeg'
+  'Kompozit Dünyası': 'kompozitdunyasi.jpeg',
+  'Anamed': 'anamed.png'
 };
 
 // Website mapping for sponsors
@@ -114,11 +115,10 @@ export default function Sponsors() {
 
   // Sponsor categories with their respective firms
   const sponsorCategories = {
-    'Platinum Sponsorship': [],
     'Gold Sponsorship': ['Polkima', 'Polmar', 'Poliya'],
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
     'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
-    'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp'],
+    'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp', 'Anamed'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
