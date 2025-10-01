@@ -28,7 +28,8 @@ const customLogoMapping = {
   'Tezkom Kompozit': 'tezkom.png',
   'Composites Turkey': 'compositesturkey.jpeg',
   'Kompozit Dünyası': 'kompozitdunyasi.jpeg',
-  'Anamed': 'anamed.png'
+  'Anamed': 'anamed.png',
+  'Coffee Break Sponsor': 'coffeesponsor.jpeg'
 };
 
 // Website mapping for sponsors
@@ -119,6 +120,7 @@ export default function Sponsors() {
     'Silver Sponsorship': ['Fiberr', 'Boytek', 'Polütek', 'Akpa', 'Turkuaz Polyester'],
     'Bronze Sponsorship': ['Omnis Kompozit', 'Duratek', 'Yücel Group', 'Senko', 'Tezkom Kompozit'],
     'Abstract Booklet Advertisement Sponsorship': ['Pultech Frp', 'Anamed'],
+    'Coffee Break Sponsorship': ['Coffee Break Sponsor'],
     'Symposium Bag Sponsorship': ['Kosse Composite'],
     'Notebook and Pen Sponsorship': ['Nanopol'],
     'Name Badge Sponsorship': ['Literatür Kimya'],
