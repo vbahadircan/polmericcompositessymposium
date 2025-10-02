@@ -29,7 +29,7 @@ const customLogoMapping = {
   'Composites Turkey': 'compositesturkey.jpeg',
   'Kompozit Dünyası': 'kompozitdunyasi.jpeg',
   'Anamed': 'anamed.png',
-  'Coffee Break Sponsor': 'coffeesponsor.jpeg'
+  'Coffee Break Sponsor': 'coffeesponsor.png'
 };
 
 // Website mapping for sponsors
